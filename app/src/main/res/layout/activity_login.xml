@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:layout_margin="10sp"
+    android:background="@drawable/logobg"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/fuente1"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:text="¡Bienvenido, puede iniciar sesión !"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tooltipText="Recargar contenido"
+        android:layout_gravity="end"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/baseline_settings_backup_restore_24" />
+
+    <TextView
+        android:id="@+id/txtVuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#5E8BC34A"
+        android:singleLine="true"
+        android:text="Nombre de usuario:"
+        android:textColor="@color/fuente"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/txtTextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:tooltipText="Nombre de usuario"
+        android:inputType="text"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtVclave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#5E8BC34A"
+        android:singleLine="true"
+        android:text="Contraseña de usuario:"
+        android:textColor="@color/fuente"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/txtTextclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:tooltipText="Contraseña de usuario"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnM6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="20dp"
+        android:text="Iniciar sesión"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnM7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/button"
+        android:text="Recuperar mi cuenta"
+        android:textSize="15sp"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
