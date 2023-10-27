@@ -127,6 +127,6 @@
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_arrow_circle_left_24"
-        app:tint="@color/button" /> />
+        app:tint="@color/button" />
 
 </LinearLayout>
