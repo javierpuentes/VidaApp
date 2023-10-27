@@ -13,12 +13,6 @@
     android:gravity="top"
     android:background="@drawable/logobg">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/isotipo" />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,16 +42,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/inicio"
-        android:orientation="horizontal"
-        android:id="@+id/menu"
-        android:layout_marginTop="10dp"
-        android:layout_weight=""
-        />
 
     <LinearLayout
         android:layout_width="match_parent"
