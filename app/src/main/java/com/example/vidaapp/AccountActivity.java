@@ -9,14 +9,14 @@ import android.widget.ImageButton;
 
 public class AccountActivity extends AppCompatActivity {
 
-    ImageButton im1;
+    ImageButton ib4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
-        im1 = findViewById(R.id.imageButton1);
+        ib4 = findViewById(R.id.imageButton4);
 
-        im1.setOnClickListener(new View.OnClickListener() {
+        ib4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i =new Intent(AccountActivity.this, MainActivity.class);
