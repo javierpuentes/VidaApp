@@ -13,6 +13,12 @@
     android:gravity="top"
     android:background="@drawable/logobg">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/isotipo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
