@@ -55,27 +55,27 @@
         app:layout_constraintBottom_toTopOf="@+id/menu"
         android:orientation="horizontal"
         android:id="@+id/registro"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
         >
 
         <Button
             android:id="@+id/btnM4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:backgroundTint="@color/button"
             android:text="Iniciar sesión"
-            android:textSize="15sp"
-            android:layout_marginRight="2dp"/>
+            android:textSize="20sp"
+            />
 
         <Button
             android:id="@+id/btnM5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:textSize="20sp"
             android:backgroundTint="@color/button"
             android:text="Crear cuenta"
-            android:textSize="15sp"/>
+          />
 
     </LinearLayout>
 
