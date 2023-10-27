@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> fc0644b0465ca82ab366ae47814b056c10f4e15c
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -18,5 +25,101 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/logo_app_1" />
+=======
+    tools:context=".MainActivity"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    android:id="@+id/inicio"
+    android:gravity="top"
+    android:background="@drawable/logobg"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:text="¡Bienvenido a VidaApp, una aplicación para organizar los servicios públicos de tu hogar y generar conciencia ecológica sobre la importancia del ahorro y conservación!."
+        android:textColor="@color/fuente1"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/inicio"
+        android:orientation="horizontal"
+        android:id="@+id/menu"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnM1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:text="Inicio"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/btnM2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:text="Noticias"
+            android:textSize="15sp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            />
+
+        <Button
+            android:id="@+id/btnM3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:text="La App"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/menu"
+        android:orientation="horizontal"
+        android:id="@+id/registro"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnM4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:text="Iniciar sesión"
+            android:textSize="15sp"
+            android:layout_marginRight="2dp"/>
+
+        <Button
+            android:id="@+id/btnM5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:text="Crear cuenta"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+>>>>>>> fc0644b0465ca82ab366ae47814b056c10f4e15c
 
 </LinearLayout>
