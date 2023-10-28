@@ -10,8 +10,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 
 public class LoginActivity extends AppCompatActivity {
     private Button b3, b4;
@@ -59,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(LoginActivity.this, RecoveryActivity.class);
+                Intent i =new Intent(LoginActivity.this, EnergyActivity.class);
                 startActivity(i);
             }
         });

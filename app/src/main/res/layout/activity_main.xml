@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> fc0644b0465ca82ab366ae47814b056c10f4e15c
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Vida_App" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logo_app_1" />
-=======
     tools:context=".MainActivity"
     android:layout_margin="10dp"
     android:orientation="vertical"
@@ -45,22 +25,22 @@
         android:fontFamily="sans-serif-light"
         android:padding="2dp"
         android:text="¡Bienvenido!"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
         android:textStyle="bold"
-         />
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="VIDA  APP"
         android:textColor="#195101"
         android:textSize="60sp"
         android:textStyle="bold"
-         />
+        />
 
     <LinearLayout
         android:id="@+id/registro"
@@ -92,7 +72,6 @@
             android:textSize="18sp"
             android:layout_marginStart="25dp"/>
     </LinearLayout>
->>>>>>> fc0644b0465ca82ab366ae47814b056c10f4e15c
 
     <TextView
         android:id="@+id/btnM6"
@@ -103,7 +82,7 @@
         android:textColor="@color/white"
         android:background="@color/button"
         android:textSize="20sp"
-       android:gravity="center"
+        android:gravity="center"
         android:textStyle="italic"/>
 
 </LinearLayout>

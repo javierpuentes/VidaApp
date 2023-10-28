@@ -25,22 +25,22 @@
         android:fontFamily="sans-serif-light"
         android:padding="2dp"
         android:text="¡Bienvenido!"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
         android:textStyle="bold"
-         />
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="VIDA  APP"
         android:textColor="#195101"
         android:textSize="60sp"
         android:textStyle="bold"
-         />
+        />
 
     <LinearLayout
         android:id="@+id/registro"
@@ -82,7 +82,7 @@
         android:textColor="@color/white"
         android:background="@color/button"
         android:textSize="20sp"
-       android:gravity="center"
+        android:gravity="center"
         android:textStyle="italic"/>
 
 </LinearLayout>
