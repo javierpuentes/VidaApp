@@ -7,9 +7,11 @@ color fuente1
 color fuente2
 color fuente3
 color white
+drawable _1
 drawable baseline_arrow_circle_left_24
 drawable baseline_arrow_circle_right_24
 drawable baseline_settings_backup_restore_24
+drawable descarga__1_
 drawable ecoappfondo
 drawable ecoappfondo0
 drawable ecoappfondo1
@@ -18,7 +20,9 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable isotipo
 drawable landmark
+drawable logo_app_1
 drawable logobg
+drawable manoselect
 id btnM1
 id btnM2
 id btnM3
@@ -46,6 +50,7 @@ id txtVuser
 id txtVuser2
 layout activity_about
 layout activity_account
+layout activity_energy
 layout activity_login
 layout activity_main
 layout activity_news
