@@ -1,7 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+array preguntas
 color black
 color button
+color fondo1
 color fuente
 color fuente1
 color fuente2
@@ -29,6 +31,7 @@ id btnM3
 id btnM4
 id btnM5
 id btnM6
+id btnRec1
 id btnUsr1
 id btnUsr2
 id btnUsr3
@@ -39,13 +42,17 @@ id imageView3
 id inicio
 id inicio_usr
 id menu_usr
+id preg_spinner
 id registro
+id textView4
+id txtCuentaUsr
 id txtTextclave
 id txtTextclave2
 id txtTextuser
 id txtTextuser2
 id txtVclave
 id txtVclave2
+id txtVresp
 id txtVuser
 id txtVuser2
 layout activity_about

@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array preguntas
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1270,6 +1271,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color fondo1
 color foreground_material_dark
 color foreground_material_light
 color fuente
@@ -2624,6 +2626,7 @@ id btnM3
 id btnM4
 id btnM5
 id btnM6
+id btnRec1
 id btnUsr1
 id btnUsr2
 id btnUsr3
@@ -2863,6 +2866,7 @@ id percent
 id pin
 id position
 id postLayout
+id preg_spinner
 id progress_circular
 id progress_horizontal
 id radio
@@ -2962,6 +2966,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2987,12 +2992,14 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtCuentaUsr
 id txtTextclave
 id txtTextclave2
 id txtTextuser
 id txtTextuser2
 id txtVclave
 id txtVclave2
+id txtVresp
 id txtVuser
 id txtVuser2
 id unchecked

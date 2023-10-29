@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preguntas">
+        <item>Selecciona una opción</item>
+        <item>Fecha de nacimiento</item>
+        <item>Nombre de tu madre</item>
+        <item>Nombre de tu mascota</item>
+        <item>Nombre de alguien especial</item>
+        <item>Título de tu libro favorito</item>
+        <item>Nombre de tu escritor favorito</item>
+        <item>Marca de tu automovil</item>
+    </string-array>
+</resources>

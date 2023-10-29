@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="preguntas">
+        <item>Selecciona una opción</item>
+        <item>Fecha de nacimiento</item>
+        <item>Nombre de tu madre</item>
+        <item>Nombre de tu mascota</item>
+        <item>Nombre de alguien especial</item>
+        <item>Título de tu libro favorito</item>
+        <item>Nombre de tu escritor favorito</item>
+        <item>Marca de tu automovil</item>
+    </string-array>
     <color name="black">#FF000000</color>
-    <color name="button">#42A006</color>
+    <color name="button">#6AA84F</color>
+    <color name="fondo1">#91ED68</color>
     <color name="fuente">#38761D</color>
-    <color name="fuente1">#DBBD16</color>
+    <color name="fuente1">#274E13</color>
     <color name="fuente2">#DBD416</color>
     <color name="fuente3">#DB8500</color>
     <color name="white">#FFFFFFFF</color>

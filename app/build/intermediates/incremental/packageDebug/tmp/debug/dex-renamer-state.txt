@@ -1,7 +1,7 @@
-#Sat Oct 28 11:43:36 COT 2023
-base.0=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+#Sat Oct 28 20:08:20 COT 2023
+base.0=J\:\\Atenea\\Desarrollos\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=J\:\\Atenea\\Desarrollos\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=J\:\\Atenea\\Desarrollos\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex
