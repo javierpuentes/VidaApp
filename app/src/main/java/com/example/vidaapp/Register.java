@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 
 public class Register extends AppCompatActivity {
     private ImageButton ib2;
-    private Button b5;
+    private Button b6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +18,11 @@ public class Register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         ib2=findViewById(R.id.imageButton2);
-        b5 = findViewById(R.id.btnM5);
-        b5.setOnClickListener(new View.OnClickListener() {
+        b6 = findViewById(R.id.btnM6);
+        b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(Register.this,LoginActivity.class);
+                Intent intent=new Intent(Register.this,AccountActivity.class);
                 startActivity(intent);
             }
         });

@@ -4,7 +4,16 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fuente">#38761D</color>
     <color name="fuente1">#DBBD16</color>
-    <color name="fuente2">#DBD416</color>
+    <color name="fuente2">#FF5722</color>
     <color name="fuente3">#DB8500</color>
+    <color name="fuente4">#195101</color>
+    <color name="fuente5">#154003</color>
+    <color name="fuente6">#42A006</color>
     <color name="button">#42A006</color>
+    <color name="button1">#195101</color>
+    <color name="button2">#38761D</color>
+    <color name="button3">#FFEB3B</color>
+    <color name="button4">#03A9F4</color>
+    <color name="button5">#FF5722</color>
+    <color name="background">#601CE303</color>
 </resources>

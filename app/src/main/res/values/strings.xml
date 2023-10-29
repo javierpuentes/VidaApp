@@ -1,5 +1,43 @@
 <resources>
     <string name="app_name">VidaApp</string>
+    <string name="title">VIDA APP</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
+    <string name="usuario">Usuario</string>
+    <string name="ingresarUsuario">Ingrese su nombre de usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresarContrasena">Ingrese su contraseña</string>
+    <string name="recuperarContrasena">Recuperar contraseña</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="crearUsuario">Crear nombre de usuario</string>
+    <string name="crearContrasena">Crear contraseña</string>
+    <string name="mensajeLogin">¡Estas listo para empezar!</string>
+    <string name="mensajeMain">¡Te ayudamos a planear tu ahorro!</string>
+    <string name="mensajeRegister">¡Estas a un paso de un gran cambio!</string>
+    <string name="acepta_tratamiento_de_datos">Acepta tratamiento de datos</string>
+    <string name="acepta_t_rminos_y_condiciones">Acepta términos y condiciones</string>
+    <string name="registrarUsuario">Crear Usuario</string>
+    <string name="mensajeAccount">¡Bienvenido a tu aplicación VidaAPP!</string>
+    <string name="energia">Energía</string>
+    <string name="agua">Agua</string>
+    <string name="gas">Gas</string>
+    <string name="mensajeRecovery">¡Desde esta vista puedes recuperar tu cuenta!.</string>
+    <string name="ingresa_tu_correo_o_celular">Ingresa tu correo o celular</string>
+    <string name="hint">**********</string>
+    <string name="ingresa_el_codigo_de_verificacion">Ingresa el código de verificación</string>
+    <string name="password">******</string>
+    <string name="recuperar_cuenta">Recuperar cuenta</string>
+    <string name="ingresa_nueva_contrasena">Ingresa nueva contraseña</string>
+    <string name="eventos">Eventos</string>
+    <string name="noticias">Noticias</string>
+    <string name="consejos">Consejos</string>
+    <string name="fecha1">ENERGÍA 26/10/2023</string>
+    <string name="noticia1">Termocandelaria anunció ampliación para cubrir 7% de la demanda eléctrica nacional La ampliación del proyecto generó más de 4.700 empleos, de los cuales 79% fue ocupado por cartageneros, anunció la firma.</string>
+    <string name="linkNoticias">https://www.larepublica.co/energia</string>
+    <string name="fecha2">ENERGÍA 28/10/2023</string>
+    <string name="noticia2">Hidroituango aportará 1.200 megavatios en medio de crisis del fenómeno de El Niño Se hizo la sincronización de las unidades tres y cuatro de la central. El gerente de EPM, Jorge Carrillo, habló sobre la operación.</string>
+    <string name="noticia3">Colombia aumentará exportación de energía a Ecuador entre noviembre y diciembre.</string>
+
 </resources>

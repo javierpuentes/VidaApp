@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:padding="2dp"
-        android:text="¡Bienvenido!"
+        android:text="@string/bienvenido"
         android:textAlignment="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
@@ -33,9 +33,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:gravity="center"
-        android:text="VIDA  APP"
-        android:textColor="#195101"
-        android:textSize="60sp"
+        android:text="@string/title"
+        android:textColor="@color/fuente4"
+        android:textSize="68sp"
         android:textStyle="bold"
          />
 
@@ -50,22 +50,22 @@
         <Button
             android:id="@+id/btnM1"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/button"
-            android:text="Iniciar sesión"
+            android:text="@string/iniciarSesion"
             android:textStyle="bold"
-            android:textColor="#195101"
+            android:textColor="@color/fuente5"
             android:textSize="18sp"
             android:layout_marginEnd="25dp"/>
 
         <Button
             android:id="@+id/btnM2"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/button"
-            android:text="Registrarse"
+            android:text="@string/registrarse"
             android:textStyle="bold"
-            android:textColor="#195101"
+            android:textColor="@color/fuente5"
             android:textSize="18sp"
             android:layout_marginStart="25dp"/>
     </LinearLayout>
@@ -75,9 +75,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="120dp"
-        android:text="¡Te ayudamos a planear tu ahorro!"
+        android:text="@string/mensajeMain"
         android:textColor="@color/white"
-        android:background="@color/button"
+        android:background="@color/fuente4"
         android:textSize="20sp"
        android:gravity="center"
         android:textStyle="italic"/>

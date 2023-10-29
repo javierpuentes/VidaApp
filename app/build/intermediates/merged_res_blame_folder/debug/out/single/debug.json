@@ -1,150 +1,166 @@
 [
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_account.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_account.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_login.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_login.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_baseline_arrow_circle_left_24.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\baseline_arrow_circle_left_24.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_ecoappfondo1.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/ecoappfondo1.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_baseline_settings_backup_restore_24.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\baseline_settings_backup_restore_24.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_register.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_register.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_baseline_arrow_circle_left_24.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/baseline_arrow_circle_left_24.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_descarga__1_.jpg.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\descarga__1_.jpg"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_isotipo.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/isotipo.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_baseline_arrow_circle_right_24.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/baseline_arrow_circle_right_24.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_ecoappfondo0.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\ecoappfondo0.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.vidaapp-main-30:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_home.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_termoelectrica.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\termoelectrica.png"
+    },
+    {
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\xml\\backup_rules.xml"
     },
     {
         "merged": "com.example.vidaapp-merged_res-28:/layout_activity_news.xml.flat",
         "source": "com.example.vidaapp-main-30:/layout/activity_news.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_servives.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_servives.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_news.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_news.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_recovery.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_recovery.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_descarga__1_.jpg.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/descarga__1_.jpg"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_servives.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_servives.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_logo_app_1.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\logo_app_1.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_account.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_baseline_settings_backup_restore_24.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/baseline_settings_backup_restore_24.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_isotipo.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\isotipo.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_ecoappfondo0.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/ecoappfondo0.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_recovery.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_recovery.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_baseline_arrow_circle_right_24.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\baseline_arrow_circle_right_24.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_main.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_ecoappfondo1.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\ecoappfondo1.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable__1.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/_1.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_logobg.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\logobg.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_landmark.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/landmark.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_logo_app_1.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/logo_app_1.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_hidrohituango.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\hidrohituango.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.vidaapp-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_presidente.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\presidente.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_ecoappfondo.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/ecoappfondo.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_landmark.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\landmark.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_logobg.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/logobg.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable_ecoappfondo.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\ecoappfondo.png"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/drawable_home.png.flat",
-        "source": "com.example.vidaapp-main-30:/drawable/home.png"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.vidaapp-merged_res-28:/xml_backup_rules.xml.flat",
-        "source": "com.example.vidaapp-main-30:/xml/backup_rules.xml"
-    },
-    {
-        "merged": "com.example.vidaapp-merged_res-28:/layout_activity_about.xml.flat",
-        "source": "com.example.vidaapp-main-30:/layout/activity_about.xml"
+        "merged": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-merged_res-28:\\drawable__1.png.flat",
+        "source": "C:\\Users\\pave1\\.gradle\\daemon\\8.0\\com.example.vidaapp-main-30:\\drawable\\_1.png"
     }
 ]
