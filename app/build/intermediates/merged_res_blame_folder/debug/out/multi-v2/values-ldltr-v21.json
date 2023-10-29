@@ -1,10 +1,14 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-26:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-40:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\636fe5f1319118333643bf6dca29e378\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+=======
+                    "source": "C:\\Users\\Jannover\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+>>>>>>> origin/views_Edward
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

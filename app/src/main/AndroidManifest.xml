@@ -13,11 +13,28 @@
         android:theme="@style/Theme.VidaApp"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".sugerenciasActivity"
             android:exported="false" />
         <activity
             android:name=".eventosActivity"
             android:exported="false" />
+=======
+            android:name=".GasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".WaterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_water"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".EnergyActivity"
+            android:exported="false"
+            android:label="EnergyActivity"
+            android:theme="@style/Theme.VidaApp" />
+>>>>>>> origin/views_Edward
         <activity
             android:name=".Register"
             android:exported="false" />
@@ -48,6 +65,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.vidaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,13 +11,19 @@ import android.widget.ImageButton;
 
 public class AccountActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     ImageButton ib4, home;
     Button noticias, sugerencias, eventos;
+=======
+    Button btnEnergy, btnWater, btnGas;
+
+>>>>>>> origin/views_Edward
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
+<<<<<<< HEAD
 
         noticias = findViewById(R.id.btnNoticias);
         sugerencias = findViewById(R.id.btnSugerencias);
@@ -26,9 +33,31 @@ public class AccountActivity extends AppCompatActivity {
 
 
         ib4.setOnClickListener(new View.OnClickListener() {
+=======
+
+        btnEnergy = findViewById(R.id.btnEnergy);
+        btnWater = findViewById(R.id.btnWater);
+        btnGas = findViewById(R.id.btnGas);
+
+        btnEnergy.setOnClickListener(new View.OnClickListener() {
+>>>>>>> origin/views_Edward
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(AccountActivity.this, MainActivity.class);
+                Intent i =new Intent(AccountActivity.this, EnergyActivity.class);
+                startActivity(i);
+            }
+        });
+        btnWater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i =new Intent(AccountActivity.this, WaterActivity.class);
+                startActivity(i);
+            }
+        });
+        btnGas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i =new Intent(AccountActivity.this, GasActivity.class);
                 startActivity(i);
             }
         });
