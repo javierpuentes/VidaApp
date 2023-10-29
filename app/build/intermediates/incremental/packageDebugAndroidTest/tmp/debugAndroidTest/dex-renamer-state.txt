@@ -1,4 +1,4 @@
-#Fri Oct 27 13:26:46 COT 2023
+#Sat Oct 28 19:36:35 COT 2023
 base.0=C\:\\Users\\pave1\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\pave1\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\pave1\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\13\\classes.dex

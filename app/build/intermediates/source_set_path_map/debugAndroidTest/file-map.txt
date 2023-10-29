@@ -1,5 +1,5 @@
-com.example.vidaapp.test.app-annotation-experimental-1.3.0-0 C:\Users\pave1\.gradle\caches\transforms-3\4f735b77350aefc156737b8f9bd0fa95\transformed\annotation-experimental-1.3.0\res
-com.example.vidaapp.test.app-core-1.5.0-1 C:\Users\pave1\.gradle\caches\transforms-3\7df3ea80e358b7c626734a27a40524e6\transformed\core-1.5.0\res
+com.example.vidaapp.test.app-annotation-experimental-1.3.0-0 C:\Users\pave1\.gradle\caches\transforms-3\6f9e4b934423dffb7670d825108f1d31\transformed\annotation-experimental-1.3.0\res
+com.example.vidaapp.test.app-core-1.5.0-1 C:\Users\pave1\.gradle\caches\transforms-3\f4f702a70d46b28e9824bca6919da53c\transformed\core-1.5.0\res
 com.example.vidaapp.test.app-androidTest-2 C:\Users\pave1\AndroidStudioProjects\VidaApp\app\build\generated\res\resValues\androidTest\debug
 com.example.vidaapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\pave1\AndroidStudioProjects\VidaApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.vidaapp.test.app-mergeDebugAndroidTestResources-4 C:\Users\pave1\AndroidStudioProjects\VidaApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
