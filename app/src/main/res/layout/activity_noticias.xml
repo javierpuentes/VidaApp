@@ -19,14 +19,12 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
         >
 
         <Button
             android:id="@+id/btnNoticias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginEnd="10dp"
             android:text="Noticias"
             android:textSize="16dp"
@@ -40,7 +38,6 @@
             android:id="@+id/btnEventos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Eventos"
             android:textColor="@color/fuente1"
             android:textSize="16dp"
@@ -54,27 +51,78 @@
             android:id="@+id/btnSugerencias"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Sugerencias"
+            android:text="Concejos"
             android:textColor="@color/fuente1"
             android:textSize="16dp"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/fondo1"
             android:textStyle="italic"
             />
+
     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="Noticias"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new1"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/new2"/>
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new3"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new4"/>
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new5"/>
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/new6"/>
+
+        </LinearLayout>
+    </ScrollView>
 
     <ImageButton
         android:id="@+id/btnRegresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:background="#00FFFFFF"
         android:src= "@drawable/back"
         android:layout_gravity="start"
-        android:layout_marginTop="380dp"
         android:contentDescription="regresar"
-
         />
 
 
