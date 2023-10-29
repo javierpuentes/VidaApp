@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color button
+color fondo1
 color fuente
 color fuente1
 color fuente2

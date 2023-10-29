@@ -11,7 +11,8 @@
     android:orientation="vertical"
     android:id="@+id/inicio"
     android:gravity="top"
-    android:background="@drawable/logobg">
+    android:background="@drawable/logobg"
+    >
 
     <ImageView
         android:id="@+id/imageView3"
@@ -59,7 +60,7 @@
             android:textStyle="bold"
             android:textColor="#195101"
             android:textSize="18sp"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="50dp"/>
 
         <Button
             android:id="@+id/btnM2"
@@ -68,9 +69,9 @@
             android:backgroundTint="@color/button"
             android:text="Registrarse"
             android:textStyle="bold"
-            android:textColor="#195101"
+            android:textColor="@color/fuente1"
             android:textSize="18sp"
-            android:layout_marginStart="25dp"/>
+            android:layout_marginStart="40dp"/>
     </LinearLayout>
 
     <TextView
@@ -84,5 +85,6 @@
         android:textSize="20sp"
         android:gravity="center"
         android:textStyle="italic"/>
+
 
 </LinearLayout>
