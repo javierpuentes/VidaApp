@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="VIDA  APP"
         android:textColor="#195101"
         android:textSize="60sp"
@@ -29,7 +29,7 @@
         android:background="@color/white"
         android:fontFamily="sans-serif-light"
         android:text="¡Estas a un paso de un gran cambio!"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
         android:textStyle="bold|italic" />
@@ -127,6 +127,6 @@
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_arrow_circle_left_24"
-        app:tint="@color/button" /> />
+        app:tint="@color/button" />
 
 </LinearLayout>
