@@ -94,7 +94,7 @@
         android:textStyle="italic|bold"
         android:textColor="#195101"
         android:textSize="18sp"
-        android:layout_gravity="end"/>
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/btnM4"
