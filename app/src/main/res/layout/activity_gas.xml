@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:layout_margin="10dp"
+    android:background="@color/bggas"
+    android:layout_gravity="center_horizontal">
+
+    <ImageButton
+        android:id="@+id/imgbtnback"
+        android:layout_width="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg_transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+        app:tint="@color/fuente4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/fuente5"
+        android:fontFamily="@font/chelsea_market"
+        android:layout_margin="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Gas"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_transparent"
+        android:fontFamily="sans-serif-light"
+        android:padding="2dp"
+        android:text="@string/textEnergy"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+
+
+</LinearLayout>
+
