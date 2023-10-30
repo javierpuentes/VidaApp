@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.VidaApp" >
         <activity
+            android:name="com.example.vidaapp.sugerenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.vidaapp.eventosActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.vidaapp.GasActivity"
             android:exported="false"
             android:label="@string/title_activity_gas"
@@ -58,7 +64,7 @@
             android:name="com.example.vidaapp.AboutActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.vidaapp.NewsActivity"
+            android:name="com.example.vidaapp.noticiasActivity"
             android:exported="false" />
         <activity
             android:name="com.example.vidaapp.LoginActivity"
