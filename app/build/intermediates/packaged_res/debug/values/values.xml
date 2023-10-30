@@ -14,6 +14,16 @@
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
     </string-array>
+    <string-array name="preguntas">
+        <item>Seleccione una opción</item>
+        <item>Fecha de nacimiento</item>
+        <item>Nombre de tu madre</item>
+        <item>Nombre de tu mascota</item>
+        <item>Nombre de alguien especial</item>
+        <item>Título de tu libro favorito</item>
+        <item>Nombre de tu escritor favorito</item>
+        <item>Marca de tu automovil</item>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
         <item>@font/abril_fatface</item>
@@ -27,13 +37,9 @@
     <color name="bg_transparent">#00FFFFFF</color>
     <color name="bggas">#AA9F9F</color>
     <color name="black">#FF000000</color>
-<<<<<<< HEAD
+    <color name="borders">#613030</color>
     <color name="button">#6AA84F</color>
     <color name="fondo1">#91ED68</color>
-=======
-    <color name="borders">#613030</color>
-    <color name="button">#42A006</color>
->>>>>>> origin/views_Edward
     <color name="fuente">#38761D</color>
     <color name="fuente1">#274E13</color>
     <color name="fuente2">#DBD416</color>
@@ -44,6 +50,11 @@
     <dimen name="fab_margin">16dp</dimen>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="app_name">VidaApp</string>
+    <string name="eventos">ENE 2024 Feria de emprendimiento regional</string>
+    <string name="eventos2">FEB 2024 Debate contra la deforestación</string>
+    <string name="eventos3">DIC 2023 Simposio en Transición Energética</string>
+    <string name="eventos4"> 1er encuentro Jovenes ECO</string>
+    <string name="eventos5"> JUL 2024 Inaguración proyecto "Colombia Limpia" </string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

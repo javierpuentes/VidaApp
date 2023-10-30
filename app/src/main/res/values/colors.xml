@@ -6,11 +6,8 @@
     <color name="fuente1">#274E13</color>
     <color name="fuente2">#DBD416</color>
     <color name="fuente3">#DB8500</color>
-<<<<<<< HEAD
     <color name="button">#6AA84F</color>
     <color name="fondo1">#91ED68</color>
-=======
-    <color name="button">#42A006</color>
     <color name="bgEnergy">#7F6000</color>
     <color name="bgWater">#53BFBF</color>
     <color name="fuente4">#3F51B5</color>
@@ -18,6 +15,4 @@
     <color name="bg_transparent">#00FFFFFF</color>
     <color name="borders">#613030</color>
     <color name="bggas">#AA9F9F</color>
-
->>>>>>> origin/views_Edward
 </resources>

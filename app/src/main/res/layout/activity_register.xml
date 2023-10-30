@@ -27,106 +27,203 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
+        android:id="@+id/tituloCuenta"
         android:fontFamily="sans-serif-light"
-        android:text="¡Estas a un paso de un gran cambio!"
+        android:text="¡Esta a un paso de un gran cambio!"
         android:textAlignment="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
         android:textStyle="bold|italic" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/informacionUsr"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:background="#E7F6B8"
-        app:cardCornerRadius="20dp">
+        android:layout_height="465dp"
+        android:layout_margin="10dp"
+        android:background="#60E7F6B8"
+        app:cardBackgroundColor="#D8FFFFFF"
+        app:cardCornerRadius="20dp"
+        >
 
         <TextView
             android:id="@+id/txtVuser2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60dp"
-            android:text="Usuario"
+            android:layout_marginTop="5dp"
+            android:text="Nombre de usuario"
             android:textColor="#195101"
-            android:textSize="34sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtTextuser2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
             android:hint="Crear nombre de usuario"
-            android:textStyle="italic"
             android:inputType="text"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/txtVclave2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="150dp"
-            android:text="Contraseña"
+            android:layout_marginTop="95dp"
+            android:text="Contraseña de usuario"
             android:textColor="#195101"
-            android:textSize="34sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/txtTextclave2"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_margin="100dp"
-            android:hint="Crear contraseña"
-            android:textStyle="italic"
-            android:inputType="numberPassword"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="135dp"
+            android:hint="Crear contraseña"
+            android:inputType="textPassword"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="italic" />
 
-        <RadioGroup
+        <TextView
+            android:id="@+id/txtPseg"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="190dp"
+            android:text="Seleccione pregunta de seguridad"
+            android:textColor="#195101"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
-        <RadioButton
+        <Spinner
+            android:id="@+id/seg_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Acepta términos y condiciones"
-            android:textColor="@color/fuente"
-            android:layout_marginTop="200dp"/>
+            android:layout_marginTop="220dp"
+            android:background="#5E8BC34A"
+            android:foregroundGravity="center"
+            android:minHeight="48sp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-        <RadioButton
+        <TextView
+            android:id="@+id/respPseg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="268dp"
+            android:text="Respuesta a pregunta de seguridad"
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtResPegSeg"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="295dp"
+            android:hint="Respuesta a pregunta"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/tratamiento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Acepta tratamiento de datos"
-            android:textColor="@color/fuente"
-            android:layout_marginTop="220dp"/>
+            android:layout_marginTop="355dp"
+            android:text="Acepta tratamiento de datos, términos y condiciones"
+            android:textColor="@color/fuente" />
 
         <Button
             android:id="@+id/btnM5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:backgroundTint="@color/button"
-            android:text="Crear Usuario"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="405dp"
+            android:backgroundTint="@color/button"
+            android:text="Crear cuenta"
             android:textColor="#195101"
             android:textSize="22sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/datoscuentanombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:text="Nombre de usuario: "
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datoscuentaclave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="70dp"
+            android:text="Contraseña de acceso: "
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datoscuentapregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="120dp"
+            android:text="Pregunta de seguridad: "
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datoscuentarespuesta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="190dp"
+            android:text="Respuesta a la pregunta: "
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnM25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="305dp"
+            android:backgroundTint="@color/button"
+            android:text="Registrar mis servicios"
+            android:textColor="#195101"
+            android:textSize="22sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="70dp"
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_arrow_circle_left_24"
-        app:tint="@color/button" />
+        app:tint="@color/button"
+        android:contentDescription="Regresar"/>
 
 </LinearLayout>

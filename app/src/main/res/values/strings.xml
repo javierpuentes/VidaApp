@@ -2,14 +2,13 @@
     <string name="app_name">VidaApp</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
-<<<<<<< HEAD
     <string name="eventos">ENE 2024 Feria de emprendimiento regional</string>
     <string name="eventos2">FEB 2024 Debate contra la deforestación</string>
     <string name="eventos3">DIC 2023 Simposio en Transición Energética</string>
     <string name="eventos4"> 1er encuentro Jovenes ECO</string>
     <string name="eventos5"> JUL 2024 Inaguración proyecto "Colombia Limpia" </string>
-=======
     <string name="textEnergy"><u>Llena todos los campos</u></string>
+    <string name="title_activity_gas">GasActivity</string>
     <string name="title_activity_water">WaterActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -53,6 +52,5 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
-    <string name="title_activity_gas">GasActivity</string>
->>>>>>> origin/views_Edward
+
 </resources>

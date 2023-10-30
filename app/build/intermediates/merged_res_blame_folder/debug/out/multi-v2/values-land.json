@@ -4,11 +4,7 @@
             "outputFile": "com.example.vidaapp-mergeDebugResources-40:/values-land/values-land.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\636fe5f1319118333643bf6dca29e378\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
-=======
                     "source": "C:\\Users\\Jannover\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
->>>>>>> origin/views_Edward
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -18,17 +14,13 @@
                     }
                 },
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\a144f03b7c8b4db1f4430749b1b8ef08\\transformed\\material-1.5.0\\res\\values-land\\values-land.xml",
-=======
                     "source": "C:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\src\\main\\res\\values-land\\dimens.xml",
->>>>>>> origin/views_Edward
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "41",
-                        "endOffsets": "53"
+                        "endOffsets": "54"
                     },
                     "to": {
                         "startLines": "5",

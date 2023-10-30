@@ -24,31 +24,213 @@
         app:tint="@color/fuente4"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@color/fuente5"
-        android:fontFamily="@font/chelsea_market"
-        android:layout_margin="5dp"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:text="Gas"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <TextView
+        android:textColor="@color/fuente1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/bg_transparent"
         android:fontFamily="sans-serif-light"
-        android:padding="2dp"
-        android:text="@string/textEnergy"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        android:textStyle="bold|italic" />
+        android:padding="2dp"
+        android:text="¡Registro del servicio de gas!."
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txtGasmedidor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fuente"
+        android:background="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        android:text="No. Medidor: 1012-45774-2" />
+
+    <TextView
+        android:id="@+id/txtGasmedidorD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/fuente"
+        android:background="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        android:text="Ref. Pago: 01122141" />
+
+    <LinearLayout
+        android:id="@+id/informacionServicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <TableLayout
+            android:id="@+id/registrosGas"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txtMesRegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mes"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtAnioRegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Año"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtConsumoRegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Consumo"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtPagoRegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pago"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </TableRow>
+
+        </TableLayout>
+        <Button
+            android:id="@+id/btnRG1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/button"
+            android:text="Registrar nueva factura"
+            android:textColor="#195101"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/registroServcio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="left"
+        android:visibility="invisible"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/txtRegAnio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/fuente"
+            android:text="Año:" />
+
+        <EditText
+            android:id="@+id/txtRegAnioFac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:hint="Año de la factura"
+            />
+
+        <TextView
+            android:id="@+id/txtRegConsumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/fuente"
+            android:text="Consumo:" />
+
+        <EditText
+            android:id="@+id/txtRegConsumoFac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:hint="Consumo del mes"
+            />
+
+        <TextView
+            android:id="@+id/txtRegPago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/fuente"
+            android:text="Valor pagado:" />
+
+        <EditText
+            android:id="@+id/txtRegPagoFac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:hint="Valor pagado"
+            />
+
+        <TextView
+            android:id="@+id/txtRegMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/fuente"
+            android:text="Mes:" />
+
+        <Spinner
+            android:id="@+id/mes_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5E8BC34A"
+            android:foregroundGravity="center"
+            android:minHeight="48sp"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRG2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/button"
+            android:text="Registrar información"
+            android:textColor="#195101"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+         </LinearLayout>
 
 
 </LinearLayout>

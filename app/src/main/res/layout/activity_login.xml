@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:padding="2dp"
-        android:text="¡Estas listo para empezar!"
+        android:text="¡Está listo para empezar!"
         android:background="@color/white"
         android:textAlignment="center"
         android:textColor="@color/fuente"
@@ -42,11 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Usuario"
+        android:text="Nombre de usuario"
         android:textColor="#195101"
         android:background="#8BC34A"
         android:textStyle="bold"
-        android:textSize="34sp"
+        android:textSize="30sp"
         android:layout_gravity="center_horizontal"/>
 
     <EditText
@@ -59,6 +59,8 @@
         android:textStyle="italic"
         android:textAlignment="center"
         android:inputType="text"
+        android:minWidth="50dp"
+        android:minHeight="48dp"
         android:textSize="24sp" />
 
     <TextView
@@ -66,11 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="30dp"
         android:text="Contraseña"
         android:background="#8BC34A"
         android:textColor="#195101"
-        android:textSize="34sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <EditText
@@ -79,11 +81,24 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Ingrese su contraseña"
+        android:minWidth="50dp"
+        android:minHeight="48dp"
         android:background="@color/white"
         android:textStyle="italic"
         android:inputType="numberPassword"
         android:textAlignment="center"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnM4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/button"
+        android:text="Iniciar sesión"
+        android:textColor="#195101"
+        android:textSize="22sp" />
 
     <Button
         android:id="@+id/btnM3"
@@ -93,27 +108,28 @@
         android:text="Recuperar contraseña"
         android:textStyle="italic|bold"
         android:textColor="#195101"
-        android:textSize="18sp"
-        android:layout_gravity="center"/>
-
-    <Button
-        android:id="@+id/btnM4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/button"
-        android:layout_marginTop="30dp"
-        android:text="Iniciar sesión"
         android:textSize="22sp"
-        android:textColor="#195101"
-        android:layout_gravity="center" />
+        android:layout_gravity="end"/>
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:text="Datos de prueba: Root => 123456" />
+
 
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
+        android:contentDescription="Regresar"
         android:src="@drawable/baseline_arrow_circle_left_24"
         app:tint="@color/button" />
 

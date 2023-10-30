@@ -4,21 +4,7 @@
             "outputFile": "com.example.vidaapp-mergeDebugResources-40:/values-v16/values-v16.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\5bed316c9c43a8bc7d9832f0735edfcf\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\636fe5f1319118333643bf6dca29e378\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
-=======
                     "source": "C:\\Users\\Jannover\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
->>>>>>> origin/views_Edward
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

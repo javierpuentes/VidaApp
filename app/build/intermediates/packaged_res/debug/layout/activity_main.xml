@@ -54,18 +54,18 @@
         <Button
             android:id="@+id/btnM1"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/button"
             android:text="Iniciar sesión"
             android:textStyle="bold"
             android:textColor="#195101"
             android:textSize="18sp"
-            android:layout_marginEnd="50dp"/>
+            android:layout_marginStart="0dp"/>
 
         <Button
             android:id="@+id/btnM2"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/button"
             android:text="Registrarse"
             android:textStyle="bold"
