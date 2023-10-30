@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     private TextView t1, t2;
     private ImageButton ib1;
 
-    String v1, v2;
+    String v1, v2, v3, v4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ib1=findViewById(R.id.imageButton1);
-        v1 = "Usuario";
-        v2 = "123456@";
+        v1 = "Root";
+        v2 = "123456";
 
         b3 = findViewById(R.id.btnM3);
         b4 = findViewById(R.id.btnM4);
@@ -37,19 +37,22 @@ public class LoginActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(getApplicationContext(), t2.getText(), Toast.LENGTH_LONG).show();
-                if(v1.equals(t1.getText().toString()) && v2.equals(t2.getText().toString()))
+                v3 = t1.getText().toString().trim();
+                v4 = t2.getText().toString().trim();
+                if(v1.isEmpty() || v4.isEmpty())
                 {
-                    Intent i =new Intent(LoginActivity.this, AccountActivity.class);
-                    startActivity(i);
+                    Toast.makeText(getApplicationContext(), "Se requieren los datos de acceso", Toast.LENGTH_LONG).show();
                 }
-                else
-                {
-                    Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Bienvenido!", Toast.LENGTH_LONG).show();
-                    t1.setText("");
-                    t2.setText("");
-                    t1.requestFocus();
-
+                else {
+                    if (v1.equals(v3) && v2.equals(v4)) {
+                        Intent i = new Intent(LoginActivity.this, AccountActivity.class);
+                        startActivity(i);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Verifique los datos!", Toast.LENGTH_LONG).show();
+                        t1.setText("");
+                        t2.setText("");
+                        t1.requestFocus();
+                    }
                 }
             }
         });
@@ -57,23 +60,15 @@ public class LoginActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(LoginActivity.this, EnergyActivity.class);
+                Intent i =new Intent(LoginActivity.this, RecoveryActivity.class);
                 startActivity(i);
-            }
-        });
-
-        b4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(LoginActivity.this, AccountActivity.class);
-                startActivity(intent);
             }
         });
 
         ib1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back= new Intent(LoginActivity.this,MainActivity.class);
+                Intent back= new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(back);
             }
         });

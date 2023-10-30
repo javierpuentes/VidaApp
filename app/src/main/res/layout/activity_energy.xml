@@ -21,13 +21,13 @@
         android:backgroundTint="@color/bg_transparent"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_arrow_circle_left_24"
-        app:tint="@color/fuente1" />
+        app:tint="@color/energytitle" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@color/fuente1"
+        android:background="@color/energytitle"
         android:fontFamily="sans-serif-light"
         android:layout_margin="5dp"
         android:paddingLeft="15dp"
