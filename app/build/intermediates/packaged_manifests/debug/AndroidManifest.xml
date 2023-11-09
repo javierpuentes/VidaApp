@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.VidaApp" >
         <activity
+            android:name="com.example.vidaapp.GasActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.vidaapp.Register"
             android:exported="false" />
         <activity

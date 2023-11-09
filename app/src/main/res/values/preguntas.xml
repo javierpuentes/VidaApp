@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="preguntas">
-        <item>Selecciona una opción</item>
+        <item>Seleccione una opción</item>
         <item>Fecha de nacimiento</item>
         <item>Nombre de tu madre</item>
         <item>Nombre de tu mascota</item>

@@ -33,12 +33,12 @@ android:layout_gravity="center_horizontal" >
     android:id="@+id/txtVuser"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="20dp"
+    android:layout_marginTop="15dp"
     android:text="Nombre de usuario"
     android:textColor="#195101"
     android:background="#8BC34A"
     android:textStyle="bold"
-    android:textSize="34sp"
+    android:textSize="30sp"
     android:layout_gravity="center_horizontal"/>
 
 <EditText
@@ -60,23 +60,22 @@ android:layout_gravity="center_horizontal" >
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:layout_marginTop="30dp"
+    android:layout_marginTop="20dp"
     android:text="Pregunta de seguridad"
     android:background="#8BC34A"
     android:textColor="#195101"
-    android:textSize="34sp"
+    android:textSize="30sp"
     android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/preg_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:background="#5E8BC34A"
         android:foregroundGravity="center"
         android:minHeight="48sp"
-        android:textSize="25dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         />
 
@@ -88,7 +87,7 @@ android:layout_gravity="center_horizontal" >
     android:hint="Ingresa su respuesta"
     android:background="@color/white"
     android:textStyle="italic"
-    android:inputType="numberPassword"
+    android:inputType="text"
     android:textAlignment="center"
     android:textSize="30sp"
     android:minWidth="50dp"
@@ -99,7 +98,7 @@ android:layout_gravity="center_horizontal" >
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:backgroundTint="@color/button"
-    android:layout_marginTop="30dp"
+    android:layout_marginTop="20dp"
     android:text="Validar cuenta"
     android:textSize="22sp"
     android:textColor="#195101"
@@ -110,7 +109,7 @@ android:layout_gravity="center_horizontal" >
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:text="" />
 
@@ -118,14 +117,27 @@ android:layout_gravity="center_horizontal" >
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Datos de prueba: Fecha de nacimiento => 31-10-1975" />
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Datos de prueba: Root => Fecha de nacimiento => 31-10-1975" />
+
+    <Button
+        android:id="@+id/btnRec11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="5dp"
+        android:text="Ingresar a mi cuenta"
+        android:textSize="22sp"
+        android:textColor="#195101"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
 
 <ImageButton
     android:id="@+id/imageButton1"
     android:layout_width="60dp"
     android:layout_height="60dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="5dp"
     android:backgroundTint="@color/white"
     android:scaleType="centerCrop"
     android:contentDescription="Regresar"

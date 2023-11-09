@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="meses">
+        <item>Seleccione un mes</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
     <string-array name="preguntas">
-        <item>Selecciona una opción</item>
+        <item>Seleccione una opción</item>
         <item>Fecha de nacimiento</item>
         <item>Nombre de tu madre</item>
         <item>Nombre de tu mascota</item>
@@ -21,6 +36,7 @@
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="app_name">VidaApp</string>
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
+    <string name="seleccione_anio">Seleccione un año</string>
     <style name="Base.Theme.VidaApp" parent="Theme.Material3.DayNight.NoActionBar">
         
         

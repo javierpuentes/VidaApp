@@ -30,6 +30,7 @@
         android:scaleType="centerCrop"
         android:backgroundTint="@color/white"
         app:tint="@color/button"
+        android:contentDescription="Ir al inicio"
         android:layout_gravity="end"/>
 
     <TextView
@@ -120,6 +121,7 @@
             android:backgroundTint="@color/white"
             android:scaleType="centerCrop"
             android:src="@drawable/baseline_arrow_circle_left_24"
+            android:contentDescription="Regresar"
             app:tint="@color/button" />
 
         <TextView
