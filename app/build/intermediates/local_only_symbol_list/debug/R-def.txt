@@ -16,6 +16,7 @@ drawable baseline_arrow_circle_right_24
 drawable baseline_settings_backup_restore_24
 drawable bordes
 drawable bordes_1
+drawable degrade
 drawable descarga__1_
 drawable ecoappfondo
 drawable ecoappfondo0

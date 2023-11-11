@@ -37,7 +37,7 @@ public class Register extends AppCompatActivity {
     public CardView informacioncuenta;
     public CheckBox rbt1;
 
-    private static final String PASSWORD_REGEX = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$";
+    private static final String PASSWORD_REGEX = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,10}$";
 
     private static final Pattern PASSWORD_PATTERN =
             Pattern.compile(PASSWORD_REGEX);
@@ -80,7 +80,7 @@ public class Register extends AppCompatActivity {
                 // Validar una contraseña
                 if (PASSWORD_PATTERN.matcher(password).matches()) {
                     txtc5.setText("La contraseña "+password+" es segura ");
-                    txtc5.setBackgroundColor(Color.WHITE);
+                    txtc5.setBackgroundColor(Color.GREEN);
                 }
                 else {
                     txtc5.setText("La contraseña "+password+" no es segura, mejorela ");

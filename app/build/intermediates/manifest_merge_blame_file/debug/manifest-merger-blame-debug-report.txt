@@ -6,130 +6,128 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.vidaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.vidaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:5:5-48:19
+17-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:5:5-48:19
 18        android:allowBackup="true"
-18-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:6:9-35
+18-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] C:\Users\Familiar\.gradle\caches\transforms-3\66ed85c701f6c9fc115b0f5b6156f6bb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:7:9-65
+20-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:8:9-54
+23-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:8:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:9:9-43
+24-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:9:9-43
 25        android:label="@string/app_name"
-25-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:10:9-41
+25-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:10:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:11:9-54
+26-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
-27-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:12:9-35
+27-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:12:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.VidaApp" >
-29-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:13:9-45
+29-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:13:9-45
 30        <activity
-30-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:15:9-17:40
+30-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:15:9-17:40
 31            android:name="com.example.vidaapp.GasActivity"
-31-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:16:13-40
+31-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:16:13-40
 32            android:exported="false" />
-32-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:17:13-37
+32-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:17:13-37
 33        <activity
-33-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:18:9-20:40
+33-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:18:9-20:40
 34            android:name="com.example.vidaapp.Register"
-34-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:19:13-37
+34-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:19:13-37
 35            android:exported="false" />
-35-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:20:13-37
+35-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:20:13-37
 36        <activity
-36-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:21:9-23:40
+36-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:21:9-23:40
 37            android:name="com.example.vidaapp.RecoveryActivity"
-37-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:22:13-45
+37-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:22:13-45
 38            android:exported="false" />
-38-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:23:13-37
+38-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:23:13-37
 39        <activity
-39-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:24:9-26:40
+39-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:24:9-26:40
 40            android:name="com.example.vidaapp.ServivesActivity"
-40-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:25:13-45
+40-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:25:13-45
 41            android:exported="false" />
-41-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:26:13-37
+41-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:26:13-37
 42        <activity
-42-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:27:9-29:40
+42-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:27:9-29:40
 43            android:name="com.example.vidaapp.AccountActivity"
-43-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:28:13-44
+43-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:28:13-44
 44            android:exported="false" />
-44-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:29:13-37
+44-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:29:13-37
 45        <activity
-45-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:30:9-32:40
+45-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:30:9-32:40
 46            android:name="com.example.vidaapp.AboutActivity"
-46-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:31:13-42
+46-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:31:13-42
 47            android:exported="false" />
-47-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:32:13-37
+47-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:32:13-37
 48        <activity
-48-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:33:9-35:40
+48-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:33:9-35:40
 49            android:name="com.example.vidaapp.NewsActivity"
-49-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:34:13-41
+49-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:34:13-41
 50            android:exported="false" />
-50-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:35:13-37
+50-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:35:13-37
 51        <activity
-51-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:36:9-38:40
+51-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:36:9-38:40
 52            android:name="com.example.vidaapp.LoginActivity"
-52-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:37:13-42
+52-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:37:13-42
 53            android:exported="false" />
-53-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:38:13-37
+53-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:38:13-37
 54        <activity
-54-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:39:9-47:20
+54-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:39:9-47:20
 55            android:name="com.example.vidaapp.MainActivity"
-55-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:40:13-41
+55-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:40:13-41
 56            android:exported="true" >
-56-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:41:13-36
+56-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:41:13-36
 57            <intent-filter>
-57-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:42:13-46:29
+57-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:42:13-46:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:43:17-69
-58-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:43:25-66
+58-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:43:17-69
+58-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:43:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:45:17-77
-60-->J:\Atenea\Desarrollos\VidaApp\app\src\main\AndroidManifest.xml:45:27-74
+60-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:45:17-77
+60-->J:\Atenea\Desarrollos\VidaAppj\app\src\main\AndroidManifest.xml:45:27-74
 61            </intent-filter>
 62        </activity>
 63
 64        <provider
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 65            android:name="androidx.startup.InitializationProvider"
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 66            android:authorities="com.example.vidaapp.androidx-startup"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 67            android:exported="false" >
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 68            <meta-data
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 70                android:value="androidx.startup" />
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Familiar\.gradle\caches\transforms-3\e705b2b022ec4c81d401694c86ace512\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 71            <meta-data
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\d52d412db771db6551ceb94eedde2244\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\d52d412db771db6551ceb94eedde2244\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 73                android:value="androidx.startup" />
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Familiar\.gradle\caches\transforms-3\d52d412db771db6551ceb94eedde2244\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 74        </provider>
 75    </application>
 76
