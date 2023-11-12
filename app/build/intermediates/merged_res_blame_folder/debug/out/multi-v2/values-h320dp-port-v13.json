@@ -4,7 +4,7 @@
             "outputFile": "com.example.vidaapp-mergeDebugResources-41:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\0e6e3554747caa52ed2f12455d8b0834\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\0e6e3554747caa52ed2f12455d8b0834\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

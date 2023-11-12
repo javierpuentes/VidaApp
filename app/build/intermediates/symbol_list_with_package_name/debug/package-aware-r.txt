@@ -88,6 +88,7 @@ animator nav_default_pop_exit_anim
 array com_google_android_gms_fonts_certs
 array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
+array meses
 array preguntas
 array preloaded_fonts
 attr SharedValue
@@ -1464,6 +1465,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color energytitle
 color error_color_material_dark
 color error_color_material_light
 color fondo1
@@ -3012,6 +3014,8 @@ drawable baseline_arrow_circle_right_24
 drawable baseline_settings_backup_restore_24
 drawable bombilla
 drawable borders
+drawable bordes
+drawable bordes_1
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3131,6 +3135,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round_cancel_24
 drawable sugerencias_a
 drawable sugerenciasagua
 drawable sugerenciasenergia
@@ -3292,6 +3297,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id closeServ
 id closest
 id collapseActionView
 id compress
@@ -3343,6 +3349,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id dtsResumen
 id easeIn
 id easeInOut
 id easeOut
@@ -3413,6 +3420,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id informacionInicio
 id informacionServicio
 id informacionUsr
 id inicio
@@ -3559,6 +3567,8 @@ id preg_spinner
 id pressed
 id progress_circular
 id progress_horizontal
+id promedioconsumo
+id promediopago
 id radio
 id ratio
 id rectangles
@@ -3567,6 +3577,7 @@ id registroServcio
 id registrosGas
 id report_drawn
 id respPseg
+id resumenGas
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3680,6 +3691,8 @@ id tituloCuenta
 id toggle
 id top
 id topPanel
+id totalconsumo
+id totalpago
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3691,16 +3704,17 @@ id transition_transform
 id tratamiento
 id triangle
 id txtAnioRegistro
+id txtAnioRegistroT
 id txtConsumoRegistro
 id txtCuentaUsr
 id txtGasmedidor
 id txtGasmedidorD
 id txtListadoeventos
 id txtMesRegistro
+id txtNseg
 id txtPagoRegistro
 id txtPseg
 id txtRegAnio
-id txtRegAnioFac
 id txtRegConsumo
 id txtRegConsumoFac
 id txtRegMes
@@ -4121,6 +4135,7 @@ string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string second_fragment_label
 string seleccionarServicio
+string seleccione_anio
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow

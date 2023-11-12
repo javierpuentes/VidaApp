@@ -38,7 +38,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/informacionUsr"
         android:layout_width="match_parent"
-        android:layout_height="465dp"
+        android:layout_height="500dp"
         android:layout_margin="10dp"
         android:background="#60E7F6B8"
         app:cardBackgroundColor="#D8FFFFFF"
@@ -89,13 +89,34 @@
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="italic" />
+        <TextView
+            android:id="@+id/txtNseg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="185dp"
+            android:text="Nivel de seguridad, debe tener mínimo 5 caracteres:"
+            android:textColor="#195101"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/txtCseg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="210dp"
+            android:text="Mayúsculas y minúsculas \n Caracteres y números."
+            android:textColor="#195101"
+            android:textSize="13sp"
+            />
 
         <TextView
             android:id="@+id/txtPseg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="250dp"
             android:text="Seleccione pregunta de seguridad"
             android:textColor="#195101"
             android:textSize="22sp"
@@ -105,7 +126,7 @@
             android:id="@+id/seg_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="280dp"
             android:background="#5E8BC34A"
             android:foregroundGravity="center"
             android:minHeight="48sp"
@@ -117,7 +138,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:layout_marginTop="268dp"
+            android:layout_marginTop="330dp"
             android:text="Respuesta a pregunta de seguridad"
             android:textColor="#195101"
             android:textSize="20sp"
@@ -127,7 +148,7 @@
             android:id="@+id/txtResPegSeg"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="295dp"
+            android:layout_marginTop="355dp"
             android:hint="Respuesta a pregunta"
             android:inputType="text"
             android:textSize="22sp"
@@ -137,7 +158,7 @@
             android:id="@+id/tratamiento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="355dp"
+            android:layout_marginTop="400dp"
             android:text="Acepta tratamiento de datos, términos y condiciones"
             android:textColor="@color/fuente" />
 
@@ -146,7 +167,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="405dp"
+            android:layout_marginTop="445dp"
             android:backgroundTint="@color/button"
             android:text="Crear cuenta"
             android:textColor="#195101"

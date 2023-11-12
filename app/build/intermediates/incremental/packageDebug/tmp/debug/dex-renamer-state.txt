@@ -1,8 +1,8 @@
-#Sun Oct 29 20:12:48 COT 2023
-base.0=C\:\\Users\\danie\\OneDrive\\Escritorio\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\danie\\OneDrive\\Escritorio\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\danie\\OneDrive\\Escritorio\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=C\:\\Users\\danie\\OneDrive\\Escritorio\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+#Sun Nov 12 16:09:39 COT 2023
+base.0=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.3=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=13/classes.dex

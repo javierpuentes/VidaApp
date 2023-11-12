@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -17,6 +21,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Date;
+
+
 public class Register extends AppCompatActivity {
     private ImageButton ib2;
     private Button b5, b25;
@@ -24,9 +33,11 @@ public class Register extends AppCompatActivity {
     public String pregunta, micuenta, miclave, mirespuesta;
     public int item;
     public EditText cuenta, clave, respuesta;
-    public TextView titulo, txtv1, txtv2, txtv3, txtv4, txtc1, txtc2, txtc3, txtc4;
+    public TextView titulo, txtv1, txtv2, txtv3, txtv4, txtc1, txtc2, txtc3, txtc4, txtc5, txtc6;
+    private static final String PASSWORD_REGEX = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,10}$";
     public CardView informacioncuenta;
     public CheckBox rbt1;
+    public int ma, mi, ch, di;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +62,48 @@ public class Register extends AppCompatActivity {
         respuesta = findViewById(R.id.txtResPegSeg);
         titulo = findViewById(R.id.tituloCuenta);
         informacioncuenta = findViewById(R.id.informacionUsr);
+        txtc5 =findViewById(R.id.txtNseg);
+        txtc6 =findViewById(R.id.txtCseg);
+        ma = mi = ch = di = 0;
+        clave.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
+            }
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                String pw = clave.getText().toString();
+                // Validar una contraseña
+                //i => posición ingresada
+                char c = pw.charAt(i);
+                if(Character.isUpperCase(c))
+                    ma++;
+                else if(Character.isLowerCase(c))
+                    mi++;
+                else if(Character.isDigit(c))
+                    di++;
+                if (c >= 33 && c <= 46 || c == 64)
+                {
+                    ch++;
+                }
+
+                if(pw.length() >= 4 && ma > 0 && mi > 0 && di > 0 && ch > 0)
+                {
+                    txtc5.setText("La contraseña "+pw+" es segura ");
+                    txtc5.setBackgroundColor(Color.GREEN);
+                }
+                else
+                {
+                    txtc5.setText("La contraseña "+pw+" no es segura, mejorela ");
+                    txtc5.setBackgroundColor(Color.RED);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
+        });
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.preguntas, android.R.layout.simple_spinner_item);
@@ -93,6 +145,8 @@ public class Register extends AppCompatActivity {
                     txtc4.setVisibility(View.INVISIBLE);
                     sp1.setVisibility(View.INVISIBLE);
                     b5.setVisibility(View.INVISIBLE);
+                    txtc5.setVisibility(View.INVISIBLE);
+                    txtc6.setVisibility(View.INVISIBLE);
                     titulo.setText("Cuenta creada con éxito. ¡Buenvenido!");
                     txtv1.setVisibility(View.VISIBLE);
                     txtv2.setVisibility(View.VISIBLE);
