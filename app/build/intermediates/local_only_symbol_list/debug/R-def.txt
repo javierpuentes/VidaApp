@@ -144,6 +144,7 @@ id tratamiento
 id txtAnioRegistro
 id txtAnioRegistroT
 id txtConsumoRegistro
+id txtCseg
 id txtCuentaUsr
 id txtGasmedidor
 id txtGasmedidorD
