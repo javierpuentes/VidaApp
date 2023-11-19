@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noticiasActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/eventos_a"
+    >
+
+    <LinearLayout
+        android:id="@+id/nuevasVistas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnNoticias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="Noticias"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textColor="@color/fuente1"
+            android:backgroundTint="@color/fondo1"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:id="@+id/btnEventos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eventos"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/fuente"
+            android:layout_marginEnd="10dp"
+            android:textStyle="italic"
+            />
+
+        <Button
+            android:id="@+id/btnSugerencias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Concejos"
+            android:textColor="@color/fuente1"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/fondo1"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+
+    <CalendarView
+        android:id="@+id/calendarEvent"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#879DE371"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtListadoeventos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listado de eventos"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#E138761D"
+        android:textColor="@color/white"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos"
+        android:textColor="@color/black"
+        android:background="#DC9DE371"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos2"
+        android:textColor="@color/black"
+        android:background="#DC9DE371"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos3"
+        android:textColor="@color/black"
+        android:background="#DC9DE371"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos4"
+        android:textColor="@color/black"
+        android:background="#DC9DE371"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventos5"
+        android:textColor="@color/black"
+        android:background="#DC9DE371"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:src= "@drawable/back"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:contentDescription="regresar"
+        />
+
+
+</LinearLayout>

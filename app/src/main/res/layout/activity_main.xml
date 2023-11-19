@@ -26,7 +26,7 @@
         android:fontFamily="sans-serif-light"
         android:padding="2dp"
         android:text="¡Bienvenido!"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/fuente"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="VIDA  APP"
         android:textColor="#195101"
         android:textSize="60sp"
@@ -60,12 +60,12 @@
             android:textStyle="bold"
             android:textColor="#195101"
             android:textSize="18sp"
-            android:layout_marginEnd="50dp"/>
+            android:layout_marginStart="0dp"/>
 
         <Button
             android:id="@+id/btnM2"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:backgroundTint="@color/button"
             android:text="Registrarse"
             android:textStyle="bold"
