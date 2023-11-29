@@ -54,7 +54,7 @@
         <Button
             android:id="@+id/btnM1"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:backgroundTint="@color/button"
             android:text="Iniciar sesión"
             android:textStyle="bold"
@@ -65,7 +65,7 @@
         <Button
             android:id="@+id/btnM2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:backgroundTint="@color/button"
             android:text="Registrarse"
             android:textStyle="bold"
@@ -74,17 +74,36 @@
             android:layout_marginStart="40dp"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnM0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button"
+            android:textColor="@color/fuente1"
+            android:text="Nosotros"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/btnM6"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="120dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@color/button"
+        android:gravity="center"
         android:text="¡Te ayudamos a planear tu ahorro!"
         android:textColor="@color/white"
-        android:background="@color/button"
         android:textSize="20sp"
-        android:gravity="center"
-        android:textStyle="italic"/>
+        android:textStyle="italic" />
 
 
 </LinearLayout>

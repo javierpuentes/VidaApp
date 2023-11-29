@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] C:\Users\Sammy\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:5:5-70:19
+17-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:5:5-72:19
 18        android:allowBackup="true"
 18-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -109,7 +109,7 @@
 62            android:exported="false" />
 62-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:47:13-37
 63        <activity
-63-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:48:9-50:40
+63-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:48:9-50:39
 64            android:name="com.example.vidaapp.AboutActivity"
 64-->C:\Users\Sammy\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:49:13-42
 65            android:exported="false" />

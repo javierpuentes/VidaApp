@@ -47,7 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".AboutActivity"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".noticiasActivity"
             android:exported="false" />
@@ -67,6 +67,8 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+
     </application>
 
 </manifest>

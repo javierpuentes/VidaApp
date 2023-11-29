@@ -67,10 +67,8 @@
         android:id="@+id/calendarEvent"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:background="#879DE371"
         android:layout_marginTop="50dp"
-        />
-
+        android:background="#879DE371" />
 
     <TextView
         android:id="@+id/txtListadoeventos"
