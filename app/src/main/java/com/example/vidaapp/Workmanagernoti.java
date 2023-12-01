@@ -40,6 +40,7 @@ public class Workmanagernoti extends Worker {
         String detalle = getInputData().getString("detalle");
         int id = (int) getInputData().getLong("idnoti",0);
 
+        oreo(titulo, detalle);
 
         return Result.success();
     }

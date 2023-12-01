@@ -130,6 +130,27 @@ public class eventosActivity extends AppCompatActivity {
             }
         });
 
+        btnGuardar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String tag = generateKey();
+                Long alertTime = calendar.getTimeInMillis() - System.currentTimeMillis();
+                int random = (int)(Math.random()*50+1);
+
+                Data data = guardarData("Notificacion workmanager", "Tienes un Evento proximo a comenzar VIDAPP", random);
+                Workmanagernoti.GuardarNoti(alertTime, data, "tag1");
+
+                Toast.makeText(eventosActivity.this, "Evento Guardado ¡Estar atento a la Notificacion ", Toast.LENGTH_SHORT).show();
+            }
+        });
+        btnEliminar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                eliminarNoti("tag1");
+
+            }
+        });
+
     }
     private void eliminarNoti (String tag){
         WorkManager.getInstance(this).cancelAllWorkByTag(tag);
