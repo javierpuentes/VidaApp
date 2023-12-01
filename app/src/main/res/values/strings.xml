@@ -2,11 +2,24 @@
     <string name="app_name">VidaApp</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
-    <string name="eventos">ENE 2024 Feria de emprendimiento regional</string>
-    <string name="eventos2">FEB 2024 Debate contra la deforestación</string>
-    <string name="eventos3">DIC 2023 Simposio en Transición Energética</string>
-    <string name="eventos4"> 1er encuentro Jovenes ECO</string>
-    <string name="eventos5"> JUL 2024 Inaguración proyecto "Colombia Limpia" </string>
+    <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string> //ENE
+    <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string> //MAR
+    <string name="eventos3">22 - Día Mundial del Agua</string> //MAR
+    <string name="eventos4">26 - Día Mundial del Clima</string> //MAR
+    <string name="eventos5">29 - Día Nacional del Arbol</string> //ABRI
+    <string name="eventos6">16 - Dia Internacional de la Luz</string> //MAY
+    <string name="eventos7">5 - Día Mundial del Medio Ambiente</string> //JUN
+    <string name="eventos8">28 - Día Mundial del Arbol</string>//JUN
+    <string name="eventos9">26 al 31 Semana Mundial del Agua</string> //AGO
+    <string name="eventos10">4 - Día Mundial de los Animales</string> //OCT
+    <string name="eventos11">5 - Día Mundial del Suelo</string> // DIC
+
+
+
+
+
+
+
     <string name="textEnergy"><u>Llena todos los campos</u></string>
     <string name="title_activity_gas">GasActivity</string>
     <string name="title_activity_water">WaterActivity</string>

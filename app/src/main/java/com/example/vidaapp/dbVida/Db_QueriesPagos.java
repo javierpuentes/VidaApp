@@ -1,6 +1,6 @@
 package com.example.vidaapp.dbVida;
 
-public class Db_Queries {
+public class Db_QueriesPagos {
     private int id;
     private int type;
     private int year;

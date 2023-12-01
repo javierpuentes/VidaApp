@@ -1,2 +1,2 @@
-package com.example.vidaapp.dbVida;public class Db_Users {
+package com.example.vidaapp.dbVida;public class Db_QueriesUsers {
 }
