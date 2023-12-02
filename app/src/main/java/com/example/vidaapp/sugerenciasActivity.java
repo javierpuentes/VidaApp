@@ -16,7 +16,7 @@ public class sugerenciasActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sugerencias);
+        setContentView(R.layout.activity_consejos);
 
         noticias = findViewById(R.id.btnNoticias);
         eventos = findViewById(R.id.btnEventos);

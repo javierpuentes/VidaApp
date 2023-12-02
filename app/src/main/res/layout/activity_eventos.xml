@@ -55,6 +55,7 @@
     </LinearLayout>
 
 
+<<<<<<< HEAD
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="350dp"
@@ -117,6 +118,14 @@
                 android:layout_marginTop="5dp"
                 android:text="@string/eventos4" />
 
+=======
+    <CalendarView
+        android:id="@+id/calendarEvent"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#879DE371" />
+>>>>>>> 11d009d6a4d1a5a799a72bd10b354be45be35d16
 
 
             <TextView

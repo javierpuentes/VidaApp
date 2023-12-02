@@ -30,6 +30,28 @@
     <string name="previous">Previous</string>
     <string name="seleccione_anio">Seleccione un año</string>
 
+
+<string name="Consejos">Consejos</string>
+    <string name="success_consume">¿Su consumo no esta en el promedio?</string>
+    <string name="recommendation_text">Aquí algunas recomendaciones para que pueda reducir su consumo</string>
+    <string name="recommendation_water_1">1. Reducir el tiempo del uso de la ducha. Lo ideal son 5 minutos</string>
+    <string name="recommendation_water_2">2. Cerrar la llave del lavamanos mientras se afeita o se cepilla los dientes. </string>
+    <string name="recommendation_water_3">3. Revisar que en su casa o apartamento los empaques de las llaves, duchas y tuberías no presenten escapes</string>
+    <string name="recommendation_water_4">4. Cuando lave la ropa, use la lavadora con la carga completa. Usar pequeñas cargas desperdicia muchísima agua </string>
+    <string name="recommendation_water_5">5. No laves tu carro a chorros de agua, es mejor utilizar el agua en un balde</string>
+    <string name="recommendation_electricity_1">1. Cambie los bombillos tradicionales por bombillas LED y ahorrará más del 85% del consumo de energía correspondiente a la iluminación del hogar</string>
+    <string name="recommendation_electricity_2">2. Desconecte los cargadores de los aparatos electrónicos de su hogar cuando no los utilice</string>
+    <string name="recommendation_electricity_3">3. Mantenga limpia la plancha para que el calor pase de manera más eficiente y consuma menos energía</string>
+    <string name="recommendation_electricity_4">4. Use la licuadora en el mayor nivel de velocidad, así consumes 20% menos de energía.</string>
+    <string name="recommendation_electricity_5">5. Asegurese que su nevera cierre bien, para que pueda conservar el frío en su interior.</string>
+    <string name="recommendation_electricity_6">6. Utilize el microondas para calentar sus comidas, ya que este consume 50% menos energía que un horno convencional</string>
+    <string name="recommendation_gas_1">1. Mantén los artefactos de gas en buen estado y con suficiente ventilación en el recinto donde se encuentran para garantizar su correcto funcionamiento</string>
+    <string name="recommendation_gas_2">2. No permitas que los menores de edad accionen o jueguen con los artefactos a gas y sus válvulas</string>
+    <string name="recommendation_gas_3">3. Verifica frecuentemente y antes de acostarte, que todos los artefactos a gas estén apagados y que las válvulas de paso estén cerradas, para evitar escapes de gas natural</string>
+    <string name="recommendation_gas_4">4. Si detectas olor a gas natural, cierra las válvulas del centro de medición y artefactos de gas; no accione aparatos eléctricos ni interruptores; abre las ventanas y puertas dando ventilación suficiente al lugar y comunícate con el prestador del servicio</string>
+    <string name="recommendation_gas_5">5. Evite que se derramen líquidos sobre los quemadores, puede apagarse la llama y escaparse el gas natural.</string>
+
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -65,6 +87,18 @@
         sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="contenido">
+     \nHola, somos la aplicación “Vida App”\n\n
+    \nNos enfocamos en el seguimiento a los consumos de los servicios públicos de una persona (agua, luz y gas).\n\n
+    \nUsted como usuario podrá registrar los consumos mensuales, de acuerdo con la factura (consumo del servicio, valor), en caso de su interés podrá registrar los meses anteriores para empezar a hacer seguimiento.\n\n
+    \nSe podrá asignar una fecha para generar un recordatorio o alerta para estar pendiente de la consulta y pago de la factura con cada servicio.\n\n
+    \nNuestro objetivo es proporcionar a los usuarios una herramienta que les permita tener un control efectivo sobre su consumo en los servicios públicos, fomentando la conciencia sobre el uso responsable de los recursos y brindando recomendaciones para reducir el consumo.\n\n
+    \nLa aplicación abordará aspectos de diseño y usabilidad, garantizando una interfaz de usuario amigable e intuitiva y que será:\n\n
+    \nSerá fácil de usar.\n\n
+    \nPermitirá el registro y seguimiento del consumo en los servicios públicos.\n\n
+    \nCalculara y mostrara estadísticas relevantes, como el consumo promedio, máximo y mínimo.\n\n
+    \nOfrecerá noticias y/o recomendaciones para reducir el consumo en los servicios públicos.\n\n
     </string>
 
 </resources>

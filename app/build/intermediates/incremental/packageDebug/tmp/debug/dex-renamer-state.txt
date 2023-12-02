@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Sun Nov 19 11:08:36 COT 2023
+=======
+#Tue Nov 28 00:59:04 COT 2023
+>>>>>>> 11d009d6a4d1a5a799a72bd10b354be45be35d16
 base.0=C\:\\Users\\Sammy\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Sammy\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Sammy\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
