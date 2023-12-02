@@ -2,6 +2,7 @@ package com.example.vidaapp.dbVida;
 
 public class Db_QueriesPagos {
     private int id;
+    private int user;
     private int type;
     private int year;
     private String month;
@@ -64,4 +65,5 @@ public class Db_QueriesPagos {
     public void setMeasurer(float measurer) {
         this.measurer = measurer;
     }
+
 }

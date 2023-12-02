@@ -18,7 +18,7 @@ android:layout_gravity="center_horizontal" >
     android:fontFamily="sans-serif-light"
     android:textAlignment="center"
     android:padding="2dp"
-    android:text="¡Desde esta vista puedes recuperar tu cuenta!."
+    android:text="¡Desde esta vista puede recuperar su cuenta!."
     android:textColor="@color/fuente1"
     android:textSize="22dp"
     android:textStyle="bold"
@@ -108,7 +108,7 @@ android:layout_gravity="center_horizontal" >
         android:id="@+id/txtCuentaUsr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
         android:text="" />
@@ -119,7 +119,8 @@ android:layout_gravity="center_horizontal" >
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:text="Datos de prueba: Root => Fecha de nacimiento => 31-10-1975" />
+        android:textSize="20dp"
+        android:text=" " />
 
     <Button
         android:id="@+id/btnRec11"
@@ -128,6 +129,18 @@ android:layout_gravity="center_horizontal" >
         android:backgroundTint="@color/button"
         android:layout_marginTop="5dp"
         android:text="Ingresar a mi cuenta"
+        android:textSize="22sp"
+        android:textColor="#195101"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnRec111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="5dp"
+        android:text="Cambiar contraseña"
         android:textSize="22sp"
         android:textColor="#195101"
         android:visibility="invisible"

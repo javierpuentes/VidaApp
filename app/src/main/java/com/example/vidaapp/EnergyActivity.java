@@ -16,10 +16,23 @@ public class EnergyActivity extends AppCompatActivity {
     ImageButton imgbtnback;
     Spinner spinner;
     TextView sp_text;
+
+    public int tipoServ;
+    public long idUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_energy);
+
+        tipoServ = 2;
+
+        Intent receive= getIntent();
+        idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(EnergyActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
 
         imgbtnback= findViewById(R.id.imgbtnback);
 

@@ -1,5 +1,7 @@
 package com.example.vidaapp;
 
+import static java.lang.Thread.sleep;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,13 +12,16 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.dbVida.Db_QueriesUsers;
+import com.example.vidaapp.dbVida.Db_Services;
+
 
 public class LoginActivity extends AppCompatActivity {
     private Button b3, b4;
-    private TextView t1, t2;
+    private TextView t1, t2, t3;
     private ImageButton ib1;
 
-    String v1, v2, v3, v4;
+    String v1, v2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,21 +36,42 @@ public class LoginActivity extends AppCompatActivity {
         b4 = findViewById(R.id.btnM4);
         t1 = findViewById(R.id.txtTextuser);
         t2 = findViewById(R.id.txtTextclave);
+        t3 = findViewById(R.id.txtVTotal);
         t1.setFocusable(true);
         t1.requestFocus();
+
+        Intent receive= getIntent();
+        int totalUser = receive.getIntExtra("total",0);
+
+        t3.setText(" Usuarios registrados: "+totalUser+" ");
 
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                v3 = t1.getText().toString().trim();
-                v4 = t2.getText().toString().trim();
-                if(v1.isEmpty() || v4.isEmpty())
+                t1.getText().toString().trim();
+                t2.getText().toString().trim();
+                if(t1.getText().toString().trim().isEmpty() || t2.getText().toString().trim().isEmpty())
                 {
                     Toast.makeText(getApplicationContext(), "Se requieren los datos de acceso", Toast.LENGTH_LONG).show();
                 }
-                else {
-                    if (v1.equals(v3) && v2.equals(v4)) {
+                else
+                {
+                    Db_Services adUser = new Db_Services(LoginActivity.this);
+                    long id = adUser.loginUser(t1.getText().toString().trim(), t2.getText().toString().trim());
+                    if(id > 0)
+                    {
+                        Toast.makeText(getApplicationContext(),
+                                "Registro Exitoso, usuario No. "+id,Toast.LENGTH_LONG).show();
+                        try {
+                            sleep(500);
+                            finish();
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                        Db_QueriesUsers user = new Db_QueriesUsers(0, "","", "","");
+                        user.loginUser(id, t1.getText().toString().trim());
                         Intent i = new Intent(LoginActivity.this, AccountActivity.class);
+                        i.putExtra("idUser", id);
                         startActivity(i);
                     } else {
                         Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Verifique los datos!", Toast.LENGTH_LONG).show();

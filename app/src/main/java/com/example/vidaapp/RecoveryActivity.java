@@ -13,15 +13,19 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.dbVida.Db_Services;
+
 
 public class RecoveryActivity extends AppCompatActivity {
 
-    public Button bb1, bb11;
+    public Button bb1, bb11, bb111;
     public ImageButton imbb1;
     public Spinner sp1;
     public TextView txtrep, dtscuenta, cuentausr, usrinfo;
     public int item;
     public String mipregunta, mirespuesta, micuenta, pregunta, respuesta, cuenta;
+
+    public String pw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,7 @@ public class RecoveryActivity extends AppCompatActivity {
         cuenta = "Root";
         bb1 = findViewById(R.id.btnRec1);
         bb11 = findViewById(R.id.btnRec11);
+        bb111 = findViewById(R.id.btnRec111);
         sp1 = findViewById(R.id.preg_spinner);
         dtscuenta = findViewById(R.id.txtCuentaUsr);
         txtrep = findViewById(R.id.txtVresp);
@@ -42,6 +47,7 @@ public class RecoveryActivity extends AppCompatActivity {
                 R.array.preguntas, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sp1.setAdapter(adapter);
+        cuentausr.requestFocus();
 
         sp1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -68,36 +74,51 @@ public class RecoveryActivity extends AppCompatActivity {
                 micuenta = cuentausr.getText().toString().trim();
                 if(item == 0 || mirespuesta.isEmpty() || micuenta.isEmpty())
                 {
-
                     Toast.makeText(getApplicationContext(), "¡Por favor complete todos los campos!", Toast.LENGTH_LONG).show();
-                }
-                else if(mipregunta.equals(pregunta) && mirespuesta.equals(respuesta) && micuenta.equals(cuenta))
-                {
-                    Toast.makeText(getApplicationContext(), "¡Hemos encontrado su cuenta de acceso!", Toast.LENGTH_LONG).show();
-                    dtscuenta.setText("Buenas noticias,sus datos son: "+micuenta+" => 123456");
-                    usrinfo.setVisibility(View.INVISIBLE);
-                    bb11.setVisibility(View.VISIBLE);
                 }
                 else
                 {
-                    Toast.makeText(getApplicationContext(), "¡Por favor verifique los datos, no coinciden!", Toast.LENGTH_LONG).show();
-                    txtrep.setText("");
+                    Db_Services adUser = new Db_Services(RecoveryActivity.this);
+                    pw = adUser.RecoveryUser(mipregunta, mirespuesta, micuenta);
+                    if (!pw.isEmpty()) {
+
+                        Toast.makeText(getApplicationContext(), "¡Hemos encontrado su cuenta de acceso!", Toast.LENGTH_LONG).show();
+                        dtscuenta.setText("Buenas noticias,sus datos son: " + micuenta + " => "+pw);
+                        usrinfo.setVisibility(View.INVISIBLE);
+                        bb11.setVisibility(View.VISIBLE);
+                        bb111.setVisibility(View.VISIBLE);
+                    }
+                    else
+                    {
+                        Toast.makeText(getApplicationContext(), "¡Por favor verifique los datos, no coinciden!", Toast.LENGTH_LONG).show();
+                        txtrep.setText("");
+                        cuentausr.requestFocus();
+                    }
                 }
+            }
+        });
+
+        bb111.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(RecoveryActivity.this, NewPasswActivity.class);
+                i.putExtra("infoUser", pw+","+micuenta+","+mipregunta+","+mirespuesta);
+                startActivity(i);
             }
         });
 
         bb11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(RecoveryActivity.this, LoginActivity.class);
+                Intent i = new Intent(RecoveryActivity.this, LoginActivity.class);
                 startActivity(i);
             }
         });
         imbb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back= new Intent(RecoveryActivity.this, MainActivity.class);
-                startActivity(back);
+                Intent i = new Intent(RecoveryActivity.this, MainActivity.class);
+                startActivity(i);
             }
         });
 

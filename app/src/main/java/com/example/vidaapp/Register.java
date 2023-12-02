@@ -21,6 +21,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.dbVida.Db_QueriesUsers;
+import com.example.vidaapp.dbVida.Db_Services;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
@@ -33,7 +36,7 @@ public class Register extends AppCompatActivity {
     public String pregunta, micuenta, miclave, mirespuesta;
     public int item;
     public EditText cuenta, clave, respuesta;
-    public TextView titulo, txtv1, txtv2, txtv3, txtv4, txtc1, txtc2, txtc3, txtc4, txtc5, txtc6;
+    public TextView titulo, txtv1, txtv2, txtv3, txtv4, txtc1, txtc2, txtc3, txtc4, txtc5, txtc6, txtc7;
     private static final String PASSWORD_REGEX = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,10}$";
     public CardView informacioncuenta;
     public CheckBox rbt1;
@@ -64,7 +67,10 @@ public class Register extends AppCompatActivity {
         informacioncuenta = findViewById(R.id.informacionUsr);
         txtc5 =findViewById(R.id.txtNseg);
         txtc6 =findViewById(R.id.txtCseg);
+        txtc7 =findViewById(R.id.idDbUser);
         ma = mi = ch = di = 0;
+
+        cuenta.requestFocus();
         clave.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -131,32 +137,59 @@ public class Register extends AppCompatActivity {
                 mirespuesta = respuesta.getText().toString().trim();
                 if(item == 0 || micuenta.isEmpty() || miclave.isEmpty() || mirespuesta.isEmpty() || rbt1.isChecked()== false)
                 {
-                    Toast.makeText(getApplicationContext(), "¡Todos los campos son requeridos!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "¡Todos los campos son requeridos!",
+                    Toast.LENGTH_LONG).show();
                 }
                 else
                 {
-                    rbt1.setVisibility(View.INVISIBLE);
-                    cuenta.setVisibility(View.INVISIBLE);
-                    clave.setVisibility(View.INVISIBLE);
-                    respuesta.setVisibility(View.INVISIBLE);
-                    txtc1.setVisibility(View.INVISIBLE);
-                    txtc2.setVisibility(View.INVISIBLE);
-                    txtc3.setVisibility(View.INVISIBLE);
-                    txtc4.setVisibility(View.INVISIBLE);
-                    sp1.setVisibility(View.INVISIBLE);
-                    b5.setVisibility(View.INVISIBLE);
-                    txtc5.setVisibility(View.INVISIBLE);
-                    txtc6.setVisibility(View.INVISIBLE);
-                    titulo.setText("Cuenta creada con éxito. ¡Buenvenido!");
-                    txtv1.setVisibility(View.VISIBLE);
-                    txtv2.setVisibility(View.VISIBLE);
-                    txtv3.setVisibility(View.VISIBLE);
-                    txtv4.setVisibility(View.VISIBLE);
-                    b25.setVisibility(View.VISIBLE);
-                    txtv1.setText(txtv1.getText().toString() + micuenta);
-                    txtv2.setText(txtv2.getText().toString() + miclave);
-                    txtv3.setText(txtv3.getText().toString() + pregunta);
-                    txtv4.setText(txtv4.getText().toString() + mirespuesta);
+                    Db_Services adUser = new Db_Services(Register.this);
+                    long id = adUser.validateUser(micuenta);
+
+                    if(id > 0)
+                    {
+                        Toast.makeText(getApplicationContext(), "¡El nombre de usuario ya se está utilizando \n por favor cambielo!",
+                                Toast.LENGTH_LONG).show();
+                        cuenta.setBackgroundColor(Color.RED);
+                        cuenta.requestFocus();
+                    }
+                    else {
+                        rbt1.setVisibility(View.INVISIBLE);
+                        cuenta.setVisibility(View.INVISIBLE);
+                        clave.setVisibility(View.INVISIBLE);
+                        respuesta.setVisibility(View.INVISIBLE);
+                        txtc1.setVisibility(View.INVISIBLE);
+                        txtc2.setVisibility(View.INVISIBLE);
+                        txtc3.setVisibility(View.INVISIBLE);
+                        txtc4.setVisibility(View.INVISIBLE);
+                        sp1.setVisibility(View.INVISIBLE);
+                        b5.setVisibility(View.INVISIBLE);
+                        txtc5.setVisibility(View.INVISIBLE);
+                        txtc6.setVisibility(View.INVISIBLE);
+                        titulo.setText("Cuenta creada con éxito. ¡Buenvenido!");
+                        txtv1.setVisibility(View.VISIBLE);
+                        txtv2.setVisibility(View.VISIBLE);
+                        txtv3.setVisibility(View.VISIBLE);
+                        txtv4.setVisibility(View.VISIBLE);
+                        txtc7.setVisibility(View.VISIBLE);
+                        b25.setVisibility(View.VISIBLE);
+                        txtv1.setText(txtv1.getText().toString() + micuenta);
+                        txtv2.setText(txtv2.getText().toString() + miclave);
+                        txtv3.setText(txtv3.getText().toString() + pregunta);
+                        txtv4.setText(txtv4.getText().toString() + mirespuesta);
+
+                        id = adUser.insertUser(micuenta, miclave, pregunta, mirespuesta);
+                        if (id > 0) {
+                            Toast.makeText(getApplicationContext(), "¡Usuario creado en la base de datos!",
+                                    Toast.LENGTH_LONG).show();
+                            txtc7.setText(txtc7.getText().toString() + id);
+                            Db_QueriesUsers user = new Db_QueriesUsers(0, "", "", "", "");
+                            user.loginUser(id, micuenta);
+                        } else {
+                            Toast.makeText(getApplicationContext(), "¡Error al guardar el usuario en la la base de datos!",
+                                    Toast.LENGTH_LONG).show();
+                            txtc7.setText(txtc7.getText().toString() + "¡Error!");
+                        }
+                    }
                 }
 
                 /*

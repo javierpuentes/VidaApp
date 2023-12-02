@@ -20,15 +20,93 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
-            android:id="@+id/imgbtnback"
-            android:layout_width="80dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/bg_transparent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/baseline_arrow_circle_left_24" />
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <ImageButton
+                    android:id="@+id/imgbtnback"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bg_transparent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Botón volver"
+                    android:src="@drawable/baseline_arrow_circle_left_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:textColor="#C1FFFFFF"
+                    android:textSize="15dp"
+                    android:text="Salir" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnagua"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bg_transparent"
+                    android:scaleType="centerCrop"
+
+                    android:contentDescription="Botón volver"
+                    android:src="@drawable/water_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:textColor="#C1FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:text="Agua" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnenergia"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="@color/bg_transparent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Botón volver"
+                    android:src="@drawable/energy_24" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#C1FFFFFF"
+                    android:textSize="15dp"
+                    android:text="Energia" />
+
+            </FrameLayout>
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -155,7 +233,7 @@
             android:backgroundTint="@color/button"
             android:text="Registrar nueva factura"
             android:textColor="#195101"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -163,11 +241,13 @@
         android:id="@+id/registroServcio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:background="#FC4ABC4E"
         android:gravity="left"
         android:orientation="vertical"
-        android:padding="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/informacionInicio"
@@ -184,19 +264,18 @@
             android:id="@+id/txtRegAnio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:text="Año:"
             android:textAlignment="center"
             android:textColor="@color/fuente"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtRegConsumo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Consumo Metros cúbicos:"
+            android:layout_marginTop="5dp"
+            android:text="* Consumo del mes Metros cúbicos:"
             android:textColor="@color/fuente"
             android:textSize="20sp" />
 
@@ -205,7 +284,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Consumo del mes"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:textSize="20sp"
             android:textStyle="italic" />
 
@@ -213,8 +292,8 @@
             android:id="@+id/txtRegPago"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Valor pagado $:"
+            android:layout_marginTop="5dp"
+            android:text="* Valor pagado:"
             android:textColor="@color/fuente"
             android:textSize="20sp" />
 
@@ -232,8 +311,8 @@
             android:id="@+id/txtRegMes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Mes:"
+            android:layout_marginTop="5dp"
+            android:text="* Mes:"
             android:textColor="@color/fuente"
             android:textSize="20sp" />
 
@@ -248,17 +327,38 @@
             android:textStyle="italic"
             android:tooltipText="Seleccione el mes" />
 
+        <TextView
+            android:id="@+id/txtRegMed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Valor registrado en el medidor:"
+            android:textColor="@color/fuente"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtRegValMed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0.0"
+            android:text="0.0"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
         <Button
             android:id="@+id/btnRG2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/button"
             android:text="Registrar información"
             android:textColor="#195101"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
 
@@ -373,6 +473,32 @@
                     android:text=""
                     android:textAlignment="center"
                     android:textSize="12sp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp">
+                <TextView
+                    android:id="@+id/mayorconsumo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mayor consumo"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/menorconsumo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Menor consumo"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
                     />
 
             </TableRow>

@@ -3044,7 +3044,9 @@ drawable divider
 drawable ecoappfondo
 drawable ecoappfondo0
 drawable ecoappfondo1
+drawable energy_24
 drawable eventos_a
+drawable gas_24
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3153,6 +3155,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable water
+drawable water_24
 drawable waterborder
 font abril_fatface
 font aclonica
@@ -3291,6 +3294,7 @@ id btnRG1
 id btnRG2
 id btnRec1
 id btnRec11
+id btnRec111
 id btnRegresar
 id btnSugerencias
 id btnWater
@@ -3419,6 +3423,7 @@ id honorRequest
 id horizontal_only
 id icon
 id icon_group
+id idDbUser
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3440,7 +3445,10 @@ id img3
 id img4
 id img5
 id img6
+id imgbtnagua
 id imgbtnback
+id imgbtnenergia
+id imgbtngas
 id immediateStop
 id included
 id indeterminate
@@ -3472,6 +3480,7 @@ id list_item
 id locale
 id ltr
 id m3_side_sheet
+id manoselect
 id marquee
 id masked
 id match_constraint
@@ -3497,6 +3506,8 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mayorconsumo
+id menorconsumo
 id menu_usr
 id mes_spinner
 id message
@@ -3789,16 +3800,20 @@ id txtPseg
 id txtRegAnio
 id txtRegConsumo
 id txtRegConsumoFac
+id txtRegMed
 id txtRegMes
 id txtRegPago
 id txtRegPagoFac
+id txtRegValMed
 id txtResPegSeg
 id txtTextclave
 id txtTextclave2
 id txtTextuser
 id txtTextuser2
+id txtVTotal
 id txtVclave
 id txtVclave2
+id txtVpregun
 id txtVresp
 id txtVuser
 id txtVuser2
@@ -3943,12 +3958,18 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_about
 layout activity_account
+<<<<<<< HEAD
 layout activity_consejos
+=======
+layout activity_agua
+layout activity_energia
+>>>>>>> 4fc6e95e866029826d89505850c249120c8bd609
 layout activity_energy
 layout activity_eventos
 layout activity_gas
 layout activity_login
 layout activity_main
+layout activity_new_passw
 layout activity_noticias
 layout activity_recovery
 layout activity_register
