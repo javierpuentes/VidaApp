@@ -8,8 +8,17 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
+<<<<<<< HEAD
+
+public class MainActivity extends AppCompatActivity {
+
+    private Button b1, b2, b0;
+
+=======
 import android.widget.Toast;
 
 import com.example.vidaapp.dbVida.DbConn;
@@ -19,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button b1, b2;
     private TextView tw;
+>>>>>>> 4fc6e95e866029826d89505850c249120c8bd609
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,5 +88,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-    }
+        b0 = findViewById(R.id.btnM0);
+        b0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        
+        }
 }
