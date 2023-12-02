@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-41:/values-ko/values-ko.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-46:/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-ko\\values-ko.xml",

@@ -1,9 +1,5 @@
 package com.example.vidaapp.dbVida;
 
-import android.database.sqlite.SQLiteDatabase;
-
-import java.util.ArrayList;
-
 public class Db_QueriesPagos {
     private int id;
     private int user;

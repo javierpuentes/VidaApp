@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-41:/values-tr/values-tr.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-46:/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\964fe2cce9fdc0df3f48f29ab58aaa47\\transformed\\core-1.9.0\\res\\values-tr\\values-tr.xml",
