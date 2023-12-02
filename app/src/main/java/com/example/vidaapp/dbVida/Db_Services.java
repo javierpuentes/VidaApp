@@ -118,14 +118,14 @@ public class Db_Services extends DbConn {
         return listaPagos;
     }
 
-    public int acutlizapw( long user, String pw){
+    public int acutlizapw( String user, String pw){
         int id = 0;
         try {
             DbConn conn = new DbConn(context);
             SQLiteDatabase db = conn.getWritableDatabase();
             ContentValues cv = new ContentValues();
             cv.put("User_Pw", pw);
-            id = db.update(T_USER, cv, "Id="+user, null);
+            id = db.update(T_USER, cv, "User_N='"+user+"'", null);
         }
         catch (Exception ex){
             ex.toString();

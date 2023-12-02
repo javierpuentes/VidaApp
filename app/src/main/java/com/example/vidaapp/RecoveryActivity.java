@@ -98,6 +98,7 @@ public class RecoveryActivity extends AppCompatActivity {
             }
         });
 
+        //Cambiar contraseña
         bb111.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -107,6 +108,7 @@ public class RecoveryActivity extends AppCompatActivity {
             }
         });
 
+        //Ir a registro - loggin
         bb11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,6 +116,7 @@ public class RecoveryActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        //Volver al inicio
         imbb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

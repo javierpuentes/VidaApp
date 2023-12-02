@@ -19,7 +19,7 @@ import com.example.vidaapp.dbVida.Db_Services;
 public class NewPasswActivity extends AppCompatActivity {
 
     public EditText clave;
-    public TextView txtc2, txtc3, txtc4, txtc5;
+    public TextView txtc2, txtc3, txtc4, txtc5, txtc6;
 
     public int ma, mi, ch, di;
 
@@ -50,6 +50,7 @@ public class NewPasswActivity extends AppCompatActivity {
         txtc3 =findViewById(R.id.txtVpregun);
         txtc2 =findViewById(R.id.txtVresp);
         b1 = findViewById(R.id.btnRec111);
+        txtc6 =findViewById(R.id.txtCamioHecho);
         imbt1 = findViewById(R.id.imageButton2);
 
         txtc4.setText(txtc4.getText()+" "+datos[1]);
@@ -122,11 +123,12 @@ public class NewPasswActivity extends AppCompatActivity {
                     }
                     else
                     {
-                        int id = adUpdate.acutlizapw(idUser, miclave);
+                        int id = adUpdate.acutlizapw(datos[1], miclave);
                         if(id > 0)
                         {
                             Toast.makeText(getApplicationContext(), "¡La contraseña se ha actualizado! " + id,
                                     Toast.LENGTH_LONG).show();
+                            txtc6.setVisibility(View.VISIBLE);
                             b1.setVisibility(View.INVISIBLE);
                         }
                     }

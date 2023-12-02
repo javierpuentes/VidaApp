@@ -140,6 +140,7 @@ public class AguaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AguaActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

@@ -54,43 +54,28 @@
         android:layout_marginTop="20dp">
 
         <Button
-            android:id="@+id/btnEnergy"
+            android:id="@+id/btnGas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Energía"
+            android:backgroundTint="@color/fuente3"
+            android:text="Registro de facturas"
             android:textColor="@color/black"
-            android:textSize="22sp"
-            android:backgroundTint="@color/fuente2"
-            android:layout_marginEnd="25dp"/>
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/btnWater"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Agua"
-            android:textSize="22sp"
+            android:text="Registro de consumos"
+            android:textSize="15sp"
             android:backgroundTint="#03A9F4"
             android:layout_marginStart="25dp"/>
+
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
 
-        <Button
-            android:id="@+id/btnGas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Gas"
-            android:textColor="@color/black"
-            android:textSize="22sp"
-            android:backgroundTint="@color/fuente3"/>
-    </LinearLayout>
 
     <Button
         android:id="@+id/manoselect"
@@ -107,13 +92,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#BA96EB70"
         android:gravity="center"
+        android:text="@string/seleccionarServicio"
         android:textColor="@color/fuente1"
         android:textSize="22sp"
-        android:textStyle="bold"
-        android:text="@string/seleccionarServicio"
-        android:background="#BA96EB70"
-        />
+        android:textStyle="bold" />
 
     <LinearLayout
         android:id="@+id/nuevasVistas"

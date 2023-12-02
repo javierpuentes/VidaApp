@@ -14,7 +14,7 @@ public class AccountActivity extends AppCompatActivity {
     ImageButton  home, imgbtnback;
     Button noticias, sugerencias, eventos, mano_select;
 
-    Button btnEnergy, btnWater, btnGas;
+    Button btnWater, btnGas;
 
 
 
@@ -40,7 +40,7 @@ public class AccountActivity extends AppCompatActivity {
         sugerencias = findViewById(R.id.btnSugerencias);
         eventos = findViewById(R.id.btnEventos);
         home = findViewById(R.id.btnhome);
-        btnEnergy = findViewById(R.id.btnEnergy);
+
         btnWater = findViewById(R.id.btnWater);
         btnGas = findViewById(R.id.btnGas);
         imgbtnback= findViewById(R.id.imageButton4);
@@ -53,14 +53,6 @@ public class AccountActivity extends AppCompatActivity {
             }
         });
 
-        btnEnergy.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent i =new Intent(AccountActivity.this, EnergyActivity.class);
-                startActivity(i);
-            }
-        });
         btnWater.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

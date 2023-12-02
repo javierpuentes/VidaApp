@@ -3272,7 +3272,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnEliminarN
-id btnEnergy
 id btnEventos
 id btnFecha
 id btnGas
@@ -3773,6 +3772,7 @@ id tratamiento
 id triangle
 id txtAnioRegistro
 id txtAnioRegistroT
+id txtCamioHecho
 id txtConsumoRegistro
 id txtCseg
 id txtCuentaUsr

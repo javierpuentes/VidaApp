@@ -131,6 +131,7 @@ public class EnergiaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(EnergiaActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

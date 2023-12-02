@@ -147,7 +147,7 @@
     <string name="recommendation_water_4">4. Cuando lave la ropa, use la lavadora con la carga completa. Usar pequeñas cargas desperdicia muchísima agua </string>
     <string name="recommendation_water_5">5. No laves tu carro a chorros de agua, es mejor utilizar el agua en un balde</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
+    <string name="seleccionarServicio">Seleccione el servicio público de tu interés.</string>
     <string name="seleccione_anio">Seleccione un año</string>
     <string name="success_consume">¿Su consumo no esta en el promedio?</string>
     <string name="textEnergy"><u>Llena todos los campos</u></string>

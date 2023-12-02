@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">VidaApp</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
-    <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
+    <string name="seleccionarServicio">Seleccione el servicio público de tu interés.</string>
     <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string> //ENE
     <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string> //MAR
     <string name="eventos3">22 - Día Mundial del Agua</string> //MAR

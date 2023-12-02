@@ -86,7 +86,6 @@ id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
 id action_SecondFragment_to_FirstFragment
 id btnEliminarN
-id btnEnergy
 id btnEventos
 id btnFecha
 id btnGas
@@ -207,6 +206,7 @@ id totalpago
 id tratamiento
 id txtAnioRegistro
 id txtAnioRegistroT
+id txtCamioHecho
 id txtConsumoRegistro
 id txtCseg
 id txtCuentaUsr
