@@ -9,13 +9,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.vidaapp.databinding.ActivityWaterBinding;
+
 public class WaterActivity extends AppCompatActivity {
+
+    private ActivityWaterBinding binding;
 
     ImageButton imgbtnback;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_water);
+
+        binding = ActivityWaterBinding.inflate(getLayoutInflater());
+
+        setContentView(binding.getRoot());
 
         imgbtnback= findViewById(R.id.imgbtnback);
 

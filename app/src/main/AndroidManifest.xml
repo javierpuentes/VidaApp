@@ -13,6 +13,26 @@
         android:theme="@style/Theme.VidaApp"
         tools:targetApi="31">
         <activity
+            android:name=".HisConsGasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".HisConsWaterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_water"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".ItemHistorialActivity"
+            android:exported="false"
+            android:label="ItemHistorialActivity"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".HisConstEnergyActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_const_energy"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
             android:name=".GasActivity"
             android:exported="false"
             android:label="@string/title_activity_gas"
@@ -26,12 +46,13 @@
             android:name=".EnergyActivity"
             android:exported="false"
             android:label="EnergyActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.VidaApp" />
         <activity
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".RecoveryActivity"
+            android:name=".activity_recovery"
             android:exported="false" />
         <activity
             android:name=".ServivesActivity"

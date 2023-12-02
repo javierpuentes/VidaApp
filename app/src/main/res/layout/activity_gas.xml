@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -21,9 +21,15 @@
         android:backgroundTint="@color/bg_transparent"
         android:scaleType="centerCrop"
         android:src="@drawable/baseline_arrow_circle_left_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/titulo"
         app:tint="@color/fuente4"/>
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -32,12 +38,18 @@
         android:layout_margin="5dp"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:text="Gas"
+        android:text="Gas Natural"
         android:textColor="@color/white"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgbtnback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ingresaCampos"
+        />
 
     <TextView
+        android:id="@+id/ingresaCampos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/bg_transparent"
@@ -47,9 +59,12 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="22sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/titulo"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintEnd_toEndOf="parent"    />
 
 
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 

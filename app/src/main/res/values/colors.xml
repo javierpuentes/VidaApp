@@ -12,7 +12,9 @@
     <color name="fuente4">#3F51B5</color>
     <color name="fuente5">#272626</color>
     <color name="bg_transparent">#00FFFFFF</color>
-    <color name="borders">#613030</color>
+    <color name="borders">#CCDBBD16</color>
     <color name="bggas">#AA9F9F</color>
-
+    <color name="shadow">#FFFB00</color>
+    <color name="charlestonGreen">#232B2B</color>
+    <color name="btnEnergy">#D5C289</color>
 </resources>

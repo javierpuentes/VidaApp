@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="historial"
+            type="com.example.vidaapp.models.Historial"/>
+    </data>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity='top'
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <com.google.android.material.circularreveal.CircularRevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ImageServicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bombilla"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/titulo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/titulo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Energia"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:fontFamily="@font/chelsea_market"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ImageServicio"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/txtLabel"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Valor Kilovatio"
+                android:gravity="center"
+                app:layout_constraintStart_toEndOf="@+id/ImageServicio"
+                app:layout_constraintTop_toBottomOf="@+id/titulo"
+                app:layout_constraintEnd_toStartOf="@+id/valorKV"
+                app:layout_constraintBottom_toTopOf="@+id/lecIni"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/valorKV"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@{String.valueOf(historial.valorUnit)}"
+                android:gravity="center"
+                app:layout_constraintStart_toEndOf="@+id/txtLabel"
+                app:layout_constraintTop_toBottomOf="@+id/titulo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/totalKV"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/lecIni"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@{String.valueOf(historial.lec_ini)}"
+                android:gravity="center"
+                app:layout_constraintStart_toEndOf="@+id/ImageServicio"
+                app:layout_constraintTop_toBottomOf="@+id/txtLabel"
+                app:layout_constraintEnd_toStartOf="@+id/lecFin"
+                app:layout_constraintBottom_toTopOf="@+id/valorPago"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/lecFin"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@{String.valueOf(historial.lec_fin)}"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/valorKV"
+                app:layout_constraintStart_toEndOf="@+id/lecIni"
+                app:layout_constraintEnd_toStartOf="@+id/totalKV"
+                app:layout_constraintBottom_toTopOf="@+id/valorPago"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/totalKV"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@{String.valueOf(historial.consumo)}"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@+id/valorKV"
+                app:layout_constraintStart_toEndOf="@+id/lecFin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/valorPago"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/valorPago"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="@{String.valueOf(historial.valor)}"
+                android:gravity="right|center"
+                app:layout_constraintStart_toEndOf="@+id/ImageServicio"
+                app:layout_constraintTop_toBottomOf="@+id/lecFin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

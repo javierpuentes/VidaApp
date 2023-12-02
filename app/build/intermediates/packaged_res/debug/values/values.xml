@@ -27,14 +27,19 @@
     <color name="bg_transparent">#00FFFFFF</color>
     <color name="bggas">#AA9F9F</color>
     <color name="black">#FF000000</color>
-    <color name="borders">#613030</color>
+    <color name="borders">#CCDBBD16</color>
+    <color name="btnEnergy">#D5C289</color>
     <color name="button">#42A006</color>
+    <color name="charlestonGreen">#232B2B</color>
     <color name="fuente">#38761D</color>
     <color name="fuente1">#DBBD16</color>
     <color name="fuente2">#DBD416</color>
     <color name="fuente3">#DB8500</color>
     <color name="fuente4">#3F51B5</color>
     <color name="fuente5">#272626</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="shadow">#FFFB00</color>
+    <color name="vidaapp_launcher_background">#FFFFFF</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
@@ -82,6 +87,9 @@
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
     <string name="textEnergy"><u>Llena todos los campos</u></string>
     <string name="title_activity_gas">GasActivity</string>
+    <string name="title_activity_his_cons_gas">HisConsGasActivity</string>
+    <string name="title_activity_his_cons_water">HisConsWaterActivity</string>
+    <string name="title_activity_his_const_energy">HisConstEnergyActivity</string>
     <string name="title_activity_water">WaterActivity</string>
     <style name="Base.Theme.VidaApp" parent="Theme.Material3.DayNight.NoActionBar">
         

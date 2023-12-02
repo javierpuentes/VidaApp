@@ -47,4 +47,7 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="title_activity_gas">GasActivity</string>
+    <string name="title_activity_his_const_energy">HisConstEnergyActivity</string>
+    <string name="title_activity_his_cons_water">HisConsWaterActivity</string>
+    <string name="title_activity_his_cons_gas">HisConsGasActivity</string>
 </resources>

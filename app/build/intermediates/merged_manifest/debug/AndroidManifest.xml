@@ -28,6 +28,26 @@
         android:testOnly="true"
         android:theme="@style/Theme.VidaApp" >
         <activity
+            android:name="com.example.vidaapp.HisConsGasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.HisConsWaterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_water"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.ItemHistorialActivity"
+            android:exported="false"
+            android:label="ItemHistorialActivity"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.HisConstEnergyActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_const_energy"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
             android:name="com.example.vidaapp.GasActivity"
             android:exported="false"
             android:label="@string/title_activity_gas"
@@ -41,12 +61,13 @@
             android:name="com.example.vidaapp.EnergyActivity"
             android:exported="false"
             android:label="EnergyActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.VidaApp" />
         <activity
             android:name="com.example.vidaapp.Register"
             android:exported="false" />
         <activity
-            android:name="com.example.vidaapp.RecoveryActivity"
+            android:name="com.example.vidaapp.activity_recovery"
             android:exported="false" />
         <activity
             android:name="com.example.vidaapp.ServivesActivity"

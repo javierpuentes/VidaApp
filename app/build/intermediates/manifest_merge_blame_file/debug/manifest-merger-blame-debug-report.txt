@@ -9,22 +9,22 @@
 9        android:targetSdkVersion="34" />
 10
 11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.example.vidaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.example.vidaapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:5:5-64:19
+17-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:5:5-85:19
 18        android:allowBackup="true"
 18-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\964fe2cce9fdc0df3f48f29ab58aaa47\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+19-->[androidx.core:core:1.9.0] C:\Users\Jannover\.gradle\caches\transforms-3\ff1c15a9af2c71c5c65f363b6bb3f192\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:dataExtractionRules="@xml/data_extraction_rules"
 20-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:7:9-65
 21        android:debuggable="true"
@@ -44,179 +44,221 @@
 29-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:13:9-45
 30        <activity
 30-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:15:9-19:52
-31            android:name="com.example.vidaapp.GasActivity"
-31-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:16:13-40
+31            android:name="com.example.vidaapp.HisConsGasActivity"
+31-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:16:13-47
 32            android:exported="false"
 32-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:17:13-37
-33            android:label="@string/title_activity_gas"
-33-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:18:13-55
+33            android:label="@string/title_activity_his_cons_gas"
+33-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:18:13-64
 34            android:theme="@style/Theme.VidaApp" />
 34-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:19:13-49
 35        <activity
 35-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:20:9-24:52
-36            android:name="com.example.vidaapp.WaterActivity"
-36-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:21:13-42
+36            android:name="com.example.vidaapp.HisConsWaterActivity"
+36-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:21:13-49
 37            android:exported="false"
 37-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:22:13-37
-38            android:label="@string/title_activity_water"
-38-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:23:13-57
+38            android:label="@string/title_activity_his_cons_water"
+38-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:23:13-66
 39            android:theme="@style/Theme.VidaApp" />
 39-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:24:13-49
 40        <activity
 40-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:25:9-29:52
-41            android:name="com.example.vidaapp.EnergyActivity"
-41-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:26:13-43
+41            android:name="com.example.vidaapp.ItemHistorialActivity"
+41-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:26:13-50
 42            android:exported="false"
 42-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:27:13-37
-43            android:label="EnergyActivity"
-43-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:28:13-43
+43            android:label="ItemHistorialActivity"
+43-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:28:13-50
 44            android:theme="@style/Theme.VidaApp" />
 44-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:29:13-49
 45        <activity
-45-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:30:9-32:40
-46            android:name="com.example.vidaapp.Register"
-46-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:31:13-37
-47            android:exported="false" />
+45-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:30:9-34:52
+46            android:name="com.example.vidaapp.HisConstEnergyActivity"
+46-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:31:13-51
+47            android:exported="false"
 47-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:32:13-37
-48        <activity
-48-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:33:9-35:40
-49            android:name="com.example.vidaapp.RecoveryActivity"
-49-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:34:13-45
-50            android:exported="false" />
-50-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:35:13-37
-51        <activity
-51-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:36:9-38:40
-52            android:name="com.example.vidaapp.ServivesActivity"
-52-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:37:13-45
-53            android:exported="false" />
-53-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:38:13-37
-54        <activity
-54-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:39:9-41:40
-55            android:name="com.example.vidaapp.AccountActivity"
-55-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:40:13-44
-56            android:exported="false" />
-56-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:41:13-37
-57        <activity
-57-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:42:9-44:40
-58            android:name="com.example.vidaapp.AboutActivity"
-58-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:43:13-42
-59            android:exported="false" />
-59-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:44:13-37
+48            android:label="@string/title_activity_his_const_energy"
+48-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:33:13-68
+49            android:theme="@style/Theme.VidaApp" />
+49-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:34:13-49
+50        <activity
+50-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:35:9-39:52
+51            android:name="com.example.vidaapp.GasActivity"
+51-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:36:13-40
+52            android:exported="false"
+52-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:37:13-37
+53            android:label="@string/title_activity_gas"
+53-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:38:13-55
+54            android:theme="@style/Theme.VidaApp" />
+54-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:39:13-49
+55        <activity
+55-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:40:9-44:52
+56            android:name="com.example.vidaapp.WaterActivity"
+56-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:41:13-42
+57            android:exported="false"
+57-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:42:13-37
+58            android:label="@string/title_activity_water"
+58-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:43:13-57
+59            android:theme="@style/Theme.VidaApp" />
+59-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:44:13-49
 60        <activity
-60-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:45:9-47:40
-61            android:name="com.example.vidaapp.NewsActivity"
-61-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:46:13-41
-62            android:exported="false" />
+60-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:45:9-50:52
+61            android:name="com.example.vidaapp.EnergyActivity"
+61-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:46:13-43
+62            android:exported="false"
 62-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:47:13-37
-63        <activity
-63-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:48:9-50:40
-64            android:name="com.example.vidaapp.LoginActivity"
-64-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:49:13-42
-65            android:exported="false" />
-65-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:50:13-37
+63            android:label="EnergyActivity"
+63-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:48:13-43
+64            android:screenOrientation="portrait"
+64-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:49:13-49
+65            android:theme="@style/Theme.VidaApp" />
+65-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:50:13-49
 66        <activity
-66-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:51:9-59:20
-67            android:name="com.example.vidaapp.MainActivity"
-67-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:52:13-41
-68            android:exported="true" >
-68-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:53:13-36
-69            <intent-filter>
-69-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:54:13-58:29
-70                <action android:name="android.intent.action.MAIN" />
-70-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:55:17-69
-70-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:55:25-66
-71
-72                <category android:name="android.intent.category.LAUNCHER" />
-72-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:57:17-77
-72-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:57:27-74
-73            </intent-filter>
-74        </activity>
-75
-76        <meta-data
-76-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:61:9-63:57
-77            android:name="preloaded_fonts"
-77-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:62:13-43
-78            android:resource="@array/preloaded_fonts" />
-78-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:63:13-54
-79
-80        <provider
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-81            android:name="androidx.startup.InitializationProvider"
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-82            android:authorities="com.example.vidaapp.androidx-startup"
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-83            android:exported="false" >
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-84            <meta-data
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-86                android:value="androidx.startup" />
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\641d40e8698f4bc0819cd40bd22a425e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-87            <meta-data
-87-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\3a0537bff417ada22d4cb8b56c1efc1b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-88-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\3a0537bff417ada22d4cb8b56c1efc1b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-89                android:value="androidx.startup" />
-89-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\3a0537bff417ada22d4cb8b56c1efc1b\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-90            <meta-data
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-91                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-92                android:value="androidx.startup" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-93        </provider>
-94
-95        <uses-library
-95-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-96            android:name="androidx.window.extensions"
-96-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-97            android:required="false" />
-97-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-98        <uses-library
-98-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-99            android:name="androidx.window.sidecar"
-99-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-100            android:required="false" />
-100-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\c4c6ad63c6f7dfcfa7cc4ecd66cb17ab\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-101
-102        <receiver
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-103            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-104            android:directBootAware="false"
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-105            android:enabled="true"
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-106            android:exported="true"
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-107            android:permission="android.permission.DUMP" >
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-108            <intent-filter>
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-109                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-110            </intent-filter>
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-112                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-113            </intent-filter>
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-115                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-116            </intent-filter>
-117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-118                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\a6539f8647160f1b21b8cf291adf7a7d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-119            </intent-filter>
-120        </receiver>
-121    </application>
+66-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.vidaapp.Register"
+67-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:52:13-37
+68            android:exported="false" />
+68-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.vidaapp.activity_recovery"
+70-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:55:13-46
+71            android:exported="false" />
+71-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.vidaapp.ServivesActivity"
+73-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:58:13-45
+74            android:exported="false" />
+74-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:59:13-37
+75        <activity
+75-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.vidaapp.AccountActivity"
+76-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:61:13-44
+77            android:exported="false" />
+77-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:62:13-37
+78        <activity
+78-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:63:9-65:40
+79            android:name="com.example.vidaapp.AboutActivity"
+79-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:64:13-42
+80            android:exported="false" />
+80-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:65:13-37
+81        <activity
+81-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:66:9-68:40
+82            android:name="com.example.vidaapp.NewsActivity"
+82-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:67:13-41
+83            android:exported="false" />
+83-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:68:13-37
+84        <activity
+84-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:69:9-71:40
+85            android:name="com.example.vidaapp.LoginActivity"
+85-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:70:13-42
+86            android:exported="false" />
+86-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:71:13-37
+87        <activity
+87-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:72:9-80:20
+88            android:name="com.example.vidaapp.MainActivity"
+88-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:73:13-41
+89            android:exported="true" >
+89-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:74:13-36
+90            <intent-filter>
+90-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:75:13-79:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:76:17-69
+91-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:76:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:78:17-77
+93-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:78:27-74
+94            </intent-filter>
+95        </activity>
+96
+97        <meta-data
+97-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:82:9-84:57
+98            android:name="preloaded_fonts"
+98-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:83:13-43
+99            android:resource="@array/preloaded_fonts" />
+99-->C:\Users\Jannover\AndroidStudioProjects\VidaApp\app\src\main\AndroidManifest.xml:84:13-54
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+103            android:authorities="com.example.vidaapp.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Jannover\.gradle\caches\transforms-3\cb1d580bdbce9f74346d0167494dd303\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\8a423c9ceb5e7e85abc4ab5098752e11\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\8a423c9ceb5e7e85abc4ab5098752e11\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Jannover\.gradle\caches\transforms-3\8a423c9ceb5e7e85abc4ab5098752e11\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <uses-library
+116-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+117            android:name="androidx.window.extensions"
+117-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+119        <uses-library
+119-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+120            android:name="androidx.window.sidecar"
+120-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0] C:\Users\Jannover\.gradle\caches\transforms-3\6dfea1120c05adfcdcb8e771c3ab99de\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 122
-123</manifest>
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Jannover\.gradle\caches\transforms-3\28579c1dc57e69e0f2e66e48a824680d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>
