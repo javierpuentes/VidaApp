@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.VidaApp" >
         <activity
+            android:name="com.example.vidaapp.EnergiaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.vidaapp.AguaActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.vidaapp.NewPasswActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.vidaapp.sugerenciasActivity"
             android:exported="false" />
         <activity

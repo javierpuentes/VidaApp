@@ -88,6 +88,7 @@
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="24sp"
+            android:maxLength="10"
             android:textStyle="italic" />
         <TextView
             android:id="@+id/txtNseg"
@@ -95,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginTop="185dp"
-            android:text="Nivel de seguridad, debe tener mínimo 5 caracteres:"
+            android:text="Nivel de seguridad, debe tener entre 5 y 10 caracteres:"
             android:textColor="#195101"
             android:textSize="15sp"
             />
@@ -223,12 +224,24 @@
             android:visibility="invisible"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/idDbUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="270dp"
+            android:text="Código de registro: "
+            android:textColor="#195101"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/btnM25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="305dp"
+            android:layout_marginTop="335dp"
             android:backgroundTint="@color/button"
             android:text="Registrar mis servicios"
             android:textColor="#195101"

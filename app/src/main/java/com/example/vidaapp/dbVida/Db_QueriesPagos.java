@@ -1,7 +1,12 @@
 package com.example.vidaapp.dbVida;
 
-public class Db_Queries {
+import android.database.sqlite.SQLiteDatabase;
+
+import java.util.ArrayList;
+
+public class Db_QueriesPagos {
     private int id;
+    private int user;
     private int type;
     private int year;
     private String month;
@@ -64,4 +69,5 @@ public class Db_Queries {
     public void setMeasurer(float measurer) {
         this.measurer = measurer;
     }
+
 }

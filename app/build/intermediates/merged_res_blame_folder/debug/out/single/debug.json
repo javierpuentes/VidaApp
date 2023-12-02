@@ -12,6 +12,14 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\bombilla.png"
     },
     {
+        "merged": "com.example.vidaapp-merged_res-43:/layout_activity_recovery.xml.flat",
+        "source": "com.example.vidaapp-main-45:/layout/activity_recovery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_gas_24.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\gas_24.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_isotipo_yellow.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\isotipo_yellow.xml"
     },
@@ -36,12 +44,16 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\font_aclonica.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\font\\aclonica.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\font_aclonica.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\font\\aclonica.xml"
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_agua.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_agua.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_new5.png.flat",
@@ -136,6 +148,10 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_energy_24.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\energy_24.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_descarga__1_.jpg.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\descarga__1_.jpg"
     },
@@ -170,6 +186,10 @@
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_logo_app_1.png.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\logo_app_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_water_24.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\water_24.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_baseline_arrow_circle_left_24.xml.flat",
@@ -208,16 +228,16 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\manoselect.xml"
     },
     {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_energia.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_energia.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_servives.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_servives.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_account.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_account.xml"
-    },
-    {
-        "merged": "com.example.vidaapp-merged_res-43:/layout_activity_register.xml.flat",
-        "source": "com.example.vidaapp-main-45:/layout/activity_register.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable__1.png.flat",
@@ -256,6 +276,10 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\sugerencias_a.jpg"
     },
     {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_new_passw.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_new_passw.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_water.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_water.xml"
     },
@@ -264,12 +288,12 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\noticias_a.jpg"
     },
     {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_sugerenciasagua.png.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\sugerenciasagua.png"
-    },
-    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\layout_activity_gas.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\layout\\activity_gas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\drawable_sugerenciasagua.png.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-45:\\drawable\\sugerenciasagua.png"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-43:\\mipmap-xhdpi_ic_launcher.webp.flat",

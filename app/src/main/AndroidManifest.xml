@@ -13,6 +13,15 @@
         android:theme="@style/Theme.VidaApp"
         tools:targetApi="31">
         <activity
+            android:name=".EnergiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AguaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPasswActivity"
+            android:exported="false" />
+        <activity
             android:name=".sugerenciasActivity"
             android:exported="false" />
         <activity

@@ -12,10 +12,21 @@ import android.widget.ImageButton;
 public class WaterActivity extends AppCompatActivity {
 
     ImageButton imgbtnback;
+    public int tipoServ;
+    public long idUser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_water);
+        tipoServ = 3;
+
+        Intent receive= getIntent();
+        idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(WaterActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
 
         imgbtnback= findViewById(R.id.imgbtnback);
 
