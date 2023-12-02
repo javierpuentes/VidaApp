@@ -12,23 +12,17 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
-<<<<<<< HEAD
-
-public class MainActivity extends AppCompatActivity {
-
-    private Button b1, b2, b0;
-
-=======
 import android.widget.Toast;
 
 import com.example.vidaapp.dbVida.DbConn;
 import com.example.vidaapp.dbVida.Db_Services;
 
+
 public class MainActivity extends AppCompatActivity {
 
-    private Button b1, b2;
+    private Button b0, b1, b2;
     private TextView tw;
->>>>>>> 4fc6e95e866029826d89505850c249120c8bd609
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -67,19 +67,6 @@
     <string name="Consejos">Consejos</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="app_name">VidaApp</string>
-<<<<<<< HEAD
-    <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string>
-    <string name="eventos10">4 - Día Mundial de los Animales</string>
-    <string name="eventos11">5 - Día Mundial del Suelo</string>
-    <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string>
-    <string name="eventos3">22 - Día Mundial del Agua</string>
-    <string name="eventos4">26 - Día Mundial del Clima</string>
-    <string name="eventos5">29 - Día Nacional del Arbol</string>
-    <string name="eventos6">16 - Dia Internacional de la Luz</string>
-    <string name="eventos7">5 - Día Mundial del Medio Ambiente</string>
-    <string name="eventos8">28 - Día Mundial del Arbol</string>
-    <string name="eventos9">26 al 31 Semana Mundial del Agua</string>
-=======
     <string name="contenido">
      \nHola, somos la aplicación “Vida App”\n\n
     \nNos enfocamos en el seguimiento a los consumos de los servicios públicos de una persona (agua, luz y gas).\n\n
@@ -92,12 +79,17 @@
     \nCalculara y mostrara estadísticas relevantes, como el consumo promedio, máximo y mínimo.\n\n
     \nOfrecerá noticias y/o recomendaciones para reducir el consumo en los servicios públicos.\n\n
     </string>
-    <string name="eventos">ENE 2024 Feria de emprendimiento regional</string>
-    <string name="eventos2">FEB 2024 Debate contra la deforestación</string>
-    <string name="eventos3">DIC 2023 Simposio en Transición Energética</string>
-    <string name="eventos4"> 1er encuentro Jovenes ECO</string>
-    <string name="eventos5"> JUL 2024 Inaguración proyecto "Colombia Limpia" </string>
->>>>>>> 11d009d6a4d1a5a799a72bd10b354be45be35d16
+    <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string>
+    <string name="eventos10">4 - Día Mundial de los Animales</string>
+    <string name="eventos11">5 - Día Mundial del Suelo</string>
+    <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string>
+    <string name="eventos3">22 - Día Mundial del Agua</string>
+    <string name="eventos4">26 - Día Mundial del Clima</string>
+    <string name="eventos5">29 - Día Nacional del Arbol</string>
+    <string name="eventos6">16 - Dia Internacional de la Luz</string>
+    <string name="eventos7">5 - Día Mundial del Medio Ambiente</string>
+    <string name="eventos8">28 - Día Mundial del Arbol</string>
+    <string name="eventos9">26 al 31 Semana Mundial del Agua</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

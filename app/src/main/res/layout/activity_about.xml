@@ -75,7 +75,7 @@
         <TextView
             android:id="@+id/btnM6"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@color/button"
             android:gravity="center"

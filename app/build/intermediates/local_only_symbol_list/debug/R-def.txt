@@ -90,12 +90,9 @@ id btnEnergy
 id btnEventos
 id btnFecha
 id btnGas
-<<<<<<< HEAD
 id btnGuardarN
 id btnHora
-=======
 id btnM0
->>>>>>> 11d009d6a4d1a5a799a72bd10b354be45be35d16
 id btnM1
 id btnM2
 id btnM25
@@ -148,15 +145,12 @@ id informacionServicio
 id informacionUsr
 id inicio
 id inicio_usr
-<<<<<<< HEAD
 id layout_electricity_recommendations
 id layout_gas_recommendation
 id layout_water_recommendations
-=======
 id manoselect
 id mayorconsumo
 id menorconsumo
->>>>>>> 4fc6e95e866029826d89505850c249120c8bd609
 id menu_usr
 id mes_spinner
 id nav_graph
@@ -174,28 +168,19 @@ id resumenGas
 id seg_spinner
 id sp_estratos
 id sp_selection
-<<<<<<< HEAD
+id textView
 id textView10
 id textView11
 id textView12
 id textView13
 id textView14
-id textView3
-id textView4
-id textView5
-id textView6
-id textView7
-id textView8
-id textView9
-id textViewNoti
-=======
-id textView
 id textView19
 id textView25
 id textView26
 id textView27
 id textView28
 id textView29
+id textView3
 id textView30
 id textView31
 id textView32
@@ -209,8 +194,13 @@ id textView39
 id textView4
 id textView40
 id textView41
+id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id textViewMessage
->>>>>>> 11d009d6a4d1a5a799a72bd10b354be45be35d16
+id textViewNoti
 id tituloCuenta
 id totalconsumo
 id totalpago
@@ -257,12 +247,9 @@ id txtVuser2
 id vidaapp
 layout activity_about
 layout activity_account
-<<<<<<< HEAD
-layout activity_consejos
-=======
 layout activity_agua
+layout activity_consejos
 layout activity_energia
->>>>>>> 4fc6e95e866029826d89505850c249120c8bd609
 layout activity_energy
 layout activity_eventos
 layout activity_gas
