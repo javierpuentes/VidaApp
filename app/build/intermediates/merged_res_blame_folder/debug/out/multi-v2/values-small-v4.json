@@ -1,10 +1,14 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-41:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-46:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Sammy\\.gradle\\caches\\transforms-3\\0e6e3554747caa52ed2f12455d8b0834\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
+=======
+                    "source": "C:\\Users\\danie\\.gradle\\caches\\transforms-3\\0e6e3554747caa52ed2f12455d8b0834\\transformed\\material-1.10.0\\res\\values-small-v4\\values-small-v4.xml",
+>>>>>>> ffc873a0804291c607ac28dbc48843e3b7fa06b1
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
