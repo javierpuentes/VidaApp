@@ -57,6 +57,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i =new Intent(AccountActivity.this, WaterActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -72,6 +73,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AccountActivity.this, noticiasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -79,6 +81,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AccountActivity.this, sugerenciasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -86,6 +89,7 @@ public class AccountActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(AccountActivity.this, eventosActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

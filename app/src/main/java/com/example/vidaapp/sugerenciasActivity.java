@@ -13,10 +13,20 @@ public class sugerenciasActivity extends AppCompatActivity {
     Button noticias, eventos;
     ImageButton regresar;
 
+    public long idUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consejos);
+
+        Intent receive= getIntent();
+        idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(sugerenciasActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
 
         noticias = findViewById(R.id.btnNoticias);
         eventos = findViewById(R.id.btnEventos);
@@ -26,6 +36,7 @@ public class sugerenciasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(sugerenciasActivity.this, noticiasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -34,6 +45,7 @@ public class sugerenciasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(sugerenciasActivity.this, eventosActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -41,6 +53,7 @@ public class sugerenciasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(sugerenciasActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

@@ -12,11 +12,20 @@ public class noticiasActivity extends AppCompatActivity {
 
     Button noticias, eventos, sugerencias;
     ImageButton regresar;
+    public long idUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_noticias);
+
+        Intent receive= getIntent();
+        idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(noticiasActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
 
         noticias = findViewById(R.id.btnNoticias);
         eventos = findViewById(R.id.btnEventos);
@@ -27,6 +36,7 @@ public class noticiasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(noticiasActivity.this, eventosActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -34,6 +44,7 @@ public class noticiasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(noticiasActivity.this, sugerenciasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -42,6 +53,7 @@ public class noticiasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(noticiasActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

@@ -51,10 +51,20 @@ public class eventosActivity extends AppCompatActivity {
 
     private int minutos, hora, dia, mes, anio;
 
+    public long idUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eventos);
+
+        Intent receive= getIntent();
+        idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(eventosActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
 
         noticias = findViewById(R.id.btnNoticias);
         sugerencias = findViewById(R.id.btnSugerencias);
@@ -71,6 +81,7 @@ public class eventosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(eventosActivity.this, noticiasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -78,6 +89,7 @@ public class eventosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(eventosActivity.this, sugerenciasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -85,6 +97,7 @@ public class eventosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(eventosActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
