@@ -77,30 +77,31 @@ public class NewPasswActivity extends AppCompatActivity {
             }
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                String pw = clave.getText().toString();
                 // Validar una contraseña
                 //i => posición ingresada
-                char c = pw.charAt(i);
-                if(Character.isUpperCase(c))
-                    ma++;
-                else if(Character.isLowerCase(c))
-                    mi++;
-                else if(Character.isDigit(c))
-                    di++;
-                if (c >= 33 && c <= 46 || c == 64)
-                {
-                    ch++;
-                }
+                if (clave.getText().toString().trim().length() > 0) {
+                    String pw = clave.getText().toString();
+                    if (pw.length() == i) {
+                        i--;
+                    }
+                    char c = pw.charAt(i);
+                    if (Character.isUpperCase(c))
+                        ma++;
+                    else if (Character.isLowerCase(c))
+                        mi++;
+                    else if (Character.isDigit(c))
+                        di++;
+                    if (c >= 33 && c <= 46 || c == 64) {
+                        ch++;
+                    }
 
-                if(pw.length() >= 4 && ma > 0 && mi > 0 && di > 0 && ch > 0)
-                {
-                    txtc5.setText("La contraseña "+pw+" es segura ");
-                    txtc5.setBackgroundColor(Color.GREEN);
-                }
-                else
-                {
-                    txtc5.setText("La contraseña "+pw+" no es segura, mejorela ");
-                    txtc5.setBackgroundColor(Color.RED);
+                    if (pw.length() >= 4 && ma > 0 && mi > 0 && di > 0 && ch > 0) {
+                        txtc5.setText("La contraseña " + pw + " es segura ");
+                        txtc5.setBackgroundColor(Color.GREEN);
+                    } else {
+                        txtc5.setText("La contraseña " + pw + " no es segura, mejorela ");
+                        txtc5.setBackgroundColor(Color.RED);
+                    }
                 }
             }
 

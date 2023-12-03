@@ -125,7 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginTop="20dp"
-        android:text="Valídela desde el botón de regreso"
+        android:text="Contraseña cambiada. \n Valídela desde el botón de regreso"
         android:textColor="#195101"
         android:textSize="20sp"
         android:visibility="invisible"
