@@ -100,6 +100,18 @@
         android:textAlignment="center"
         android:textSize="24sp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BAED0938"
+        android:gravity="center"
+        android:text="Los datos no son correctos, por favor verifique"
+        android:textColor="@color/fuente1"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        android:id="@+id/txtVError"
+        android:textStyle="bold" />
+
     <Button
         android:id="@+id/btnM4"
         android:layout_width="wrap_content"
@@ -138,7 +150,7 @@
         android:id="@+id/imageButton1"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:backgroundTint="@color/white"
         android:scaleType="centerCrop"
         android:contentDescription="Regresar"

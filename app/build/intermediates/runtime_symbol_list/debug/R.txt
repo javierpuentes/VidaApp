@@ -3802,6 +3802,7 @@ int id txtTextclave 0x7f0a027d
 int id txtTextclave2 0x7f0a027e
 int id txtTextuser 0x7f0a027f
 int id txtTextuser2 0x7f0a0280
+int id txtVError 0x7f0a02a0
 int id txtVTotal 0x7f0a0281
 int id txtVclave 0x7f0a0282
 int id txtVclave2 0x7f0a0283

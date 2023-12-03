@@ -5,6 +5,7 @@ import static java.lang.Thread.sleep;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,7 +19,7 @@ import com.example.vidaapp.dbVida.Db_Services;
 
 public class LoginActivity extends AppCompatActivity {
     private Button b3, b4;
-    private TextView t1, t2, t3;
+    private TextView t1, t2, t3, t4;
     private ImageButton ib1;
 
     String v1, v2;
@@ -37,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
         t1 = findViewById(R.id.txtTextuser);
         t2 = findViewById(R.id.txtTextclave);
         t3 = findViewById(R.id.txtVTotal);
+        t4 = findViewById(R.id.txtVError);
         t1.setFocusable(true);
         t1.requestFocus();
 
@@ -75,8 +77,11 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(i);
                     } else {
                         Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Verifique los datos!", Toast.LENGTH_LONG).show();
+                        t4.setVisibility(View.VISIBLE);
                         t1.setText("");
                         t2.setText("");
+                        t1.setBackgroundColor(Color.RED);
+                        t2.setBackgroundColor(Color.RED);
                         t1.requestFocus();
                     }
                 }

@@ -1,4 +1,4 @@
-#Sat Dec 02 19:19:28 COT 2023
+#Sat Dec 02 21:06:14 COT 2023
 base.0=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex

@@ -237,6 +237,7 @@ id txtTextclave
 id txtTextclave2
 id txtTextuser
 id txtTextuser2
+id txtVError
 id txtVTotal
 id txtVclave
 id txtVclave2
