@@ -20,8 +20,9 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vidaapp.dbVida.Db_QueriesPagos;
-import com.example.vidaapp.dbVida.Db_Services;
+import com.example.vidaapp.db.DbFacturas;
+import com.example.vidaapp.db.DbUsers;
+import com.example.vidaapp.models.Facturas;
 
 import java.text.DecimalFormat;
 import java.time.LocalDate;
@@ -29,7 +30,8 @@ import java.util.ArrayList;
 
 public class EnergiaActivity extends AppCompatActivity {
 
-    ArrayList<Db_QueriesPagos> listaPagos;
+
+    ArrayList<Facturas> listaPagos;
     public Button btn1, btn2;
     public LinearLayout ln1, ln2;
     public Spinner sp1, sp2;
@@ -118,7 +120,7 @@ public class EnergiaActivity extends AppCompatActivity {
         sp2.setPrompt("Seleccione el mes");
 
         //Instancia de facturas
-        Db_Services adFactura = new Db_Services(EnergiaActivity.this);
+        DbFacturas adFactura = new DbFacturas(EnergiaActivity.this);
         //sp2.setGravity(1);
         //sp2.setDropDownVerticalOffset(-2);
 
@@ -222,7 +224,7 @@ public class EnergiaActivity extends AppCompatActivity {
                         {
                             buscamasymenos(registros);
                         }
-                        //Db_Services adFactura = new Db_Services(GasActivity.this);
+                        //DbUsers adFactura = new DbUsers(GasActivity.this);
                         long id = adFactura.insertFactura(idUser, tipoServ, elmes, selyear, consumido, pagado, acumulado);
                         if(id > 0)
                         {
@@ -267,7 +269,7 @@ public class EnergiaActivity extends AppCompatActivity {
                     }
                     else
                     {
-                        for (Db_QueriesPagos i : listaPagos)
+                        for (Facturas i : listaPagos)
                         {
                             consumido = i.getConsumption();
                             vl1 += consumido; //Consumo

@@ -13,8 +13,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vidaapp.dbVida.Db_QueriesUsers;
-import com.example.vidaapp.dbVida.Db_Services;
+import com.example.vidaapp.db.DbUsers;
+import com.example.vidaapp.models.User;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Db_Services adUser = new Db_Services(LoginActivity.this);
+                    DbUsers adUser = new DbUsers(LoginActivity.this);
                     long id = adUser.loginUser(t1.getText().toString().trim(), t2.getText().toString().trim());
                     if(id > 0)
                     {
@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
                         } catch (InterruptedException e) {
                             throw new RuntimeException(e);
                         }
-                        Db_QueriesUsers user = new Db_QueriesUsers(0, "","", "","");
+                        User user = new User(0, "","", "","");
                         user.loginUser(id, t1.getText().toString().trim());
                         Intent i = new Intent(LoginActivity.this, AccountActivity.class);
                         i.putExtra("idUser", id);

@@ -13,9 +13,12 @@ public class AccountActivity extends AppCompatActivity {
 
     ImageButton  home, imgbtnback;
     Button noticias, sugerencias, eventos, mano_select;
+<<<<<<< HEAD
 
     Button btnWater, btnGas;
-
+=======
+    Button btnEnergy, btnWater, btnGas;
+>>>>>>> origin/views_Edward
 
 
     @Override

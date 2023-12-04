@@ -34,6 +34,26 @@
         android:testOnly="true"
         android:theme="@style/Theme.VidaApp" >
         <activity
+            android:name="com.example.vidaapp.NaturalGasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_natural_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.HisConsGasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.HisConsWaterActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_cons_water"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name="com.example.vidaapp.HistorialesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_his_const_energy"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
             android:name="com.example.vidaapp.EnergiaActivity"
             android:exported="false" />
         <activity
@@ -62,12 +82,10 @@
             android:name="com.example.vidaapp.EnergyActivity"
             android:exported="false"
             android:label="EnergyActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.VidaApp" />
         <activity
             android:name="com.example.vidaapp.Register"
-            android:exported="false" />
-        <activity
-            android:name="com.example.vidaapp.RecoveryActivity"
             android:exported="false" />
         <activity
             android:name="com.example.vidaapp.ServivesActivity"
@@ -208,17 +226,17 @@
             </intent-filter>
         </receiver>
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
         <uses-library
             android:name="androidx.window.extensions"
             android:required="false" />
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

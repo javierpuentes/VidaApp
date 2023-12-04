@@ -13,7 +13,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vidaapp.dbVida.Db_Services;
+import com.example.vidaapp.db.DbUsers;
 
 
 public class RecoveryActivity extends AppCompatActivity {
@@ -78,7 +78,7 @@ public class RecoveryActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Db_Services adUser = new Db_Services(RecoveryActivity.this);
+                    DbUsers adUser = new DbUsers(RecoveryActivity.this);
                     pw = adUser.RecoveryUser(mipregunta, mirespuesta, micuenta);
                     if (!pw.isEmpty()) {
 

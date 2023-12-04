@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-46:/values-v23/values-v23.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-59:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\7a19c9bd5772836b00bc876b257a9c9c\\transformed\\work-runtime-2.8.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\b64801f52516e58190eebef7333e3edd\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,36 +33,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\src\\main\\res\\values-v23\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "66",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "435"
-                    },
-                    "to": {
-                        "startLines": "55",
-                        "startColumns": "4",
-                        "startOffsets": "3511",
-                        "endLines": "60",
-                        "endColumns": "12",
-                        "endOffsets": "3825"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\76b43ecab1d24d0c26a87f7875fb7b4e\\transformed\\work-runtime-2.8.1\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\6d839902f04812932fe2d062157bdec4\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\ffd83db1ce190f234fe3d2a14d641b48\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -71,7 +52,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\0e6e3554747caa52ed2f12455d8b0834\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\dffbb33bcb998f41f90da5f537036293\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,21,25,28,31,34,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -87,6 +68,25 @@
                         "endLines": "63,67,71,74,79,83,86,89,92,97,100,104,108",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10,10,10,10",
                         "endOffsets": "4041,4183,4344,4554,4874,5111,5318,5525,5728,6060,6262,6527,6800"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\src\\main\\res\\values-v23\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "428"
+                    },
+                    "to": {
+                        "startLines": "55",
+                        "startColumns": "4",
+                        "startOffsets": "3511",
+                        "endLines": "60",
+                        "endColumns": "12",
+                        "endOffsets": "3825"
                     }
                 }
             ]

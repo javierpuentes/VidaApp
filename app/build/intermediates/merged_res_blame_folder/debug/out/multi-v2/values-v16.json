@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.vidaapp-mergeDebugResources-46:/values-v16/values-v16.xml",
+            "outputFile": "com.example.vidaapp-mergeDebugResources-59:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\964fe2cce9fdc0df3f48f29ab58aaa47\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\2ec22b534ba2c6be066ca6f5debd5a42\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\ba4ebd4a9ad568579ae7823b6283ea38\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\b64801f52516e58190eebef7333e3edd\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

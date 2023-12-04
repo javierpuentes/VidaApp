@@ -8,14 +8,12 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vidaapp.dbVida.DbConn;
-import com.example.vidaapp.dbVida.Db_Services;
+import com.example.vidaapp.db.DBConnect;
+import com.example.vidaapp.db.DbUsers;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tw = findViewById(R.id.txtVTotal);
 
         //Se requiere para crear pero después se puede omitir ya que la validación la haría el insert
-        DbConn condb = new DbConn (MainActivity.this);
+        DBConnect condb = new DBConnect (MainActivity.this);
         SQLiteDatabase db = condb.getWritableDatabase();
         if(db != null)
         {
@@ -48,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Db_Services adUser = new Db_Services(MainActivity.this);
+                DbUsers adUser = new DbUsers(MainActivity.this);
                 int total = adUser.totalUsers();
                 if(total > 0)
                 {

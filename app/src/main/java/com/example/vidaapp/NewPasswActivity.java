@@ -14,7 +14,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.vidaapp.dbVida.Db_Services;
+import com.example.vidaapp.db.DbFacturas;
+import com.example.vidaapp.db.DbUsers;
 
 public class NewPasswActivity extends AppCompatActivity {
 
@@ -60,7 +61,7 @@ public class NewPasswActivity extends AppCompatActivity {
         ma = mi = ch = di = 0;
         clave.requestFocus();
 
-        Db_Services adUpdate = new Db_Services(NewPasswActivity.this);
+        DbFacturas adUpdate = new DbFacturas(NewPasswActivity.this);
 
         imbt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,7 +76,6 @@ public class NewPasswActivity extends AppCompatActivity {
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
             }
-            @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 // Validar una contraseña
                 //i => posición ingresada

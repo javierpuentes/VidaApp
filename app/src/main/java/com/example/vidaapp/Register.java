@@ -8,7 +8,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -16,11 +15,11 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.RadioButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.example.vidaapp.dbVida.Db_QueriesUsers;
 import com.example.vidaapp.dbVida.Db_Services;
 
@@ -28,6 +27,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.InputMismatchException;
+=======
+import com.example.vidaapp.db.DbUsers;
+import com.example.vidaapp.models.User;
+>>>>>>> origin/views_Edward
 
 
 public class Register extends AppCompatActivity {
@@ -146,7 +149,7 @@ public class Register extends AppCompatActivity {
                 }
                 else
                 {
-                    Db_Services adUser = new Db_Services(Register.this);
+                    DbUsers adUser = new DbUsers(Register.this);
                     long id = adUser.validateUser(micuenta);
 
                     if(id > 0)
@@ -186,7 +189,7 @@ public class Register extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "¡Usuario creado en la base de datos!",
                                     Toast.LENGTH_LONG).show();
                             txtc7.setText(txtc7.getText().toString() + id);
-                            Db_QueriesUsers user = new Db_QueriesUsers(0, "", "", "", "");
+                            User user = new User(0, "", "", "", "");
                             user.loginUser(id, micuenta);
                         } else {
                             Toast.makeText(getApplicationContext(), "¡Error al guardar el usuario en la la base de datos!",
