@@ -64,21 +64,20 @@
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\_1.png"
     },
     {
+        "merged": "com.example.vidaapp-merged_res-61:/layout_activity_water.xml.flat",
+        "source": "com.example.vidaapp-main-63:/layout/activity_water.xml"
+    },
+    {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\layout_activity_about.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\layout\\activity_about.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_baseline_thumb_up_24.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\baseline_thumb_up_24.xml"
-=======
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_new5.png.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\new5.png"
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_baseline_gas_meter_24.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\baseline_gas_meter_24.xml"
->>>>>>> origin/views_Edward
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_new4.png.flat",
@@ -133,6 +132,10 @@
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\anim_animar.xml.flat",
+        "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\anim\\animar.xml"
+    },
+    {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\layout_activity_account.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\layout\\activity_account.xml"
     },
@@ -177,17 +180,8 @@
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\baseline_arrow_back_ios_new_24.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "com.example.vidaapp-merged_res-48:/anim_animar.xml.flat",
-        "source": "com.example.vidaapp-main-50:/anim/animar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_baseline_arrow_circle_right_24.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\baseline_arrow_circle_right_24.xml"
-=======
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\mipmap-anydpi-v26_vidaapp_launcher_round.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\mipmap-anydpi-v26\\vidaapp_launcher_round.xml"
->>>>>>> origin/views_Edward
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_roundtitle_water.xml.flat",
@@ -282,26 +276,6 @@
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\back.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\layout_activity_agua.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\layout\\activity_agua.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\navigation_nav_graph2.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\navigation\\nav_graph2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_baseline_water_drop_24.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\baseline_water_drop_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\anim_animar.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\anim\\animar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_round_cancel_24.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\round_cancel_24.xml"
-=======
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\layout_item_historial.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\layout\\item_historial.xml"
     },
@@ -316,7 +290,6 @@
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_bordes_1.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\bordes_1.xml"
->>>>>>> origin/views_Edward
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
@@ -347,18 +320,6 @@
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\layout\\activity_gas.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\layout_activity_energia.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\layout\\activity_energia.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_isotipo_blue.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\isotipo_blue.xml"
-    },
-    {
-        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\layout_activity_energy.xml.flat",
-        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\layout\\activity_energy.xml"
-=======
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_logobg.png.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\logobg.png"
     },
@@ -369,7 +330,6 @@
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\mipmap-xxxhdpi_vidaapp_launcher.webp.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\mipmap-xxxhdpi\\vidaapp_launcher.webp"
->>>>>>> origin/views_Edward
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\mipmap-xxhdpi_vidaapp_launcher.webp.flat",
@@ -398,10 +358,6 @@
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_baseline_arrow_circle_right_24.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\baseline_arrow_circle_right_24.xml"
-    },
-    {
-        "merged": "com.example.vidaapp-merged_res-61:/layout_activity_energy.xml.flat",
-        "source": "com.example.vidaapp-main-63:/layout/activity_energy.xml"
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\layout_activity_servives.xml.flat",
@@ -482,10 +438,6 @@
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_isotipo_yellow.xml.flat",
         "source": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-main-63:\\drawable\\isotipo_yellow.xml"
-    },
-    {
-        "merged": "com.example.vidaapp-merged_res-61:/drawable_btngradient.xml.flat",
-        "source": "com.example.vidaapp-main-63:/drawable/btngradient.xml"
     },
     {
         "merged": "C:\\Users\\Jannover\\.jdks\\daemon\\8.3\\com.example.vidaapp-merged_res-61:\\drawable_round_textview.xml.flat",

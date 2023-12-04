@@ -36,10 +36,9 @@ public class EnergyActivity extends AppCompatActivity {
         binding = ActivityEnergyBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
         imgbtnback= binding.imgbtnback;
-        imgbtnGas= binding.imgbtnWater;
-        imgbtnWater= binding.imgbtnGas;
+        imgbtnGas= binding.imgbtnGas;
+        imgbtnWater= binding.imgbtnWater;
         valorUnidad = binding.valorKV;
         lecActual = binding.lecActual;
         lecAnterior = binding.lecAnterior;
@@ -48,6 +47,15 @@ public class EnergyActivity extends AppCompatActivity {
         valorPago = binding.valorPago;
         consultar = binding.btnConsultar;
         historicos = binding.btnHistoricos;
+
+        Intent receive= getIntent();
+        long idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(EnergyActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
+
 
         Integer[] opciones = {1,2,3,4,5,6};
 
@@ -58,6 +66,7 @@ public class EnergyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                     Intent i = new Intent(EnergyActivity.this, AccountActivity.class);
+                    i.putExtra("idUser", idUser);
                     startActivity(i);
                 }
         });
@@ -66,6 +75,7 @@ public class EnergyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(EnergyActivity.this, WaterActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -74,6 +84,7 @@ public class EnergyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(EnergyActivity.this, NaturalGasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

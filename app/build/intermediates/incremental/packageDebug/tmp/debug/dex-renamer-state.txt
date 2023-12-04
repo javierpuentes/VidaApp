@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-#Sun Dec 03 21:40:16 COT 2023
-base.0=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.3=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.4=C\:\\Users\\Familiar\\StudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-=======
-#Sun Dec 03 20:42:14 COT 2023
+#Mon Dec 04 01:05:19 COT 2023
 base.0=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
@@ -16,7 +8,6 @@ base.5=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\interme
 base.6=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
 base.7=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.8=C\:\\Users\\Jannover\\AndroidStudioProjects\\VidaApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
->>>>>>> origin/views_Edward
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

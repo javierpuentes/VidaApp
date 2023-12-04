@@ -18,19 +18,9 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-<<<<<<< HEAD
-import com.example.vidaapp.dbVida.Db_QueriesUsers;
-import com.example.vidaapp.dbVida.Db_Services;
-
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.InputMismatchException;
-=======
 import com.example.vidaapp.db.DbUsers;
 import com.example.vidaapp.models.User;
->>>>>>> origin/views_Edward
+
 
 
 public class Register extends AppCompatActivity {

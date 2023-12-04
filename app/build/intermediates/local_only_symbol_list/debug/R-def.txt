@@ -30,6 +30,8 @@ color fuente_energy
 color fuente_water
 color fuentegas
 color gas_bg
+color gradien_gas2
+color gradient_gas
 color ic_launcher_background
 color shadow
 color title_recycler
@@ -199,7 +201,9 @@ id registrosGas
 id relativeLayout
 id respPseg
 id resumenGas
-id scrollView
+id scrollView_Energy
+id scrollView_gas
+id scrollView_water
 id seg_spinner
 id spEstratos
 id textView

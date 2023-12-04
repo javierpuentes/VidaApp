@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">VidaApp</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
-<<<<<<< HEAD
+
     <string name="seleccionarServicio">Seleccione el servicio público de tu interés.</string>
     <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string> //ENE
     <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string> //MAR
@@ -10,23 +10,6 @@
     <string name="eventos5">29 - Día Nacional del Arbol</string> //ABRI
     <string name="eventos6">16 - Dia Internacional de la Luz</string> //MAY
     <string name="eventos7">5 - Día Mundial del Medio Ambiente</string> //JUN
-=======
-    <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
-    <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string>
-    //ENE
-    <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string>
-    //MAR
-    <string name="eventos3">22 - Día Mundial del Agua</string>
-    //MAR
-    <string name="eventos4">26 - Día Mundial del Clima</string>
-    //MAR
-    <string name="eventos5">29 - Día Nacional del Arbol</string>
-    //ABRI
-    <string name="eventos6">16 - Dia Internacional de la Luz</string>
-    //MAY
-    <string name="eventos7">5 - Día Mundial del Medio Ambiente</string>
-    //JUN
->>>>>>> origin/views_Edward
     <string name="eventos8">28 - Día Mundial del Arbol</string>//JUN
     <string name="eventos9">26 al 31 Semana Mundial del Agua</string>
     //AGO

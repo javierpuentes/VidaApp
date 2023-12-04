@@ -7,9 +7,9 @@
     </corners>
     <gradient
         android:gradientRadius="300dp"
-        android:endColor="@color/material_dynamic_neutral20"
+        android:endColor="@color/gradient_gas"
         android:centerColor="@color/charlestonGreen"
-        android:startColor="@color/material_dynamic_neutral70"
+        android:startColor="@color/gradien_gas2"
 
         android:type="radial"/>
 

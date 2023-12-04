@@ -80,7 +80,7 @@ public class DbFacturas extends DBConnect {
         return listaPagos;
     }
 
-    public int acutlizapw( long user, String pw){
+    public int acutlizapw( String user, String pw){
         int id = 0;
         try {
             DBConnect conn = new DBConnect(context);

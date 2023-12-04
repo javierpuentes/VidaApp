@@ -34,10 +34,10 @@ public class WaterActivity extends AppCompatActivity {
     EditText valorKV, lecActual, lecAnterior;
     private DBConsHistory dbApp;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         binding = ActivityWaterBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -54,6 +54,14 @@ public class WaterActivity extends AppCompatActivity {
         consultar = binding.btnConsultar;
         historicos = binding.btnHistoricos;
 
+        Intent receive= getIntent();
+        long idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(WaterActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
+
         Integer[] opciones = {1,2,3,4,5,6};
 
         ArrayAdapter<Integer> spAdapter = new ArrayAdapter<Integer>(this, android.R.layout.simple_list_item_1, opciones);
@@ -64,6 +72,7 @@ public class WaterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(WaterActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -72,6 +81,7 @@ public class WaterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(WaterActivity.this, EnergyActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -80,6 +90,7 @@ public class WaterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(WaterActivity.this, NaturalGasActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });

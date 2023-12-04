@@ -37,9 +37,9 @@ public class NaturalGasActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         binding = ActivityNaturalGasBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         imgbtnback= binding.imgbtnback;
         imgbtnEnergy= binding.imgbtnEnergy;
@@ -53,6 +53,14 @@ public class NaturalGasActivity extends AppCompatActivity {
         consultar = binding.btnConsultar;
         historicos = binding.btnHistoricos;
 
+        Intent receive= getIntent();
+        long idUser = receive.getLongExtra("idUser",0);
+        if(idUser == 0)
+        {
+            Intent i =new Intent(NaturalGasActivity.this, LoginActivity.class);
+            startActivity(i);
+        }
+
         Integer[] opciones = {1,2,3,4,5,6};
 
         ArrayAdapter<Integer> spAdapter = new ArrayAdapter<Integer>(this, android.R.layout.simple_list_item_1, opciones);
@@ -63,6 +71,7 @@ public class NaturalGasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(NaturalGasActivity.this, AccountActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -70,6 +79,7 @@ public class NaturalGasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(NaturalGasActivity.this, EnergyActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -78,6 +88,7 @@ public class NaturalGasActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(NaturalGasActivity.this, WaterActivity.class);
+                i.putExtra("idUser", idUser);
                 startActivity(i);
             }
         });
@@ -107,7 +118,7 @@ public class NaturalGasActivity extends AppCompatActivity {
     public Integer calcularUnidad(int a, int b){
 
         int consumo = a - b;
-        consumoKV.setText("Su gasto a la fecha son " + consumo + " kilovatios");
+        consumoKV.setText("Su gasto a la fecha son " + consumo + "kWs o M³s");
         return consumo;
     }
 

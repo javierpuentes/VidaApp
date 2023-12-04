@@ -1492,6 +1492,8 @@ color fuente_energy
 color fuente_water
 color fuentegas
 color gas_bg
+color gradien_gas2
+color gradient_gas
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -3684,6 +3686,9 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView_Energy
+id scrollView_gas
+id scrollView_water
 id scrollable
 id search_badge
 id search_bar

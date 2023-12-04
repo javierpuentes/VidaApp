@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scrollView"
+    android:id="@+id/scrollView_gas"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".LoginActivity"
         android:background="@color/bggas"
         android:layout_gravity="top">
 
@@ -162,7 +161,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="2.5"
                         android:layout_gravity="center_horizontal|center_vertical"
-                        android:text="Valor Kilovatios"
+                        android:text="Valor M³"
                         android:textColor="@color/black"
                         android:background="@color/bg_transparent"
                         android:textStyle="bold"
@@ -281,7 +280,7 @@
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:layout_gravity="center"
-                android:text="Hasta la fecha se han cosumido X vatios"
+                android:text="Hasta la fecha se han cosumido X M³"
                 android:textSize="16sp"
                 android:textColor="@color/black"
                 android:fontFamily="@font/chelsea_market"

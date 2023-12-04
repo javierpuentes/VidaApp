@@ -15,7 +15,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.vidaapp.db.DbFacturas;
-import com.example.vidaapp.db.DbUsers;
 
 public class NewPasswActivity extends AppCompatActivity {
 
