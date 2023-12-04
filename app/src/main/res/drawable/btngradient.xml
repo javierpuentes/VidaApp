@@ -9,7 +9,7 @@
         android:gradientRadius="300dp"
         android:endColor="@color/bgEnergy"
         android:centerColor="@color/charlestonGreen"
-        android:startColor="@color/fuente1"
+        android:startColor="@android:color/holo_orange_light"
 
         android:type="radial"/>
 

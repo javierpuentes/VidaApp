@@ -14,6 +14,31 @@
             MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
         </item>
     </string-array>
+    <string-array name="meses">
+        <item>Seleccione un mes</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="preguntas">
+        <item>Seleccione una opción</item>
+        <item>Fecha de nacimiento</item>
+        <item>Nombre de tu madre</item>
+        <item>Nombre de tu mascota</item>
+        <item>Nombre de alguien especial</item>
+        <item>Título de tu libro favorito</item>
+        <item>Nombre de tu escritor favorito</item>
+        <item>Marca de tu automovil</item>
+    </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
         <item>@font/abril_fatface</item>
@@ -23,27 +48,60 @@
         <item>@font/chelsea_market</item>
     </array>
     <color name="bgEnergy">#7F6000</color>
-    <color name="bgWater">#53BFBF</color>
+    <color name="bgWater">@color/material_dynamic_primary60</color>
+    <color name="bg_recycler">#E6F9EC</color>
     <color name="bg_transparent">#00FFFFFF</color>
-    <color name="bggas">#AA9F9F</color>
+    <color name="bggas">#939393</color>
     <color name="black">#FF000000</color>
     <color name="borders">#CCDBBD16</color>
     <color name="btnEnergy">#D5C289</color>
-    <color name="button">#42A006</color>
+    <color name="button">#6AA84F</color>
     <color name="charlestonGreen">#232B2B</color>
+    <color name="energytitle">#DBBD16</color>
+    <color name="fondo1">#91ED68</color>
     <color name="fuente">#38761D</color>
-    <color name="fuente1">#DBBD16</color>
+    <color name="fuente1">#274E13</color>
     <color name="fuente2">#DBD416</color>
     <color name="fuente3">#DB8500</color>
     <color name="fuente4">#3F51B5</color>
     <color name="fuente5">#272626</color>
+    <color name="fuente_energy">#DBBD16</color>
+    <color name="fuente_water">#294AC1</color>
+    <color name="fuentegas">#424446</color>
+    <color name="gas_bg">#A3A3A3</color>
     <color name="ic_launcher_background">#FFFFFF</color>
     <color name="shadow">#FFFB00</color>
+    <color name="title_recycler">#88D98A</color>
     <color name="vidaapp_launcher_background">#FFFFFF</color>
+    <color name="water_bg">#91DFE6</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
+    <string name="Consejos">Consejos</string>
     <string name="Objetivo">En vida app nos preocupamos por el cambio climático, por esto nuestro objetivo es ayudarte a ahorrar y crear conciencia ecológica.</string>
     <string name="app_name">VidaApp</string>
+    <string name="contenido">
+     \nHola, somos la aplicación “Vida App”\n\n
+    \nNos enfocamos en el seguimiento a los consumos de los servicios públicos de una persona (agua, luz y gas).\n\n
+    \nUsted como usuario podrá registrar los consumos mensuales, de acuerdo con la factura (consumo del servicio, valor), en caso de su interés podrá registrar los meses anteriores para empezar a hacer seguimiento.\n\n
+    \nSe podrá asignar una fecha para generar un recordatorio o alerta para estar pendiente de la consulta y pago de la factura con cada servicio.\n\n
+    \nNuestro objetivo es proporcionar a los usuarios una herramienta que les permita tener un control efectivo sobre su consumo en los servicios públicos, fomentando la conciencia sobre el uso responsable de los recursos y brindando recomendaciones para reducir el consumo.\n\n
+    \nLa aplicación abordará aspectos de diseño y usabilidad, garantizando una interfaz de usuario amigable e intuitiva y que será:\n\n
+    \nSerá fácil de usar.\n\n
+    \nPermitirá el registro y seguimiento del consumo en los servicios públicos.\n\n
+    \nCalculara y mostrara estadísticas relevantes, como el consumo promedio, máximo y mínimo.\n\n
+    \nOfrecerá noticias y/o recomendaciones para reducir el consumo en los servicios públicos.\n\n
+    </string>
+    <string name="eventos">26 - Día Nacional de la Eduacion Ambiental</string>
+    <string name="eventos10">4 - Día Mundial de los Animales</string>
+    <string name="eventos11">5 - Día Mundial del Suelo</string>
+    <string name="eventos2">05 - Día Internacional de la eficiencia energetica</string>
+    <string name="eventos3">22 - Día Mundial del Agua</string>
+    <string name="eventos4">26 - Día Mundial del Clima</string>
+    <string name="eventos5">29 - Día Nacional del Arbol</string>
+    <string name="eventos6">16 - Dia Internacional de la Luz</string>
+    <string name="eventos7">5 - Día Mundial del Medio Ambiente</string>
+    <string name="eventos8">28 - Día Mundial del Arbol</string>
+    <string name="eventos9">26 al 31 Semana Mundial del Agua</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -83,14 +141,37 @@
     </string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="recommendation_electricity_1">1. Cambie los bombillos tradicionales por bombillas LED y ahorrará más del 85% del consumo de energía correspondiente a la iluminación del hogar</string>
+    <string name="recommendation_electricity_2">2. Desconecte los cargadores de los aparatos electrónicos de su hogar cuando no los utilice</string>
+    <string name="recommendation_electricity_3">3. Mantenga limpia la plancha para que el calor pase de manera más eficiente y consuma menos energía</string>
+    <string name="recommendation_electricity_4">4. Use la licuadora en el mayor nivel de velocidad, así consumes 20% menos de energía.</string>
+    <string name="recommendation_electricity_5">5. Asegurese que su nevera cierre bien, para que pueda conservar el frío en su interior.</string>
+    <string name="recommendation_electricity_6">6. Utilize el microondas para calentar sus comidas, ya que este consume 50% menos energía que un horno convencional</string>
+    <string name="recommendation_gas_1">1. Mantén los artefactos de gas en buen estado y con suficiente ventilación en el recinto donde se encuentran para garantizar su correcto funcionamiento</string>
+    <string name="recommendation_gas_2">2. No permitas que los menores de edad accionen o jueguen con los artefactos a gas y sus válvulas</string>
+    <string name="recommendation_gas_3">3. Verifica frecuentemente y antes de acostarte, que todos los artefactos a gas estén apagados y que las válvulas de paso estén cerradas, para evitar escapes de gas natural</string>
+    <string name="recommendation_gas_4">4. Si detectas olor a gas natural, cierra las válvulas del centro de medición y artefactos de gas; no accione aparatos eléctricos ni interruptores; abre las ventanas y puertas dando ventilación suficiente al lugar y comunícate con el prestador del servicio</string>
+    <string name="recommendation_gas_5">5. Evite que se derramen líquidos sobre los quemadores, puede apagarse la llama y escaparse el gas natural.</string>
+    <string name="recommendation_text">Aquí algunas recomendaciones para que pueda reducir su consumo</string>
+    <string name="recommendation_water_1">1. Reducir el tiempo del uso de la ducha. Lo ideal son 5 minutos</string>
+    <string name="recommendation_water_2">2. Cerrar la llave del lavamanos mientras se afeita o se cepilla los dientes. </string>
+    <string name="recommendation_water_3">3. Revisar que en su casa o apartamento los empaques de las llaves, duchas y tuberías no presenten escapes</string>
+    <string name="recommendation_water_4">4. Cuando lave la ropa, use la lavadora con la carga completa. Usar pequeñas cargas desperdicia muchísima agua </string>
+    <string name="recommendation_water_5">5. No laves tu carro a chorros de agua, es mejor utilizar el agua en un balde</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="seleccionarServicio">Selecciona el servicio público de tu interés.</string>
+    <string name="seleccione_anio">Seleccione un año</string>
+    <string name="success_consume">¿Su consumo no esta en el promedio?</string>
     <string name="textEnergy"><u>Llena todos los campos</u></string>
     <string name="title_activity_gas">GasActivity</string>
     <string name="title_activity_his_cons_gas">HisConsGasActivity</string>
     <string name="title_activity_his_cons_water">HisConsWaterActivity</string>
     <string name="title_activity_his_const_energy">HisConstEnergyActivity</string>
+    <string name="title_activity_natural_gas">NaturalGasActivity</string>
     <string name="title_activity_water">WaterActivity</string>
+    <style name="AboutActiviy" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/logobg</item>
+    </style>
     <style name="Base.Theme.VidaApp" parent="Theme.Material3.DayNight.NoActionBar">
         
         

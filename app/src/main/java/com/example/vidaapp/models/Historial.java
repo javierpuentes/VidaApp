@@ -9,8 +9,9 @@ public class Historial {
     int lec_fin;
     int consumo;
     int valorPago;
+    int image;
 
-    public Historial(String servicio, int estrato, float valorUnit, int lec_ini, int lec_fin, int consumo, int valorPago) {
+    public Historial(String servicio, int estrato, float valorUnit, int lec_ini, int lec_fin, int consumo, int valorPago, int image) {
         this.servicio = servicio;
         this.estrato = estrato;
         this.valorUnit = valorUnit;
@@ -18,11 +19,13 @@ public class Historial {
         this.lec_fin = lec_fin;
         this.consumo = consumo;
         this.valorPago = valorPago;
+        this.image = image;
     }
 
     public Historial() {
 
     }
+
     public int getId() {
         return id;
     }
@@ -79,12 +82,20 @@ public class Historial {
         this.consumo = consumo;
     }
 
-    public int getValor() {
+    public int getValorPago() {
         return valorPago;
     }
 
-    public void setValor(int valorPago) {
+    public void setValorPago(int valorPago) {
         this.valorPago = valorPago;
     }
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
 }
+
 

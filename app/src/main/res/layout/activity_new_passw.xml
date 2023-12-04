@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:layout_margin="10dp"
+    android:background="@drawable/logobg"
+    android:layout_gravity="center_horizontal" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:text="¡Desde esta vista puede cambiar su contraseña!."
+        android:textColor="@color/fuente1"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/txtVuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Nombre de usuario: "
+        android:textColor="#195101"
+        android:background="#8BC34A"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txtVpregun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pregunta de seguridad: "
+        android:background="#8BC34A"
+        android:textColor="#195101"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/txtVresp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Respuesta de seguridad:"
+        android:background="#8BC34A"
+        android:textColor="#195101"
+        android:textSize="18sp"
+         />
+
+    <TextView
+        android:id="@+id/txtVclave2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Contraseña de usuario"
+        android:textColor="#195101"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtTextclave2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#AB4CAF50"
+        android:backgroundTint="#AB4CAF50"
+        android:hint="Crear contraseña"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/txtNseg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="10dp"
+        android:text="Nivel de seguridad, debe tener entre 5 y 10 caracteres:"
+        android:textColor="#195101"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/txtCseg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:text="Mayúsculas y minúsculas \n Caracteres y números."
+        android:textColor="#195101"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btnRec111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="30dp"
+        android:text="Cambiar contraseña"
+        android:textSize="22sp"
+        android:textColor="#195101"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+        app:tint="@color/button"
+        android:contentDescription="Regresar"/>
+
+</LinearLayout>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout
-
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
@@ -11,7 +10,7 @@ android:orientation="vertical"
 tools:context=".LoginActivity"
 android:layout_margin="10dp"
 android:background="@drawable/logobg"
-android:layout_gravity="center_horizontal">
+android:layout_gravity="center_horizontal" >
 
 <TextView
     android:layout_width="match_parent"
@@ -19,7 +18,7 @@ android:layout_gravity="center_horizontal">
     android:fontFamily="sans-serif-light"
     android:textAlignment="center"
     android:padding="2dp"
-    android:text="¡Desde esta vista puedes recuperar tu cuenta!."
+    android:text="¡Desde esta vista puede recuperar su cuenta!."
     android:textColor="@color/fuente1"
     android:textSize="22dp"
     android:textStyle="bold"
@@ -34,12 +33,12 @@ android:layout_gravity="center_horizontal">
     android:id="@+id/txtVuser"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginTop="40dp"
-    android:text="Buscar Usuario"
+    android:layout_marginTop="15dp"
+    android:text="Nombre de usuario"
     android:textColor="#195101"
     android:background="#8BC34A"
     android:textStyle="bold"
-    android:textSize="34sp"
+    android:textSize="30sp"
     android:layout_gravity="center_horizontal"/>
 
 <EditText
@@ -52,52 +51,109 @@ android:layout_gravity="center_horizontal">
     android:textStyle="italic"
     android:textAlignment="center"
     android:inputType="text"
-    android:textSize="24sp" />
+    android:textSize="30sp"
+    android:minWidth="50dp"
+    android:minHeight="48dp"/>
 
 <TextView
     android:id="@+id/txtVclave"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:layout_marginTop="110dp"
-    android:text="Contraseña"
+    android:layout_marginTop="20dp"
+    android:text="Pregunta de seguridad"
     android:background="#8BC34A"
     android:textColor="#195101"
-    android:textSize="34sp"
+    android:textSize="30sp"
     android:textStyle="bold" />
 
+    <Spinner
+        android:id="@+id/preg_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#5E8BC34A"
+        android:foregroundGravity="center"
+        android:minHeight="48sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
 <EditText
-    android:id="@+id/txtTextclave"
+    android:id="@+id/txtVresp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:hint="Ingrese nueva contraseña"
+    android:hint="Ingresa su respuesta"
     android:background="@color/white"
     android:textStyle="italic"
-    android:inputType="numberPassword"
+    android:inputType="text"
     android:textAlignment="center"
-    android:textSize="24sp" />
-
-    />
+    android:textSize="30sp"
+    android:minWidth="50dp"
+    android:minHeight="48dp"/>
 
 <Button
-    android:id="@+id/btnM4"
+    android:id="@+id/btnRec1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:backgroundTint="@color/button"
-    android:layout_marginTop="30dp"
-    android:text="Iniciar sesión"
+    android:layout_marginTop="20dp"
+    android:text="Validar cuenta"
     android:textSize="22sp"
     android:textColor="#195101"
     android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txtCuentaUsr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/btnRec11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="5dp"
+        android:text="Ingresar a mi cuenta"
+        android:textSize="22sp"
+        android:textColor="#195101"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnRec111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="5dp"
+        android:text="Cambiar contraseña"
+        android:textSize="22sp"
+        android:textColor="#195101"
+        android:visibility="invisible"
+        android:layout_gravity="center" />
 
 <ImageButton
     android:id="@+id/imageButton1"
     android:layout_width="60dp"
     android:layout_height="60dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="5dp"
     android:backgroundTint="@color/white"
     android:scaleType="centerCrop"
+    android:contentDescription="Regresar"
     android:src="@drawable/baseline_arrow_circle_left_24"
     app:tint="@color/button" />
 

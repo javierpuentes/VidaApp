@@ -1,5 +1,7 @@
 package com.example.vidaapp;
 
+import static java.lang.Thread.sleep;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,10 +12,13 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.db.DbUsers;
+import com.example.vidaapp.models.User;
+
 
 public class LoginActivity extends AppCompatActivity {
     private Button b3, b4;
-    private TextView t1, t2;
+    private TextView t1, t2, t3;
     private ImageButton ib1;
 
     String v1, v2;
@@ -24,32 +29,56 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ib1=findViewById(R.id.imageButton1);
-        v1 = "Usuario";
-        v2 = "123456@";
+        v1 = "Root";
+        v2 = "123456";
 
         b3 = findViewById(R.id.btnM3);
         b4 = findViewById(R.id.btnM4);
         t1 = findViewById(R.id.txtTextuser);
         t2 = findViewById(R.id.txtTextclave);
+        t3 = findViewById(R.id.txtVTotal);
         t1.setFocusable(true);
         t1.requestFocus();
+
+        Intent receive= getIntent();
+        int totalUser = receive.getIntExtra("total",0);
+
+        t3.setText(" Usuarios registrados: "+totalUser+" ");
 
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Toast.makeText(getApplicationContext(), t2.getText(), Toast.LENGTH_LONG).show();
-                if(v1.equals(t1.getText().toString()) && v2.equals(t2.getText().toString()))
+                t1.getText().toString().trim();
+                t2.getText().toString().trim();
+                if(t1.getText().toString().trim().isEmpty() || t2.getText().toString().trim().isEmpty())
                 {
-                    Intent i =new Intent(LoginActivity.this, AccountActivity.class);
-                    startActivity(i);
+                    Toast.makeText(getApplicationContext(), "Se requieren los datos de acceso", Toast.LENGTH_LONG).show();
                 }
                 else
                 {
-                    Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Bienvenido!", Toast.LENGTH_LONG).show();
-                    t1.setText("");
-                    t2.setText("");
-                    t1.requestFocus();
-
+                    DbUsers adUser = new DbUsers(LoginActivity.this);
+                    long id = adUser.loginUser(t1.getText().toString().trim(), t2.getText().toString().trim());
+                    if(id > 0)
+                    {
+                        Toast.makeText(getApplicationContext(),
+                                "Registro Exitoso, usuario No. "+id,Toast.LENGTH_LONG).show();
+                        try {
+                            sleep(500);
+                            finish();
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                        User user = new User(0, "","", "","");
+                        user.loginUser(id, t1.getText().toString().trim());
+                        Intent i = new Intent(LoginActivity.this, AccountActivity.class);
+                        i.putExtra("idUser", id);
+                        startActivity(i);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "¡Datos correctos, ¡Verifique los datos!", Toast.LENGTH_LONG).show();
+                        t1.setText("");
+                        t2.setText("");
+                        t1.requestFocus();
+                    }
                 }
             }
         });
@@ -57,23 +86,15 @@ public class LoginActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(LoginActivity.this, EnergyActivity.class);
+                Intent i =new Intent(LoginActivity.this, RecoveryActivity.class);
                 startActivity(i);
-            }
-        });
-
-        b4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(LoginActivity.this, AccountActivity.class);
-                startActivity(intent);
             }
         });
 
         ib1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back= new Intent(LoginActivity.this,MainActivity.class);
+                Intent back= new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(back);
             }
         });

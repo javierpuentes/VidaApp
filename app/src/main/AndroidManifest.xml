@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,11 @@
         android:theme="@style/Theme.VidaApp"
         tools:targetApi="31">
         <activity
+            android:name=".NaturalGasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_natural_gas"
+            android:theme="@style/Theme.VidaApp" />
+        <activity
             android:name=".HisConsGasActivity"
             android:exported="false"
             android:label="@string/title_activity_his_cons_gas"
@@ -23,15 +30,25 @@
             android:label="@string/title_activity_his_cons_water"
             android:theme="@style/Theme.VidaApp" />
         <activity
-            android:name=".ItemHistorialActivity"
-            android:exported="false"
-            android:label="ItemHistorialActivity"
-            android:theme="@style/Theme.VidaApp" />
-        <activity
-            android:name=".HisConstEnergyActivity"
+            android:name=".HistorialesActivity"
             android:exported="false"
             android:label="@string/title_activity_his_const_energy"
             android:theme="@style/Theme.VidaApp" />
+        <activity
+            android:name=".EnergiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AguaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPasswActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sugerenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".eventosActivity"
+            android:exported="false" />
         <activity
             android:name=".GasActivity"
             android:exported="false"
@@ -52,9 +69,6 @@
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".activity_recovery"
-            android:exported="false" />
-        <activity
             android:name=".ServivesActivity"
             android:exported="false" />
         <activity
@@ -64,7 +78,7 @@
             android:name=".AboutActivity"
             android:exported="false" />
         <activity
-            android:name=".NewsActivity"
+            android:name=".noticiasActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

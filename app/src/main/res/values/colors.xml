@@ -3,18 +3,28 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fuente">#38761D</color>
-    <color name="fuente1">#DBBD16</color>
+    <color name="fuente1">#274E13</color>
     <color name="fuente2">#DBD416</color>
     <color name="fuente3">#DB8500</color>
-    <color name="button">#42A006</color>
+    <color name="button">#6AA84F</color>
+    <color name="fondo1">#91ED68</color>
     <color name="bgEnergy">#7F6000</color>
-    <color name="bgWater">#53BFBF</color>
+    <color name="bgWater">@color/material_dynamic_primary60</color>
     <color name="fuente4">#3F51B5</color>
     <color name="fuente5">#272626</color>
     <color name="bg_transparent">#00FFFFFF</color>
     <color name="borders">#CCDBBD16</color>
-    <color name="bggas">#AA9F9F</color>
+    <color name="bggas">#939393</color>
     <color name="shadow">#FFFB00</color>
     <color name="charlestonGreen">#232B2B</color>
     <color name="btnEnergy">#D5C289</color>
+    <color name="energytitle">#DBBD16</color>
+    <color name="fuente_energy">#DBBD16</color>
+    <color name="fuente_water">#294AC1</color>
+    <color name="water_bg">#91DFE6</color>
+    <color name="bg_recycler">#E6F9EC</color>
+    <color name="title_recycler">#88D98A</color>
+    <color name="fuentegas">#424446</color>
+    <color name="gas_bg">#A3A3A3</color>
+
 </resources>

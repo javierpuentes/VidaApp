@@ -21,7 +21,7 @@ public class DBConsHistory extends DBConnect {
     public static final String LEC_FIN = "lec_fin";
     public static final String CONSUMO = "consumo";
     public static final String VALOR_PAGO = "valorPago";
-
+    public static final String IMAGE = "image";
 
     public static final String CREATE_T_HISTORIAL =   "CREATE TABLE " + T_HISTORIAL +
             "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -31,11 +31,11 @@ public class DBConsHistory extends DBConnect {
             "lec_ini INTEGER NOT NULL, " +
             "lec_fin INTEGER NOT NULL, " +
             "consumo INTEGER NOT NULL, " +
-            "valorPago INTEGER NOT NULL)";
+            "valorPago INTEGER NOT NULL," +
+            "image INTEGER NOT NULL)";
 
     private DBConnect conn ;
     private SQLiteDatabase conDB;
-
     Context context;
 
     public DBConsHistory(Context context) {
@@ -51,7 +51,8 @@ public class DBConsHistory extends DBConnect {
 
     public void close(){conn.close();}
 
-    public void guardarCosulta(String servicio, int estrato, float valor_unit, int lec_ini, int lec_fin, int consumo, int valorPago){
+    public void guardarCosulta(String servicio, int estrato, float valor_unit, int lec_ini, int lec_fin, int consumo, int valorPago, int image){
+
         ContentValues c_historial = new ContentValues();
         c_historial.put(SERVICIO, servicio);
         c_historial.put(ESTRATO, estrato);
@@ -60,7 +61,9 @@ public class DBConsHistory extends DBConnect {
         c_historial.put(LEC_FIN, lec_fin);
         c_historial.put(CONSUMO, consumo);
         c_historial.put(VALOR_PAGO, valorPago);
+        c_historial.put(IMAGE, image);
         this.conDB.insert(T_HISTORIAL, null, c_historial);
+
     }
 
     public ArrayList<Historial> historialConsultas(){
@@ -69,6 +72,7 @@ public class DBConsHistory extends DBConnect {
         SQLiteDatabase db = dbHistorial.getWritableDatabase();
 
         ArrayList<Historial> listaHistorial = new ArrayList<>();
+
         Cursor cursorHistorial;
 
         cursorHistorial = db.rawQuery("SELECT * FROM " + T_HISTORIAL + " ORDER BY id DESC ", null);
@@ -82,7 +86,8 @@ public class DBConsHistory extends DBConnect {
                         cursorHistorial.getInt(4),
                         cursorHistorial.getInt(5),
                         cursorHistorial.getInt(6),
-                        cursorHistorial.getInt(7)));
+                        cursorHistorial.getInt(7),
+                        cursorHistorial.getInt(8)));
             }while(cursorHistorial.moveToNext());
         }
         cursorHistorial.close();
