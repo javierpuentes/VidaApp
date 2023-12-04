@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -51,6 +53,7 @@ public class AguaActivity extends AppCompatActivity {
 
     public float vl1, vl2, vl3, vl4, maxCon, minCon, consumido, pagado, acumulado;
     public DecimalFormat formato;
+    public Animation anibtn;
 
     protected void onStart(Bundle savedInstanceState){
         Toast.makeText(AguaActivity.this, "¡Servicios iniciados!", Toast.LENGTH_SHORT).show();
@@ -73,6 +76,7 @@ public class AguaActivity extends AppCompatActivity {
             Intent i =new Intent(AguaActivity.this, LoginActivity.class);
             startActivity(i);
         }
+        anibtn = AnimationUtils.loadAnimation(this,R.anim.animar);
         ArrayList<Integer> anios = new ArrayList<>();
         LocalDate dt= LocalDate.now();
         selyear = year = (int) dt.getYear();
@@ -139,6 +143,7 @@ public class AguaActivity extends AppCompatActivity {
         imgbtnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                imgbtnback.startAnimation(anibtn);
                 Intent i = new Intent(AguaActivity.this, AccountActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -149,6 +154,7 @@ public class AguaActivity extends AppCompatActivity {
         im2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im2.startAnimation(anibtn);
                 Intent i = new Intent(AguaActivity.this, GasActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -159,6 +165,7 @@ public class AguaActivity extends AppCompatActivity {
         im3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im3.startAnimation(anibtn);
                 Intent i = new Intent(AguaActivity.this, EnergiaActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);

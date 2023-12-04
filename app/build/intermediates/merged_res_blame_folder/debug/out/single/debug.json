@@ -168,6 +168,10 @@
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\bombilla.png"
     },
     {
+        "merged": "com.example.vidaapp-merged_res-48:/anim_animar.xml.flat",
+        "source": "com.example.vidaapp-main-50:/anim/animar.xml"
+    },
+    {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_baseline_arrow_circle_right_24.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\baseline_arrow_circle_right_24.xml"
     },
@@ -182,10 +186,6 @@
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable__1.png.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\_1.png"
-    },
-    {
-        "merged": "com.example.vidaapp-merged_res-48:/layout_activity_new_passw.xml.flat",
-        "source": "com.example.vidaapp-main-50:/layout/activity_new_passw.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_new2.png.flat",
@@ -278,6 +278,10 @@
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_baseline_water_drop_24.xml.flat",
         "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\drawable\\baseline_water_drop_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\anim_animar.xml.flat",
+        "source": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-main-50:\\anim\\animar.xml"
     },
     {
         "merged": "C:\\Users\\Familiar\\.gradle\\daemon\\8.3\\com.example.vidaapp-merged_res-48:\\drawable_round_cancel_24.xml.flat",

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -48,6 +50,7 @@ public class EnergiaActivity extends AppCompatActivity {
 
     public float vl1, vl2, vl3, vl4, maxCon, minCon, consumido, pagado, acumulado;
     public DecimalFormat formato;
+    public Animation anibtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +67,7 @@ public class EnergiaActivity extends AppCompatActivity {
             Intent i =new Intent(EnergiaActivity.this, LoginActivity.class);
             startActivity(i);
         }
+        anibtn = AnimationUtils.loadAnimation(this,R.anim.animar);
         ArrayList<Integer> anios = new ArrayList<>();
         LocalDate dt= LocalDate.now();
         selyear = year = (int) dt.getYear();
@@ -130,6 +134,7 @@ public class EnergiaActivity extends AppCompatActivity {
         imgbtnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                imgbtnback.startAnimation(anibtn);
                 Intent i = new Intent(EnergiaActivity.this, AccountActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -140,6 +145,7 @@ public class EnergiaActivity extends AppCompatActivity {
         im2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im2.startAnimation(anibtn);
                 Intent i = new Intent(EnergiaActivity.this,AguaActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -150,6 +156,7 @@ public class EnergiaActivity extends AppCompatActivity {
         im3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im3.startAnimation(anibtn);
                 Intent i = new Intent(EnergiaActivity.this, GasActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);

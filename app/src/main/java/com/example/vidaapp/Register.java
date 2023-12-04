@@ -106,7 +106,6 @@ public class Register extends AppCompatActivity {
                         txtc5.setText("La contraseña " + pw + " no es segura, mejorela ");
                         txtc5.setBackgroundColor(Color.RED);
                     }
-
                 }
             }
 

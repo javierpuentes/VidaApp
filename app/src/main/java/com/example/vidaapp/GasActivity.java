@@ -5,7 +5,10 @@ import static java.lang.Thread.sleep;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -51,6 +54,7 @@ public class GasActivity extends AppCompatActivity {
 
     public float vl1, vl2, vl3, vl4, maxCon, minCon, consumido, pagado, acumulado;
     public DecimalFormat formato;
+    public Animation anibtn;
 
     protected void onStart(Bundle savedInstanceState){
         Toast.makeText(GasActivity.this, "¡Servicios iniciados!", Toast.LENGTH_SHORT).show();
@@ -73,6 +77,7 @@ public class GasActivity extends AppCompatActivity {
             Intent i =new Intent(GasActivity.this, LoginActivity.class);
             startActivity(i);
         }
+        anibtn = AnimationUtils.loadAnimation(this,R.anim.animar);
         ArrayList<Integer> anios = new ArrayList<>();
         LocalDate dt= LocalDate.now();
         selyear = year = (int) dt.getYear();
@@ -134,10 +139,11 @@ public class GasActivity extends AppCompatActivity {
                 et1.requestFocus();
             }
         });
-
+        //Regreso
         imgbtnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                imgbtnback.startAnimation(anibtn);
                 Intent i = new Intent(GasActivity.this, AccountActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -148,6 +154,7 @@ public class GasActivity extends AppCompatActivity {
         im2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im2.startAnimation(anibtn);
                 Intent i = new Intent(GasActivity.this, AguaActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
@@ -158,6 +165,7 @@ public class GasActivity extends AppCompatActivity {
         im3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                im3.startAnimation(anibtn);
                 Intent i = new Intent(GasActivity.this, EnergiaActivity.class);
                 i.putExtra("idUser", idUser);
                 startActivity(i);
