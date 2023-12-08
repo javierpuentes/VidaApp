@@ -1,5 +1,6 @@
 package com.example.vidaapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.vidaapp.db.DbFacturas;
+import com.example.vidaapp.db.DbUsers;
 
 public class NewPasswActivity extends AppCompatActivity {
 
@@ -60,7 +62,7 @@ public class NewPasswActivity extends AppCompatActivity {
         ma = mi = ch = di = 0;
         clave.requestFocus();
 
-        DbFacturas adUpdate = new DbFacturas(NewPasswActivity.this);
+        DbUsers adUpdate = new DbUsers(NewPasswActivity.this);
 
         imbt1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,6 +122,7 @@ public class NewPasswActivity extends AppCompatActivity {
                     {
                         Toast.makeText(getApplicationContext(), "¡La contraseña ya se está usando!",
                                 Toast.LENGTH_LONG).show();
+                        clave.setError("La contraseña ya se está usando");
                     }
                     else
                     {
@@ -137,6 +140,8 @@ public class NewPasswActivity extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(), "¡Por favor mejore la contraseña!",
                             Toast.LENGTH_LONG).show();
+                    if(miclave.isEmpty())
+                        clave.setError("La contraseña no cumple los requisitos");
                 }
             }
         });

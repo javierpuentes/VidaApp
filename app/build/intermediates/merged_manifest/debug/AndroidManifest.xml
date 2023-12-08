@@ -100,6 +100,9 @@
             android:name="com.example.vidaapp.noticiasActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.vidaapp.RecoveryActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.vidaapp.LoginActivity"
             android:exported="false" />
         <activity

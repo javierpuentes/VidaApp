@@ -55,6 +55,10 @@ public class LoginActivity extends AppCompatActivity {
                 if(t1.getText().toString().trim().isEmpty() || t2.getText().toString().trim().isEmpty())
                 {
                     Toast.makeText(getApplicationContext(), "Se requieren los datos de acceso", Toast.LENGTH_LONG).show();
+                    if(t1.getText().toString().trim().isEmpty())
+                        t1.setError("Ingrese el nombre de usuario");
+                    if(t2.getText().toString().trim().isEmpty())
+                        t2.setError("Ingrese la contraseña de acceso");
                 }
                 else
                 {

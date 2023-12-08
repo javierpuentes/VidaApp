@@ -118,6 +118,19 @@ public class DbUsers extends DBConnect {
         return id;
     }
 
-
+    public int acutlizapw( String user, String pw){
+        int id = 0;
+        try {
+            DBConnect conn = new DBConnect(context);
+            SQLiteDatabase db = conn.getWritableDatabase();
+            ContentValues cv = new ContentValues();
+            cv.put("User_Pw", pw);
+            id = db.update(T_USERS, cv, "User_N='"+user+"'", null);
+        }
+        catch (Exception ex){
+            ex.toString();
+        }
+        return id;
+    }
 
 }

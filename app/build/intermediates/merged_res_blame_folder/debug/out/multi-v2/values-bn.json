@@ -4,7 +4,7 @@
             "outputFile": "com.example.vidaapp-mergeDebugResources-59:/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\b64801f52516e58190eebef7333e3edd\\transformed\\appcompat-1.6.1\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\80843a72ef17e452127e086c8ed98a4b\\transformed\\appcompat-1.6.1\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\2ec22b534ba2c6be066ca6f5debd5a42\\transformed\\core-1.10.0\\res\\values-bn\\values-bn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,154,256,358,461,562,664,784",
-                        "endColumns": "98,101,101,102,100,101,119,100",
-                        "endOffsets": "149,251,353,456,557,659,779,880"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,125",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3518,3617,3719,3821,3924,4025,4127,10777",
-                        "endColumns": "98,101,101,102,100,101,119,100",
-                        "endOffsets": "3612,3714,3816,3919,4020,4122,4242,10873"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\f32b555907b288d94f0553fa237c635a\\transformed\\ui-release\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\976cc2310c237a57aa6e82aa6dddbea7\\transformed\\ui-release\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\c0851cdfe7b4362c2e431a287a782ad1\\transformed\\navigation-ui-2.7.5\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\726e88ce38d60a77fbc41f12f38618b7\\transformed\\core-1.10.0\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,358,461,562,664,784",
+                        "endColumns": "98,101,101,102,100,101,119,100",
+                        "endOffsets": "149,251,353,456,557,659,779,880"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,125",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3518,3617,3719,3821,3924,4025,4127,10777",
+                        "endColumns": "98,101,101,102,100,101,119,100",
+                        "endOffsets": "3612,3714,3816,3919,4020,4122,4242,10873"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\86fe6cf2feb8430982888c6593030c17\\transformed\\navigation-ui-2.7.5\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Jannover\\.jdks\\caches\\transforms-3\\dffbb33bcb998f41f90da5f537036293\\transformed\\material-1.10.0\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\Familiar\\.gradle\\caches\\transforms-3\\283b363f0747fdd48930d75685d115f0\\transformed\\material-1.10.0\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

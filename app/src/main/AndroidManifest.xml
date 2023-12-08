@@ -81,6 +81,9 @@
             android:name=".noticiasActivity"
             android:exported="false" />
         <activity
+            android:name=".RecoveryActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

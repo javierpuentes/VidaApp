@@ -79,21 +79,4 @@ public class DbFacturas extends DBConnect {
         conn.close();
         return listaPagos;
     }
-
-    public int acutlizapw( String user, String pw){
-        int id = 0;
-        try {
-            DBConnect conn = new DBConnect(context);
-            SQLiteDatabase db = conn.getWritableDatabase();
-            ContentValues cv = new ContentValues();
-            cv.put("User_Pw", pw);
-            id = db.update(DbUsers.T_USERS, cv, "Id="+user, null);
-        }
-        catch (Exception ex){
-            ex.toString();
-        }
-        return id;
-    }
-
-
 }

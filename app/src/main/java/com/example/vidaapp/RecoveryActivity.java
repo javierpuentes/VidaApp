@@ -75,6 +75,16 @@ public class RecoveryActivity extends AppCompatActivity {
                 if(item == 0 || mirespuesta.isEmpty() || micuenta.isEmpty())
                 {
                     Toast.makeText(getApplicationContext(), "¡Por favor complete todos los campos!", Toast.LENGTH_LONG).show();
+                    if(micuenta.isEmpty())
+                        cuentausr.setError("Se requiere el nombre de usuario");
+                    if(mirespuesta.isEmpty())
+                        txtrep.setError("Se requiere la respuesta de seguridad");
+                    if(item == 0)
+                    {
+                        // set error message on spinner
+                        TextView errorTextview = (TextView) sp1.getSelectedView();
+                        errorTextview.setError("Your Error Message here");
+                    }
                 }
                 else
                 {
