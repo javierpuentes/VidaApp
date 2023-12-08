@@ -3652,7 +3652,7 @@ id pin
 id pooling_container_listener_holder_tag
 id position
 id postLayout
-id preg_spinner
+id preg_spinnerRec
 id pressed
 id progress_circular
 id progress_horizontal

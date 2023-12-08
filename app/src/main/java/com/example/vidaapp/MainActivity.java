@@ -12,11 +12,15 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.databinding.ActivityEnergyBinding;
+import com.example.vidaapp.databinding.ActivityMainBinding;
 import com.example.vidaapp.db.DBConnect;
 import com.example.vidaapp.db.DbUsers;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     private Button b0, b1, b2;
     private TextView tw;
@@ -24,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        tw = findViewById(R.id.txtVTotal);
+        tw = binding.txtVTotal;
 
         //Se requiere para crear pero después se puede omitir ya que la validación la haría el insert
         DBConnect condb = new DBConnect (MainActivity.this);
@@ -42,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG).show();
         }
 
-        b1 = findViewById(R.id.btnM1);
+        b1 = binding.btnM1;
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        b2 = findViewById(R.id.btnM2);
+        b2 = binding.btnM2;
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        b0 = findViewById(R.id.btnM0);
+        b0 = binding.btnM0;
         b0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

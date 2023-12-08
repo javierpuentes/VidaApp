@@ -13,11 +13,15 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.databinding.ActivityLoginBinding;
+import com.example.vidaapp.databinding.ActivityMainBinding;
 import com.example.vidaapp.db.DbUsers;
 import com.example.vidaapp.models.User;
 
 
 public class LoginActivity extends AppCompatActivity {
+
+    private ActivityLoginBinding binding;
     private Button b3, b4;
     private TextView t1, t2, t3, t4;
     private ImageButton ib1;
@@ -27,18 +31,19 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        binding = ActivityLoginBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        ib1=findViewById(R.id.imageButton1);
+        ib1 = binding.imageButton1;
         v1 = "Root";
         v2 = "123456";
 
-        b3 = findViewById(R.id.btnM3);
-        b4 = findViewById(R.id.btnM4);
-        t1 = findViewById(R.id.txtTextuser);
-        t2 = findViewById(R.id.txtTextclave);
-        t3 = findViewById(R.id.txtVTotal);
-        t4 = findViewById(R.id.txtVError);
+        b3 = binding.btnM3;
+        b4 = binding.btnM4;
+        t1 = binding.txtTextuser;
+        t2 = binding.txtTextclave;
+        t3 = binding.txtVTotal;
+        t4 = binding.txtVError;
         t1.setFocusable(true);
         t1.requestFocus();
 

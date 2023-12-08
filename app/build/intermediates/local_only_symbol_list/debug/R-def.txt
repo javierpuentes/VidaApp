@@ -191,7 +191,7 @@ id menu_usr
 id mes_spinner
 id nuevasVistas
 id nuevasVistas1
-id preg_spinner
+id preg_spinnerRec
 id promedioconsumo
 id promediopago
 id recyclerConstHistorial

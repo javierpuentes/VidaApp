@@ -13,11 +13,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.databinding.ActivityNewPasswBinding;
+import com.example.vidaapp.databinding.ActivityRecoveryBinding;
 import com.example.vidaapp.db.DbUsers;
 
 
 public class RecoveryActivity extends AppCompatActivity {
 
+    private ActivityRecoveryBinding binding;
     public Button bb1, bb11, bb111;
     public ImageButton imbb1;
     public Spinner sp1;
@@ -29,20 +32,21 @@ public class RecoveryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recovery);
+        binding = ActivityRecoveryBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
         pregunta = "Fecha de nacimiento";
         respuesta = "31-10-1975";
         cuenta = "Root";
-        bb1 = findViewById(R.id.btnRec1);
-        bb11 = findViewById(R.id.btnRec11);
-        bb111 = findViewById(R.id.btnRec111);
-        sp1 = findViewById(R.id.preg_spinner);
-        dtscuenta = findViewById(R.id.txtCuentaUsr);
-        txtrep = findViewById(R.id.txtVresp);
-        cuentausr = findViewById(R.id.txtTextuser);
-        usrinfo = findViewById(R.id.textView4);
-        imbb1 = findViewById(R.id.imageButton1);
+        bb1 = binding.btnRec1;
+        bb11 = binding.btnRec11;
+        bb111 = binding.btnRec111;
+        sp1 = binding.pregSpinnerRec;
+        dtscuenta = binding.txtCuentaUsr;
+        txtrep = binding.txtVresp;
+        cuentausr = binding.txtTextuser;
+        usrinfo = binding.textView4;
+        imbb1 = binding.imageButton1;
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.preguntas, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -83,7 +87,7 @@ public class RecoveryActivity extends AppCompatActivity {
                     {
                         // set error message on spinner
                         TextView errorTextview = (TextView) sp1.getSelectedView();
-                        errorTextview.setError("Your Error Message here");
+                        errorTextview.setError("Seleccione la pregunta de seguridad");
                     }
                 }
                 else

@@ -15,11 +15,14 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.vidaapp.databinding.ActivityLoginBinding;
+import com.example.vidaapp.databinding.ActivityNewPasswBinding;
 import com.example.vidaapp.db.DbFacturas;
 import com.example.vidaapp.db.DbUsers;
 
 public class NewPasswActivity extends AppCompatActivity {
 
+    private ActivityNewPasswBinding binding;
     public EditText clave;
     public TextView txtc2, txtc3, txtc4, txtc5, txtc6;
 
@@ -36,6 +39,9 @@ public class NewPasswActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        binding = ActivityNewPasswBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
         Intent receive= getIntent();
         String user = receive.getStringExtra("infoUser");
         if(user.isEmpty())
@@ -45,15 +51,14 @@ public class NewPasswActivity extends AppCompatActivity {
         }
         //"infoUser", pw+","+micuenta+","+mipregunta+","+mirespuesta)
         datos = user.split(",");
-        setContentView(R.layout.activity_new_passw);
-        clave = findViewById(R.id.txtTextclave2);
-        txtc5 =findViewById(R.id.txtNseg);
-        txtc4 =findViewById(R.id.txtVuser);
-        txtc3 =findViewById(R.id.txtVpregun);
-        txtc2 =findViewById(R.id.txtVresp);
-        b1 = findViewById(R.id.btnRec111);
-        txtc6 =findViewById(R.id.txtCamioHecho);
-        imbt1 = findViewById(R.id.imageButton2);
+        clave = binding.txtTextclave2;
+        txtc5 = binding.txtNseg;
+        txtc4 = binding.txtVuser;
+        txtc3 = binding.txtVpregun;
+        txtc2 = binding.txtVresp;
+        b1 = binding.btnRec111;
+        txtc6 = binding.txtCamioHecho;
+        imbt1 = binding.imageButton2;
 
         txtc4.setText(txtc4.getText()+" "+datos[1]);
         txtc3.setText(txtc3.getText()+" "+datos[2]);

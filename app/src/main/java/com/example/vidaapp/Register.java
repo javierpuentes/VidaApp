@@ -1,5 +1,6 @@
 package com.example.vidaapp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
@@ -18,12 +19,17 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.vidaapp.databinding.ActivityRecoveryBinding;
+import com.example.vidaapp.databinding.ActivityRegisterBinding;
 import com.example.vidaapp.db.DbUsers;
 import com.example.vidaapp.models.User;
 
 
 
 public class Register extends AppCompatActivity {
+
+    private ActivityRegisterBinding binding;
     private ImageButton ib2;
     private Button b5, b25;
     public Spinner sp1;
@@ -38,30 +44,32 @@ public class Register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
-        txtv1 = findViewById(R.id.datoscuentanombre);
-        txtv2 = findViewById(R.id.datoscuentaclave);
-        txtv3 = findViewById(R.id.datoscuentapregunta);
-        txtv4 = findViewById(R.id.datoscuentarespuesta);
+        binding = ActivityRegisterBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        txtc1 = findViewById(R.id.txtVuser2);
-        txtc2 = findViewById(R.id.txtVclave2);
-        txtc3 = findViewById(R.id.txtPseg);
-        txtc4 = findViewById(R.id.respPseg);
+        txtv1 = binding.datoscuentanombre;
+        txtv2 = binding.datoscuentaclave;
+        txtv3 = binding.datoscuentapregunta;
+        txtv4 = binding.datoscuentarespuesta;
 
-        cuenta = findViewById(R.id.txtTextuser2);
-        clave = findViewById(R.id.txtTextclave2);
-        ib2=findViewById(R.id.imageButton2);
-        b5 = findViewById(R.id.btnM5);
-        b25 = findViewById(R.id.btnM25);
-        sp1 = findViewById(R.id.seg_spinner);
-        rbt1 = findViewById(R.id.tratamiento);
-        respuesta = findViewById(R.id.txtResPegSeg);
-        titulo = findViewById(R.id.tituloCuenta);
-        informacioncuenta = findViewById(R.id.informacionUsr);
-        txtc5 =findViewById(R.id.txtNseg);
-        txtc6 =findViewById(R.id.txtCseg);
-        txtc7 =findViewById(R.id.idDbUser);
+        txtc1 = binding.txtVuser2;
+        txtc2 = binding.txtVclave2;
+        txtc3 = binding.txtPseg;
+        txtc4 = binding.respPseg;
+
+        cuenta = binding.txtTextuser2;
+        clave = binding.txtTextclave2;
+        ib2=binding.imageButton2;
+        b5 = binding.btnM5;
+        b25 = binding.btnM25;
+        sp1 = binding.segSpinner;
+        rbt1 = binding.tratamiento;
+        respuesta = binding.txtResPegSeg;
+        titulo = binding.tituloCuenta;
+        informacioncuenta = binding.informacionUsr;
+        txtc5 = binding.txtNseg;
+        txtc6 = binding.txtCseg;
+        txtc7 = binding.idDbUser;
         ma = mi = ch = di = 0;
 
         cuenta.requestFocus();
@@ -136,6 +144,19 @@ public class Register extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(), "¡Todos los campos son requeridos!",
                     Toast.LENGTH_LONG).show();
+                    if(micuenta.isEmpty())
+                        cuenta.setError("Se requiere el nombre de usuario");
+                    if(miclave.isEmpty())
+                        clave.setError("Se requiere la contraseña");
+                    if(item == 0)
+                    {
+                        TextView errorTextview = (TextView) sp1.getSelectedView();
+                        errorTextview.setError("Seleccione la pregunta de seguridad");
+                    }
+                    if(mirespuesta.isEmpty())
+                        respuesta.setError("Se requiere la respuesta de seguridad");
+                    if(rbt1.isChecked()== false)
+                        rbt1.setError("Debe aceptar el tratamiento de datos");
                 }
                 else
                 {
@@ -148,6 +169,11 @@ public class Register extends AppCompatActivity {
                                 Toast.LENGTH_LONG).show();
                         cuenta.setBackgroundColor(Color.RED);
                         cuenta.requestFocus();
+                        new AlertDialog.Builder(Register.this)
+                                .setTitle("Nombre de usuario duplicado")
+                                .setMessage("¡El nombre de usuario ya se está utilizando \npor favor cambielo!")
+                                .setPositiveButton("Aceptar", null)
+                                .show();
                     }
                     else {
                         rbt1.setVisibility(View.INVISIBLE);
