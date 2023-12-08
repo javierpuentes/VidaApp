@@ -133,6 +133,11 @@ public class NewPasswActivity extends AppCompatActivity {
                                     Toast.LENGTH_LONG).show();
                             txtc6.setVisibility(View.VISIBLE);
                             b1.setVisibility(View.INVISIBLE);
+                            new AlertDialog.Builder(NewPasswActivity.this)
+                                    .setTitle("¡La contraseña se ha actualizado!")
+                                    .setMessage("Valídela desde el botón de regreso")
+                                    .setPositiveButton("Aceptar", null)
+                                    .show();
                         }
                     }
                 }
